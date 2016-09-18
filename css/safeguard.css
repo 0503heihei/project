@@ -1,0 +1,108 @@
+html,body{
+    width: 100%;
+}
+body{
+    font-size: 12px;
+    background: url(../img/bg.jpg) repeat-y;
+    background-position: -30px 430px;
+    color: #333;
+    background-color: #F7F9FB;
+    font: normal 16px/30px "Microsoft YaHei";
+}
+.nav{
+    height: 430px;
+    background-image: url("../img/top_bg.jpg");
+    background-size: contain 98%;
+    text-align: center;
+}
+section{
+    width: 980px;
+    margin: 0 auto;
+}
+.title{
+    padding-top: 20px;
+}
+p{
+    text-indent: 100px;
+    margin-top: 10px;
+}
+.nine{
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+.oneDay{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.oneDay div:nth-child(1){
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    display: inline-block;
+}
+.oneDay div:nth-child(2){
+    display: inline-block;
+    vertical-align: top;
+}
+.oneDay div:nth-child(2) h2{
+    font-size: 30px;
+    margin-left: 40px;
+    color: orange;
+}
+.oneDay div:nth-child(2) p{
+    text-indent: 42px;
+}
+.span1{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+}
+.table{
+    margin-left:100px;
+}
+table{
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer{
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+    border-top: 1.5px solid #CCCCCC;
+    text-align: center;
+}
+footer div:nth-child(1){
+    margin-left: 80px;
+}
+footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
