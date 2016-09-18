@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<style type="text/css">
+			.wrap{
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background-color: #f5f5f5;
+			}
+			.header{
+				width: 100%;
+				height: 80px;
+				position: absolute;
+				z-index: 2;
+			}
+			.header_inner{
+				width: 1200px;
+				height: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+				border-bottom: solid 1px #5b3879;
+			}
+			.logo{
+				background: url(img/zlogo.png) no-repeat;
+				float: left;
+				width: 200px;
+				height: 30px;
+				margin-top: 25px;
+			}
+			.header_nav li{
+				float: left;
+				list-style: none;		
+				height: 80px;
+				line-height: 80px;
+				padding: 0 40px;
+			}
+			.header_nav li a{
+				text-decoration: none;
+				color: #5b3879;
+				font-size: 16px;
+			}
+			.login_info{
+				float: right;
+				height: 80px;
+				line-height: 80px;
+			}
+			.login{
+				background: url(img/zlogin.png) no-repeat;
+				width: 26px;
+				height: 26px;
+				display: inline-block;
+				margin: 0 30px 5px 0;
+			}
+			.shop_mall{
+				background: url(img/zshopmall.png) no-repeat;
+				width: 98px;
+				height: 33px;
+				display: inline-block;
+				margin-top: 25px;
+			}
+			/*.banner{
+				background: url(img/hbanner.jpg) no-repeat center top;
+				width: 100%;
+				height: 650px;
+				display: inline-block;
+				position: relative;
+				top: 0;
+				left: 0;
+			}*/
+			.banner1{
+				background: url(img/hbanner1.jpg) no-repeat center top;
+				width: 100%;
+				height: 640px;
+				display: inline-block;
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+			.banner2{
+				background: url(img/hbanner2.jpg) no-repeat center top;
+				width: 100%;
+				height: 640px;
+				display: inline-block;
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+			.banner3{
+				background: url(img/hbanner3.jpg) no-repeat center top;
+				width: 100%;
+				height: 640px;
+				display: inline-block;
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+			.type_choose{
+				width: 100%;
+				height: 200px;
+				padding: 30px 0;
+				background-color: #fff;
+			}
+			.type_choose ul{
+				width: 1200px;
+				margin: 0 auto;
+				overflow: hidden;	
+				list-style: none;			
+			}
+			.toy{
+				cursor: pointer;
+				float: left;
+				border-radius: 8px;
+			}
+			.acc{
+				cursor: pointer;
+				float: right;
+				border-radius: 8px;
+			}
+			.type_choose ul li img{
+				width: 100%;
+				height: 100%;				
+				border-radius: 8px;
+			}			
+			.choose_details_inner{
+				width: 1200px;
+				margin: 0 auto;
+			}
+			.plate_title{
+				color: #646464;
+				padding: 40px 20px 7px 20px;
+			}
+			.plate_title span:nth-child(1){
+				font-size: 30px;
+			}
+			.plate_title span:nth-child(2){
+				font-size: 18px;
+				color: #959595;
+			}
+			.plant_item a{
+				text-decoration: none;
+				display: inline-block;
+				width: 570px;
+				height: 280px;
+				margin: 13px;
+				position: relative;
+				border: 1px solid #e1e1e1;
+			}
+			.plant_item a img{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+			}
+			.single_item a{
+				width: 1170px;
+			}
+			.footer{
+				width: 100%;
+			}
+			.footer-container{
+				width: 1200px;
+				margin: 0 auto;
+				padding: 0 20px;
+				overflow: hidden;
+				position: relative;
+			}
+			.bottom-logo{
+				float: left;
+				width: 230px;
+				line-height: 208px;
+				text-align: center;
+			}
+			.footer-container ul{
+				float: left;
+				width: 150px;
+				padding-top: 45px;
+				font-size: 18px;
+			}
+			.footer-container ul li h3{
+				color: #000;
+				font-size: 18px;
+				font-weight: bolder;
+				padding-bottom: 15px;
+			}
+			.footer-container ul li a{
+				color: #959595;
+				padding: 5px 0;
+				font-size: 14px;
+			}
+			.online{
+				position: absolute;
+				top: 30px;
+				right: 0;				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<!--导航栏-->
+			<div class="header">
+				<div class="header_inner">
+					<a href="/" class="logo"></a>
+					<ul class="header_nav">
+				        <li><a href="/">首页</a></li>
+				        <li><a href="brand.html">品牌动态</a></li>
+				        <li><a href="theatre.html">葡星剧场</a></li>
+				        <li><a href="pt_home.html">葡萄之家</a></li>
+				        <li><a href="app.html">应用下载</a></li>
+				    </ul>
+				    <div class="login_info">
+				    		<a href="" class="login"></a>
+				    		<a href="" class="shop_mall"></a>
+				    </div>
+				</div>
+			</div>
+			<!--banner-->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="http://www.putao.com/brandShow?name=%E5%93%81%E7%89%8C%E4%BA%8B%E4%BB%B6&tag=BikLIx" target="_blank" class="banner1"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="http://www.putao.com/brandShow?name=%E5%93%81%E7%89%8C%E4%BA%8B%E4%BB%B6&tag=krZMI8" target="_blank" class="banner2"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="http://www.putao.com/brandShow?name=%E5%93%81%E7%89%8C%E4%BA%8B%E4%BB%B6&tag=D9nUJz" target="_blank" class="banner3"></a>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="type_choose">
+				<ul>
+					<li class="toy"><img src="img/toy.png"/></li>
+					<li class="acc"><img src="img/acc.png"/></li>
+				</ul>
+			</div>
+			<div class="choose_details_inner">
+				<div class="plant">
+					<div class="plate_title"><span>创客</span><span>Mak-er</span></div>
+					<div class="plant_item">
+						<a href="http://store.putao.com/page/hellobiancheng" target="_blank">
+							<img src="img/hellobg.jpg"/>
+							<img src="img/hello.png"/>
+						</a>
+						<a href="http://store.putao.com/page/hellobiancheng" target="_blank">
+							<img src="img/scalebg.jpg"/>
+							<img src="img/scale.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="plant">
+					<div class="plate_title"><span>素质</span><span>Quality</span></div>
+					<div class="plant_item">
+						<a href="http://store.putao.com/page/hanihaiyang" target="_blank">
+							<img src="img/hanibg.jpg"/>
+							<img src="img/hani.png"/>
+						</a>
+						<a href="http://store.putao.com/page/tutushijie" target="_blank">
+							<img src="img/tutubg.jpg"/>
+							<img src="img/tutu.png"/>
+						</a>
+						<a href="http://store.putao.com/page/mofang" target="_blank">
+							<img src="img/mofangbg.jpg"/>
+							<img src="img/mofang.png"/>
+						</a>
+						<a href="http://store.putao.com/page/tansuohao" target="_blank">
+							<img src="img/foundbg.jpg"/>
+							<img src="img/found.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="plant">
+					<div class="plate_title"><span>教育</span><span>Education</span></div>
+					<div class="plant_item single_item">
+						<a href="http://store.putao.com/page/maisisi" target="_blank">
+							<img src="img/maisisi.jpg"/>
+							<img src="img/maisisi.png"/>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer-container">
+					<a href="/" class="bottom-logo"><img src="img/logo-bottom.png"/></a>
+					<ul>
+						<li><h3>订单中心</h3></li>
+						<li><a href="">购买指南</a></li>
+						<li><a href="">支付指南</a></li>
+						<li><a href="">配送指南</a></li>
+					</ul>
+					<ul>
+						<li><h3>服务支持</h3></li>
+						<li><a href="">隐私政策</a></li>
+						<li><a href="">售后政策</a></li>
+						<li><a href="">产品常见问题</a></li>
+					</ul>
+					<ul>
+						<li><h3>商务合作</h3></li>
+						<li><a href="">商务合作</a></li>
+					</ul>
+					<ul>
+						<li><h3>关于葡萄</h3></li>
+						<li><a href="">关于葡萄</a></li>
+						<li><a href="">加入葡萄</a></li>
+						<li><a href="">联系我们</a></li>
+					</ul>
+					<ul>
+						<li><h3>关注我们</h3></li>
+						<li>
+							<a href="">葡萄纬度</a>
+							<img src="img/putaoma.jpeg" class="qcode"/>
+						</li>
+					</ul>
+					<div class="online">
+						<p class="tel">400-651-6161</p>
+						<span>周一至周日 9:00-22:00</span>
+						<span>仅收市话费</span>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				
+			</div>
+			
+		</div>
+		
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			 //banner滚动
+		var myswiper = new Swiper(".swiper-container", {
+			autoplay: 3000,
+			// 分页点
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			// 左右切换的button
+			nextButton: '.swiper-button-next',
+   			prevButton: '.swiper-button-prev',
+   			// slide的切换效果，默认为"slide"（位移切换），可设置为"fade"（淡入）"cube"（方块）"coverflow"（3d流）"flip"（3d翻转）。
+			// effect: 'coverflow'
+			// slide 之间产生缝隙
+			spaceBetween: 0,
+			loop : true,
+		})
+		</script>
+	</body>
+</html>
