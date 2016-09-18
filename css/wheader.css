@@ -16,11 +16,11 @@
 	height: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	border-bottom: solid 1px #632A99;
+	border-bottom: solid 1px white;
 }
 
 .logo {
-	background: url(../img/zlogo.png) no-repeat;
+	background: url(../img/logo.png) no-repeat;
 	float: left;
 	width: 200px;
 	height: 30px;
@@ -37,7 +37,7 @@
 
 .header_nav li a {
 	text-decoration: none;
-	color: #632A99;
+	color: white;
 	font-size: 16px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .login {
-	background: url(../img/zlogin.png) no-repeat;
+	background: url(../img/login.png) no-repeat;
 	width: 26px;
 	height: 26px;
 	display: inline-block;
@@ -56,7 +56,7 @@
 }
 
 .shop_mall {
-	background: url(../img/zshopmall.png) no-repeat;
+	background: url(../img/shopmall.png) no-repeat;
 	width: 98px;
 	height: 33px;
 	display: inline-block;
