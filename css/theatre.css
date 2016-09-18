@@ -110,3 +110,52 @@ h2{
     font-size: 18px;
     line-height: 30px;
 }
+
+
+.content3{
+    width: 100%;
+    height: 553px;
+    position: absolute;
+    top:1170px;
+}
+.content3-1{
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+}
+.c3-right{
+    width: 420px;
+    position: absolute;
+    top:100px;
+    left:700px;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    color: #5ae1fe;
+}
+.c3-right p{
+    padding:10px;
+    font-weight: bold;
+}
+.c3-right p:nth-child(2){
+    font-size: 25px;
+    color: #FDC62D;
+}
+.c3-right p:nth-child(3){
+    font-size: 18px;
+}
+.c3-right p:nth-child(4){
+    line-height: 30px;
+    font-size: 18px;
+}
+.content3-1 img:nth-child(2){
+    position: absolute;
+    top:505px;
+    left:325px;
+}
+i{
+    position: absolute;
+    top:675px;
+    left:345px;
+}
