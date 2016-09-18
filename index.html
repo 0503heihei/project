@@ -5,64 +5,9 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
-		<style type="text/css">
-			.wrap{
-				width: 100%;
-				height: 100%;
-				position: relative;
-				background-color: #f5f5f5;
-			}
-			.header{
-				width: 100%;
-				height: 80px;
-				position: absolute;
-				z-index: 2;
-			}
-			.header_inner{
-				width: 1200px;
-				height: 100%;
-				margin: 0 auto;
-				overflow: hidden;
-				border-bottom: solid 1px #5b3879;
-			}
-			.logo{
-				background: url(img/zlogo.png) no-repeat;
-				float: left;
-				width: 200px;
-				height: 30px;
-				margin-top: 25px;
-			}
-			.header_nav li{
-				float: left;
-				list-style: none;		
-				height: 80px;
-				line-height: 80px;
-				padding: 0 40px;
-			}
-			.header_nav li a{
-				text-decoration: none;
-				color: #5b3879;
-				font-size: 16px;
-			}
-			.login_info{
-				float: right;
-				height: 80px;
-				line-height: 80px;
-			}
-			.login{
-				background: url(img/zlogin.png) no-repeat;
-				width: 26px;
-				height: 26px;
-				display: inline-block;
-				margin: 0 30px 5px 0;
-			}
-			.shop_mall{
-				background: url(img/zshopmall.png) no-repeat;
-				width: 98px;
-				height: 33px;
-				display: inline-block;
-				margin-top: 25px;
-			}
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<style type="text/css">			
 			/*.banner{
 				background: url(img/hbanner.jpg) no-repeat center top;
 				width: 100%;
@@ -125,8 +70,12 @@
 				width: 100%;
 				height: 100%;				
 				border-radius: 8px;
-			}			
+			}		
 			.choose_details_inner{
+				width: 100%;
+				background-color: #f5f5f5;
+			}	
+			.plant{
 				width: 1200px;
 				margin: 0 auto;
 			}
@@ -160,44 +109,6 @@
 			.single_item a{
 				width: 1170px;
 			}
-			.footer{
-				width: 100%;
-			}
-			.footer-container{
-				width: 1200px;
-				margin: 0 auto;
-				padding: 0 20px;
-				overflow: hidden;
-				position: relative;
-			}
-			.bottom-logo{
-				float: left;
-				width: 230px;
-				line-height: 208px;
-				text-align: center;
-			}
-			.footer-container ul{
-				float: left;
-				width: 150px;
-				padding-top: 45px;
-				font-size: 18px;
-			}
-			.footer-container ul li h3{
-				color: #000;
-				font-size: 18px;
-				font-weight: bolder;
-				padding-bottom: 15px;
-			}
-			.footer-container ul li a{
-				color: #959595;
-				padding: 5px 0;
-				font-size: 14px;
-			}
-			.online{
-				position: absolute;
-				top: 30px;
-				right: 0;				
-			}
 		</style>
 	</head>
 	<body>
@@ -205,9 +116,9 @@
 			<!--导航栏-->
 			<div class="header">
 				<div class="header_inner">
-					<a href="/" class="logo"></a>
+					<a href="index.html" class="logo"></a>
 					<ul class="header_nav">
-				        <li><a href="/">首页</a></li>
+				        <li><a href="index.html">首页</a></li>
 				        <li><a href="brand.html">品牌动态</a></li>
 				        <li><a href="theatre.html">葡星剧场</a></li>
 				        <li><a href="pt_home.html">葡萄之家</a></li>
@@ -286,48 +197,91 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer">
-				<div class="footer-container">
-					<a href="/" class="bottom-logo"><img src="img/logo-bottom.png"/></a>
+			<footer>
+			<div id="footer">
+				<div class="bottom-nav">
+					<a href="index.html" class="bottom-logo"><img src="img/bottom/logo-bottom.png" /></a>
 					<ul>
-						<li><h3>订单中心</h3></li>
-						<li><a href="">购买指南</a></li>
-						<li><a href="">支付指南</a></li>
-						<li><a href="">配送指南</a></li>
-					</ul>
-					<ul>
-						<li><h3>服务支持</h3></li>
-						<li><a href="">隐私政策</a></li>
-						<li><a href="">售后政策</a></li>
-						<li><a href="">产品常见问题</a></li>
-					</ul>
-					<ul>
-						<li><h3>商务合作</h3></li>
-						<li><a href="">商务合作</a></li>
-					</ul>
-					<ul>
-						<li><h3>关于葡萄</h3></li>
-						<li><a href="">关于葡萄</a></li>
-						<li><a href="">加入葡萄</a></li>
-						<li><a href="">联系我们</a></li>
-					</ul>
-					<ul>
-						<li><h3>关注我们</h3></li>
 						<li>
-							<a href="">葡萄纬度</a>
-							<img src="img/putaoma.jpeg" class="qcode"/>
+							<h3>订单中心</h3></li>
+						<li>
+							<a href="###">购买中心</a>
+						</li>
+						<li>
+							<a href="###">支付指南</a>
+						</li>
+						<li>
+							<a href="###">配送指南</a>
 						</li>
 					</ul>
+					<ul>
+						<li>
+							<h3>服务支持</h3></li>
+						<li>
+							<a href="###">隐私政策</a>
+						</li>
+						<li>
+							<a href="###">售后政策</a>
+						</li>
+						<li>
+							<a href="###">产品常见问题</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<h3>商务合作</h3></li>
+						<li>
+							<a href="###">商务合作</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<h3>关于葡萄</h3></li>
+						<li>
+							<a href="###">关于葡萄</a>
+						</li>
+						<li>
+							<a href="###">加入葡萄</a>
+						</li>
+						<li>
+							<a href="###">联系我们</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<h3>关注我们</h3></li>
+						<li>
+							<a href="###" id="pt_code">葡萄维度</a>
+							<img id="qcode" style="position: absolute; z-index: 1; top:80px; display: none; right: 60px; width: 160px;" src="img/bottom/7eab92fb77eafce2b9cc886a6d220846ea812a32.png" />
+						</li>
+					</ul>
+					<script type="text/javascript">
+						document.getElementById('pt_code').onmouseenter = function() {
+							document.getElementById('qcode').style.display = 'block';
+						}
+						document.getElementById('pt_code').onmouseleave = function() {
+							document.getElementById('qcode').style.display = 'none';
+						}
+					</script>
 					<div class="online">
 						<p class="tel">400-651-6161</p>
-						<span>周一至周日 9:00-22:00</span>
+						<span>周一至周五 9:00-22:00</span>
 						<span>仅收市话费</span>
 					</div>
 				</div>
 			</div>
 			<div class="copyright">
-				
-			</div>
+					<div class="copyright-inner">
+						<h2>Copyright © 2016, Shanghai Putao Technology Co., Ltd. All Rights Reserved. 葡萄科技</h2>
+					<h3>葡萄科技</h3>
+					<br>
+					<h4>
+						<a class="weihuajingying" target="_blank" href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/35EE6340F6157151E0530140A8C0E25A">网络文化经营单位</a>
+						<a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action"> 沪ICP备15015904号-3</a>
+					</h4>
+					</div>
+				</div>
+		</footer>
 			
 		</div>
 		
