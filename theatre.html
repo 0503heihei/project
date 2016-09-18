@@ -92,21 +92,16 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script>
 
-//        $(".content2-1 a").on("click",function(){
-//            $(this).each(function(i){
-//                console.log()
-//                $(".content2-2 img").attr("src","img/people"+i+".png")
-//            })
-//        })
+
         $(".content2-1 a").each(function(i){
             $(this).on("click",function(){
-                $(".content2-2 img").attr("src","img/people"+i+".png")
+                $(".content2-2 img").attr("src","img/people"+i+".png");
                 $(".content2-2 .right").css({
                     display:"none"
-                })
+                });
                 $(".content2-2 .right").eq(i).css({
                     display:"block"
-                })
+                });
         })
     })
 
