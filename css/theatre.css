@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    width: 100%;
+
+}
+.bg1{
+    /*margin: 0 auto;*/
+    min-width: 1200px;
+    height: 580px;
+    background: url('http://mall.file.putaocdn.com/file/1d3a7291d0a754c5cb1a99fb2ab403666916f567.jpg') no-repeat scroll 50% center
+}
+.bg2{
+    height: 553px;
+    background: url('../img/Z.jpg') no-repeat scroll 50% center
+}
+.bg3{
+    height: 536px;
+    background: url('../img/9k=.jpg') no-repeat scroll 50% center
+}
+.bg4{
+    height: 536px;
+    background: url('../img/9k==.jpg') no-repeat scroll 50% center
+}
+.bg5{
+    height: 545px;
+    background: url('../img/Z==.jpg') no-repeat scroll 50% center
+}
+.bg6{
+    height: 545px;
+    background: url('../img/9k===.jpg') no-repeat scroll 50% center
+}
+.bg7{
+    height: 547px;
+    background: url('../img/2Q==.jpg') no-repeat scroll 50% center
+}
+.bg8{
+    height: 460px;
+
+}
+
+.content2{
+    width: 100%;
+    height: 553px;
+    position: absolute;
+    top:580px;
+}
+.content2-1{
+    width: 1200px;
+    margin:0 auto;
+    /*border:1px solid red;*/
+    text-align: center;
+}
+.content2-1 a{
+    display: inline-block;
+    margin:0 19px;
+    width: 129px;
+    height: 129px;
+    background: url('../img/K7tqQd03wbStHdAXYK0C.png') no-repeat scroll 50% center
+}
+.content2-1 img{
+    margin-top: 14px;
+}
+@-webkit-keyframes rot {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+
+    }
+}
+.content2-1 a:hover{
+    -webkit-animation: "rot" .5s linear;
+}
+.content2-2{
+    width: 1200px;
+    margin:0 auto;
+    background: url('../img/8pwABSq2vEdbqCXgAAAABJRU5ErkJggg==.png') no-repeat scroll bottom center;
+    position: relative;
+    padding-bottom: 50px;
+}
+.content2-2 img{
+    margin:25px 0px 0px 120px;
+}
+.right{
+    width: 450px;
+    color: white;
+    text-align: left;
+    border:1px solid #5ae1fe;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px #5ae1fe;
+    padding:20px;
+    position: absolute;
+    left:550px;
+    top:80px;
+    display: none;
+}
+.right:nth-child(2){
+    display: block;
+}
+h2{
+    color: #5ae1fe;
+    padding:10px 0;
+}
+.right p{
+    font-size: 18px;
+    line-height: 30px;
+}
