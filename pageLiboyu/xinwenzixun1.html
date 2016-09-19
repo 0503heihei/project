@@ -38,6 +38,7 @@
     </style>
 </head>
 <body>
+
 <div class="dwarp">
 </div>
 <div class="dheader">
@@ -58,7 +59,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="xinwenzixun1.html" class="dropdown-toggle" data-toggle="dropdown">新闻资讯<span class="caret"></span></a>
+                        <a href="" id="xinwenzixun1" class="dropdown-toggle " data-toggle="dropdown">新闻资讯<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#">公司动态</a></li>
                             <li><a href="#">业界资讯</a></li>
@@ -72,7 +73,8 @@
         </div>
     </nav>
 </div>
-<section class="wrap">
+
+<section class="wrap" style="margin-top: 0px">
     <img src="img/bg.jpg" alt="" class="bg">
     <ul class="nav-left">
         <li class="header1">
@@ -95,56 +97,56 @@
                         <a href="">新闻资讯</a>
                     </span>
             </li>
-            <li>
+            <li class="page1">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>2016年中国贵阳数博会闭幕</span>
                 </a>
                 <span>2016-05-31</span>
             </li>
-            <li>
+            <li class="page2">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>“互联网+”时代下的银行信息安全</span>
                 </a>
                 <span>2016-05-31</span>
             </li>
-            <li>
+            <li class="page3">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>以科技创新助力发展全局</span>
                 </a>
                 <span>2016-05-31</span>
             </li>
-            <li>
+            <li class="page4">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>金博会闭幕 移动互联网金融成大趋势</span>
                 </a>
                 <span>2016-05-31</span>
             </li>
-            <li>
+            <li class="page5">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>2019年拉美FTTH用户将达1050万</span>
                 </a>
                 <span>2016-05-31</span>
             </li>
-            <li>
+            <li class="page6">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>2016年蓝牙技术将实现更长通信距离、更快传输速度及Mesh联网功能</span>
                 </a>
                 <span>2016-05-31</span>
             </li>
-            <li>
+            <li class="page7">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>“互联网+”将成为外包发展新动力</span>
                 </a>
                 <span>2016-05-31</span>
             </li>
-            <li>
+            <li class="page8">
                 <a href="">
                     <i class="fa fa-caret-right"></i>
                     <span>光通信的下一站？ 欢迎参加2015光通信技术和发展论坛</span>
@@ -174,32 +176,7 @@
 <script src="js/jquery-1.12.1.min.js"></script>
 <script src="js/jquery.pjax.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script>
-    $(function () {
-        $(".pagination li").eq(2).bind("click",function () {
-            var page=$(this).attr('class');
-            $.pjax({
-                url: 'changePage.php?page='+page,
-                container: '.wrap'
-            })
-        });
-        $(".nav-left li").eq(1).bind("click",function () {
-            var page=$(this).attr('class');
-            $.pjax({
-                url: 'changePage.php?page='+page,
-                container: '.wrap'
-            })
-        });
-        $(".nav-left li").eq(2).bind("click",function () {
-            var page=$(this).attr('class');
-            $.pjax({
-                url: 'changePage.php?page='+page,
-                container: '.wrap'
-            })
-        })
-    })
-</script>
-
+<script src="js/page.js"></script>
 </body>
 </html>
 
