@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - 0503@localhost" uuid="cca985ff-1058-40a1-a5ba-e8fd653f00cf">
+    <database-info product="MySQL" version="5.6.20" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="0503">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="425"/>
+      <schema id="3" name="cdcol"/>
+      <schema id="4" name="information_schema"/>
+      <schema id="5" name="mysql"/>
+      <schema id="6" name="performance_schema"/>
+      <schema id="7" name="phpmyadmin"/>
+      <schema id="8" name="test"/>
+      <schema id="9" name="test1"/>
+      <table id="10" parent="1" name="image"/>
+      <table id="11" parent="1" name="putao_user"/>
+      <table id="12" parent="1" name="user">
+        <comment>保存用户</comment>
+      </table>
+      <table id="13" parent="1" name="weibo">
+        <comment>微博留言板</comment>
+      </table>
+      <table id="14" parent="1" name="wxtoken">
+        <comment>保存微信token</comment>
+      </table>
+      <table id="15" parent="1" name="yonghu"/>
+      <column id="16" parent="10" name="id">
+        <comment>id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="17" parent="10" name="imgPath">
+        <comment>图片路径</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(300)|0</data-type>
+      </column>
+      <key id="18" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="19" parent="11" name="id">
+        <comment>id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="20" parent="11" name="username">
+        <comment>用户名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="21" parent="11" name="password">
+        <comment>密码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="22" parent="11" name="headimg">
+        <comment>头像</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(500)|0</data-type>
+      </column>
+      <column id="23" parent="11" name="admin">
+        <comment>是否管理员</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)|0</data-type>
+      </column>
+      <key id="24" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="25" parent="12" name="id">
+        <comment>主键id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="26" parent="12" name="username">
+        <comment>用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="27" parent="12" name="password">
+        <comment>密码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="28" parent="12" name="tel">
+        <comment>电话号</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <key id="29" parent="12" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="30" parent="13" name="id">
+        <comment>id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="31" parent="13" name="content">
+        <comment>内容</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(500)|0</data-type>
+      </column>
+      <column id="32" parent="13" name="time">
+        <comment>时间戳</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="33" parent="13" name="up">
+        <comment>顶</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="34" parent="13" name="down">
+        <comment>踩</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="35" parent="13" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="36" parent="14" name="id">
+        <comment>id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="37" parent="14" name="token">
+        <comment>token</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(600)|0</data-type>
+      </column>
+      <column id="38" parent="14" name="time">
+        <comment>时间戳</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <key id="39" parent="14" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="40" parent="15" name="id">
+        <comment>id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="41" parent="15" name="user">
+        <comment>用户名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="42" parent="15" name="pass">
+        <comment>密码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <key id="43" parent="15" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
