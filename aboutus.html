@@ -11,6 +11,67 @@
             margin: 0;
             padding: 0;
         }
+        header {
+            width: 100%;
+            height: 85px;
+            background-color: #F8E000;
+            box-shadow: 0 5px 1px #ccc;
+            position: relative;
+        }
+
+        .header1 {
+            /*border:1px solid red;*/
+            width: 1112px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .header2 {
+            float: right;
+            margin-top: 50px;
+        }
+
+        .header2 a {
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            margin-left: 20px;
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: #F8E000;
+            line-height: 30px;
+        }
+
+        .header2 a:hover {
+            background-color: orange;
+            color: white;
+        }
+
+        .chanpinzhanshi {
+            width: 80px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: orange;
+            position: absolute;
+            top: 50px;
+            left: 930px;
+            text-align: center;
+            display: none;
+        }
+
+        .chanpinzhanshi a {
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 4px;
+        }
+        .chanpinzhanshi a:nth-child(1){
+            color:white;
+        }
+        .chanpinzhanshi a:nth-child(2){
+            color:black;
+        }
         #ab1{
             width: 100%;
             text-align: center;
@@ -56,6 +117,24 @@
             left: 471px;
             display: none;
         }
+        #ab1_xiala{
+            width: 200px;
+            height: 300px;
+            background-color: white;
+            position: absolute;
+            right: -200px;
+            top: 0;
+            display: none;
+        }
+        #ab1_xiala p{
+            width: 100%;
+            height: 30px;
+            background-color: #F6F6F6;
+            text-align: left;
+        }
+        #ab1_gengduo{
+            float: right;
+        }
         .huizi{
             font-size: 10px;
             color: #666666;
@@ -78,7 +157,7 @@
             width: 1000px;
             margin:0 auto;
         }
-        #ab2 p{
+        #ab2>div>p{
             width: 1000px;
             text-align: left;
             line-height: 18px;
@@ -87,6 +166,12 @@
             letter-spacing: 2px;
             padding-bottom: 30px;
         }
+        #ab2>div>div>p{
+            line-height: 18px;
+            font-weight: 900;
+            font-size: 15px;
+            letter-spacing: 2px;
+        }
         .ab2_h1{
             padding-top: 30px;
         }
@@ -94,10 +179,59 @@
             color: blue;
 
         }
+        .ab_foot{
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        #ab3{
+            position: fixed;
+            left: 50px;
+            bottom:100px;
+        }
+        footer{
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+
+
+        }
+        footer a{
+            text-decoration: none;
+        }
+        #ab4{
+            margin-left: 200px;
+            position: relative;
+        }
+        .ab4_pengyouquan{
+            width: 262px;
+            height: 297px;
+            background-color: white;
+            position: absolute;
+            top:-500px;
+            left: 471px;
+            display: none;
+        }
     </style>
 </head>
 <body>
-    <head></head>
+<header>
+    <div class="header1">
+        <img src="img/fdsf.png" />
+        <div class="header2">
+            <a href="####">首页</a>
+            <a href="####">产品展示</a>
+            <a href="####">关于我们</a>
+            <a href="####">联系我们</a>
+            <a href="####">加入我们</a>
+        </div>
+    </div>
+    <div class="chanpinzhanshi">
+        <a href="">产品展示</a>
+        <a href="">礼包系列></a>
+    </div>
+</header>
     <section id="ab1">
         <div>
             <img class="ab1_datu" src="img/teambanner.jpg" alt="">
@@ -113,12 +247,15 @@
                             src="img/renren.png" id="ab1_renren" alt=""></a>
                     <a href="###"><img src="img/weixin.png" id="ab1_weixin" alt=""></a>
                     <a href="###"><img src="img/jia.png" id="ab1_jia" alt="">
-                        <div id="ab1_xiala">
-                            <p>分享到</p>
-                            <a href="###"></a>
-                        </div>
+
                     </a>
                 </p>
+
+            </div>
+            <div id="ab1_xiala">
+                <p>分享到</p>
+
+                <p><a id="ab1_gengduo" href="###"><img src="img/gengduo.png" alt=""></a></p>
 
             </div>
             <div class="ab1_pengyouquan">
@@ -144,21 +281,78 @@
             </p>
             <p>&nbsp&nbsp零食侠不以价格为长期战略，指在分享、传播时下最in海外零食的同时，提供购买平台和专业服务。在垂直电商的领域中，零食侠作为全球首款以资讯为主的购物平台，依靠用户社交传播零食资讯，激发用户自主性，提高用户黏性。以礼包形式销售为主，同时根据用户需求，对个人和团体提供礼包订制服务，为顾客解决了选择困难的烦恼，感受到零食侠带来的高品质服务。2016年推出 “七天全国免费退换货”条款，为用户提供免费试吃的体验，无条件退货的完善售后，真正让用户来验证零食侠的高品质服务。</p>
             <h3>发展里程</h3>
-            <p>2015年7月创始团队3名成员在成都高新区成立成都零食侠科技公司，创立零食侠品牌</p>
-            <p>2015年7月 获得日本大阪-寺内企业批发卡</p>
-            <p>2015年8月获得种子投资</p>
-            <p>2015年8月入驻成都市高新区创业孵化区</p>
-            <p>2015年9月零食侠微信公众号（snackman-cd）粉丝突破1万 正式上线</p>
-            <p>2015年10月零食侠正式以礼包销售为主打开市场</p>
-            <p>2015年10月协办“阳光之旅 爱在高新 2015高新魅力体验游”活动</p>
-            <p>2016年4月零食侠团队突破15人，首位外籍员工入职</p>
-            <p>2016年4月零食侠APP(IOS)研发团队招募到完成测试版共耗时45天</p>
-            <p>2016年4月经15天内测，零食侠APP 1.0版在APP STORE正式上线</p>
+            <div>
+                <p>2015年7月创始团队3名成员在成都高新区成立成都零食侠科技公司，创立零食侠品牌</p>
+                <p>2015年7月 获得日本大阪-寺内企业批发卡</p>
+                <p>2015年8月获得种子投资</p>
+                <p>2015年8月入驻成都市高新区创业孵化区</p>
+                <p>2015年9月零食侠微信公众号（snackman-cd）粉丝突破1万 正式上线</p>
+                <p>2015年10月零食侠正式以礼包销售为主打开市场</p>
+                <p>2015年10月协办“阳光之旅 爱在高新 2015高新魅力体验游”活动</p>
+                <p>2016年4月零食侠团队突破15人，首位外籍员工入职</p>
+                <p>2016年4月零食侠APP(IOS)研发团队招募到完成测试版共耗时45天</p>
+                <p>2016年4月经15天内测，零食侠APP 1.0版在APP STORE正式上线</p>
+                <p>&nbsp&nbsp零食侠成为垂直电商中的米其林，专业的零食资讯和购买平台。零食侠未来的物流体系会向科技化，智能化发展，利用无人机执行配送任务，精准投送至二维码收发箱，顾客二维码扫码即可取件。</p>
+                <p>&nbsp&nbsp零食侠APP上线第二天即在APP STORE 美食类别中排名第56位。 “进口零食” 搜索词的排名从第42名一跃至第1名，与“零食”相关的搜索词排名均上升至前10名左右 2016年1月22日 《海外进口零食加礼包等于订制零食新时尚》在搜狐网发布，同时被凤凰网收录。</p>
+                <p>2016年1月20日 《2016年四川新春购物节》在搜狐网发布，同时被中华网、中国消费网转载。</p>
+                <p>2016年3月8日 《零食也能免费退换？！》在搜狐网发布。</p>
+            </div>
+        </div>
+        <div>
+            <img src="img/baike-12.jpg" alt="">
+            
         </div>
 
     </section>
+    <seciton id="ab3">
+        <img src="img/erweima.png" alt="">
+    </seciton>
+
+
+<footer>
+    <img src="img/foot.png" alt="">
+    <p class="ab_foot">www.snackman.cn 保留最终解释权 | 蜀ICP备 15027883号-1 |<a href="http://www.snackman.cn/sitemap.xml">网站地图</a> <a href="http://www.snackman.cn/sitemap.html">网站地图</a><a
+            href="http://new.cnzz.com/v1/login.php?siteid=1259160450">站长统计</a></p>
+    <p>Copyright © 2015-2016 成都零食侠科技有限公司</p>
+</footer>
+
+<section id="ab4">
+    <div>
+        <input type="text" placeholder="进口零食渠道"><input type="button" value="搜索">
+    </div>
+    <p>
+        <a href="###"><img src="img/jia.png" id="ab4_jia" alt="">
+
+        </a>
+        <a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2Fwww.snackman.cn%2Findex.php%2FTeam%2Findex.html%23%230-qzone-1-58460-d020d2d2a4e8d1a374a433f596ad1440&title=%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC_%E9%9B%B6%E9%A3%9F%E4%BE%A0&desc=&summary=&site=&pics=http%3A%2F%2Fwww.snackman.cn%2FPublic%2Fhome%2Fimages%2Fteambanner.jpg"><img
+                src="img/kongjian.png" id="ab4_kongjian" alt=""></a>
+        <a href="http://login.sina.com.cn/sso/login.php?url=http%3A%2F%2Fservice.weibo.com%2Fshare%2Fshare.php%3Furl%3Dhttp%253A%252F%252Fwww.snackman.cn%252Findex.php%252FTeam%252Findex.html%2523%25230-tsina-1-91040-397232819ff9a47a7b7e80a40613cfe1%26title%3D%25E5%2585%25B3%25E4%25BA%258E%25E6%2588%2591%25E4%25BB%25AC_%25E9%259B%25B6%25E9%25A3%259F%25E4%25BE%25A0%26appkey%3D1343713053%26pic%3Dhttp%253A%252F%252Fwww.snackman.cn%252FPublic%252Fhome%252Fimages%252Fteambanner.jpg%26searchPic%3Dtrue&_rand=1474184946.6053&gateway=1&service=miniblog&entry=wbwidget&useticket=0&returntype=META&_client_version=0.6.12"><img
+                src="img/weibo.png" id="ab4_weibo" alt=""></a>
+        <a href="http://s.share.baidu.com/?click=1&url=http%3A%2F%2Fwww.snackman.cn%2Findex.php%2FTeam%2Findex.html%23&uid=0&to=tqq&type=text&pic=http%3A%2F%2Fwww.snackman.cn%2FPublic%2Fhome%2Fimages%2Fteambanner.jpg&title=%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC_%E9%9B%B6%E9%A3%9F%E4%BE%A0&key=&desc=&comment=&relateUid=&searchPic=0&sign=on&l=1asu3hngc1asu3hofk1asu4bgpp&linkid=it8bodxd5vo&firstime=1474183028431"><img
+                src="img/txweibo.png" id="ab4_txwb" alt=""></a>
+        <a href="http://widget.renren.com/dialog/share?resourceUrl=http%3A%2F%2Fwww.snackman.cn%2Findex.php%2FTeam%2Findex.html%23%230-renren-1-47291-98fde57bb3d39343db0f272b38411f3e&srcUrl=http%3A%2F%2Fwww.snackman.cn%2Findex.php%2FTeam%2Findex.html%23%230-renren-1-47291-98fde57bb3d39343db0f272b38411f3e&title=%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC_%E9%9B%B6%E9%A3%9F%E4%BE%A0&description=&pic=http%3A%2F%2Fwww.snackman.cn%2FPublic%2Fhome%2Fimages%2Fteambanner.jpg"><img
+                src="img/renren.png" id="ab4_renren" alt=""></a>
+        <a href="###"><img src="img/weixin.png" id="ab4_weixin" alt=""></a>
+
+    </p>
+    <div class="ab4_pengyouquan">
+        <span class="pyq_head">分享到朋友圈</span>
+        <span class="pyq_x">X</span>
+        <img src="img/weixinewm.png" alt="">
+        <p class="huizi">打开微信，点击底部的“发现”，</p>
+        <a href="###" class="huizi">使用“扫一扫”即可将网页分享至朋友圈。</a>
+    </div>
+</section>
     <script src="js/jquery-2.1.3.min.js"></script>
     <script>
+        $(".header2 a:nth-child(2)").mouseenter(function() {
+            $(".chanpinzhanshi").show();
+
+        })
+        $(".chanpinzhanshi").mouseleave(function() {
+            $(".chanpinzhanshi").hide();
+        })
+
        $("#ab1").mouseover(function () {
            $(".ab1_fx").show();
        });
@@ -170,7 +364,27 @@
        });
         $(".pyq_x").click(function () {
             $(".ab1_pengyouquan").hide();
-        })
+        });
+        $("#ab1_jia").mouseover(function () {
+            $("#ab1_xiala").show();
+        });
+        $("#ab1_xiala").mouseleave(function () {
+            $("#ab1_xiala").hide();
+        });
+
+        var xk = document.querySelectorAll("#ab1_xiala>a");
+        for(var i = 0;i<xk.length;i++){
+            xk[i].onmouseover = function () {
+                this.style.backgroundColor = "#F6F6F6";
+            }
+        }
+
+        $("#ab4_weixin").click(function () {
+            $(".ab4_pengyouquan").show();
+        });
+        $(".pyq_x").click(function () {
+            $(".ab4_pengyouquan").hide();
+        });
     </script>
 </body>
 </html>
