@@ -12,9 +12,7 @@
             margin: 0 ;
             padding: 0;
         }
-        body{
-            height:2000px;
-        }
+
         .xin-box a{
             text-decoration: none;
         }
@@ -235,6 +233,52 @@
         .suo-sec h3{
             color: #787878;
         }
+        footer{
+            position: relative;
+            top: 0px;
+            width: 100%;
+            height: 220px;
+            background-color: black;
+        }
+        .footers{
+            width: 1200px;
+            height: 220px;
+            margin: 0 auto;
+        }
+        .footer_left{
+            width: 150px;
+            line-height: 220px;
+        }
+        .footer_right{
+            width: 800px;
+            height: 220px;
+            margin: 0 auto;
+            position: relative;
+            top: -220px;
+            left: 20px;
+        }
+        .footer_right a {
+            position: relative;
+            top: 45px;
+            left: 0;
+            color: #777777;
+            font-size: 13px;
+        }
+        .footer_right span{
+            position: relative;
+            top: 45px;
+            color: #777777;
+        }
+        .footer_right a:hover{
+            color: red;
+        }
+        .p3{
+            position: relative;
+            top: 60px;
+            color: #777777;
+            line-height: 30px;
+            font-size: 13px;
+        }
     </style>
 </head>
 <body>
@@ -403,6 +447,25 @@
 
                 </div>
             </div>
+            <footer>
+                <div class="footers">
+                    <div class="footer_left">
+                        <a href=""><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <div class="footer_right">
+                        <a href="">光合起源</a><span>|</span>
+                        <a href="">关于我们</a><span>|</span>
+                        <a href="">新闻中心</a><span>|</span>
+                        <a href="">游戏中心</a><span>|</span>
+                        <a href="">加入我们</a><span>|</span>
+                        <a href="">联系我们</a>
+                        <p class="p3">京ICP备15038749号-1  Copyright © 2014-2015 北京光合起源网络科技有限公司 All Right Reserved<br>
+                            联系地址：北京市海淀区花园路甲13号院庚坊国际大厦3层307 电话：010-82257119   技术支持：星贺互联<br>
+                            健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+                    </div>
+                </div>
+
+            </footer>
         </div>
         <script src="js/jquery-2.1.3.min.js"></script>
         <script>
