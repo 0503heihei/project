@@ -2,22 +2,255 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d327a06b-0ddc-440d-85a2-f01b43248fde" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/0AFAF195-95FA-4C0E-A31D-27AD3975265C.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2Q==-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/AAMAFaKRWzroK3AAAAAASUVORK5CYII=.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/BBgAh+ZPtjRmBZYAAAAASUVORK5CYII=.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/E6098678-316C-4C52-9337-78F684F4C8DC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/EBD2F94C-6CAD-4366-BC99-88F81472924B.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/F2AAjwA5Yn1NuYYAAAAASUVORK5CYII=.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Z1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Z2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/download-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/download-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pt_home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/ico/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/img/contribution-sample.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/img/fort_awesome.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/img/icon-flag.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/ZeroClipboard-1.1.7.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/brandstory.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meida06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/more.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/morebtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/28e915b38d6406caf57aa7d2414256a5fedf7583.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/413f0e2285f8a3ce58d5ec9ee16bf7aec0fa03bc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/4a2e2a56dac3993b4951e85dcc23e7d36621a7a3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/60287d025402adf7f2e7d754195e850c5e1d18c8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/742b7b269609b1290c2ae53f228bcc5834eea226.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/7d9ff3e1a3a2e9da49fcc08d7b18abf635df17a0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/80181bb3d26e3f789650698e92ee1fed568e1042.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/848d691c60557a59918d64637325a45785619918.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/8cfef2d545eee2de4bd2e59ddfd2a341fd1db38c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/a787a82e629b09030af317d047662d8b4a020679.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/abd58383dd0d44c311d3d4a9f8974ca13279bfe0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/bd7b6dd215c3a40bb0c78ec5aa927b3e2299a2bb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/c32a4ecfa2dac167acd2c8f4e79ad28676e050ca.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/c33f8ab985a47eb8e4dfa978bd9f0a4d11e86019.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/ca0f3da674ca3a7a80ab324964cee7fd69d8cfeb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/e1079da8f4c968c75fadd284bc168ec92094ff72.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/ef8e21aa6ea52ca08378d2cdb4082b1bca69bb6e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/f0a8c1739f89bdffb098b4a49982049f342fc23c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shangcheng/faa60ef4148445d8f675f3806f3be98b6681a43f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show02-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show03-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show03-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/.ruby-version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome-ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome-ie7.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/font-awesome-ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/ads/carbon-dark-vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/ads/carbon-light-horizontal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/ads/carbon-light-vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/brand-license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/cheatsheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/community.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/community/getting-support.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/community/project-milestones.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/community/reporting-bugs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/community/requesting-new-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/community/submitting-pull-requests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/animated-spinner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/bordered-pulled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/bulleted-lists.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/button-dropdowns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/button-groups.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/form-inputs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/inline-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/larger-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/rotated-flipped.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/examples/stacked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/get-started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/brand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/currency.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/directional.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/medical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/text-editor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/video-player.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/icons/web-application.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/jumbotron-slider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/jumbotron.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/license-code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/stripe-ad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/stripe-social.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/tell-me-thanks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/tests/rotated-flipped-inside-anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/tests/rotated-flipped-inside-btn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/tests/rotated-flipped.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/tests/stacked-inside-anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/tests/stacked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/thanks-to.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/whats-new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_includes/why.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_layouts/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_layouts/icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_plugins/icon_page_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/_plugins/site.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/css/pygments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/font-awesome-ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/ZeroClipboard-1.1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/backbone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/bootstrap-2.3.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/bootstrap-222.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/prettify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/js/underscore.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/hero-unit.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/labels-badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-1200px-min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-767px-max.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-768px-979px.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/sprites.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/lazy.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/responsive-1200px-min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/responsive-767px-max.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/responsive-768px-979px.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/responsive-navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/site.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/sticky-footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/assets/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/cheatsheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/community.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/design.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/get-started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/icons.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Font-Awesome-3.2.1/src/whats-new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/brand.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/newsbanner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop_maill.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/project.iml" afterPath="$PROJECT_DIR$/.idea/project1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theatre.css" afterPath="$PROJECT_DIR$/css/theatre.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand.html" afterPath="$PROJECT_DIR$/brand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theatre.html" afterPath="$PROJECT_DIR$/theatre.html" />
     </list>
     <ignored path="project.iws" />
@@ -39,61 +272,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pt_home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pt_home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
-              <folding>
-                <element signature="e#6802#6808#0" expanded="true" />
-                <element signature="e#6808#6814#0" expanded="true" />
-                <element signature="e#6814#6820#0" expanded="true" />
-                <element signature="e#6828#6834#0" expanded="true" />
-                <element signature="e#6834#6840#0" expanded="true" />
-                <element signature="e#6840#6846#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/header.css">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1110">
+              <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theatre.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theatre.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/theatre.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="330">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theatre.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/theatre.css">
+      <file leaf-file-name="brand.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,10 +349,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/footer.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/theatre.html" />
-        <option value="$PROJECT_DIR$/css/theatre.css" />
-        <option value="$PROJECT_DIR$/pt_home.html" />
+        <option value="$PROJECT_DIR$/header.html" />
+        <option value="$PROJECT_DIR$/brand.html" />
       </list>
     </option>
   </component>
@@ -122,8 +364,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="314" />
-    <option name="y" value="23" />
+    <option name="x" value="354" />
+    <option name="y" value="74" />
     <option name="width" value="1471" />
     <option name="height" value="933" />
   </component>
@@ -158,6 +400,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -167,48 +412,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/img" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
@@ -271,8 +488,10 @@
       <option name="presentableId" value="Default" />
       <updated>1474185763259</updated>
       <workItem from="1474185764837" duration="2190000" />
-      <workItem from="1474188430467" duration="1944000" />
-      <workItem from="1474252729050" duration="14725000" />
+      <workItem from="1474188430467" duration="1118000" />
+      <workItem from="1474277498807" duration="492000" />
+      <workItem from="1474278808564" duration="10000" />
+      <workItem from="1474278822183" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1474186313285</created>
@@ -309,36 +528,32 @@
       <option name="project" value="LOCAL" />
       <updated>1474200655923</updated>
     </task>
-    <task id="LOCAL-00006" summary="header上传">
-      <created>1474202177389</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1474202177389</updated>
-    </task>
-    <task id="LOCAL-00007" summary="header上传">
-      <created>1474202455537</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1474202455537</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18859000" />
+    <option name="totallyTimeSpent" value="3886000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="23" width="1471" height="933" extended-state="0" />
+    <frame x="354" y="74" width="1471" height="933" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19594122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15115465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25208086" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24982505" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -347,7 +562,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -365,14 +579,115 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".." />
-    <MESSAGE value="header上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="header上传" />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theatre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theatre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -441,6 +756,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -452,174 +775,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hbanner.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theatre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1431">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/2Q==-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/AAMAFaKRWzroK3AAAAAASUVORK5CYII=.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/BBgAh+ZPtjRmBZYAAAAASUVORK5CYII=.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/F2AAjwA5Yn1NuYYAAAAASUVORK5CYII=.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/download-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/download.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/download-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Z.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bottom/f5f3976.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bottom/bottom-tell.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bottom/logo-bottom.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bottom/7eab92fb77eafce2b9cc886a6d220846ea812a32.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Z1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Z2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/9k=.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/acc.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/top.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="18" selection-start-line="9" selection-start-column="8" selection-end-line="25" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/theatre.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pt_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
-          <folding>
-            <element signature="e#6802#6808#0" expanded="true" />
-            <element signature="e#6808#6814#0" expanded="true" />
-            <element signature="e#6814#6820#0" expanded="true" />
-            <element signature="e#6828#6834#0" expanded="true" />
-            <element signature="e#6834#6840#0" expanded="true" />
-            <element signature="e#6840#6846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theatre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="165">
+          <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
           <folding />
         </state>
       </provider>
