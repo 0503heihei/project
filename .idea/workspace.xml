@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788dfd6d-ae24-4d3e-b7d9-ab654c657545" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Contactus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/aboutus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/baidutieba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/baiduxiangce.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/baiduxinshouye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/baiduzhongxin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/douban.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/foot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gengduo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hexunweibo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kaixin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qqpengyou.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/txpengyou.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/yijian.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connectus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus.html" afterPath="$PROJECT_DIR$/aboutus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connectus.html" afterPath="$PROJECT_DIR$/connectus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +29,8 @@
       <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aboutus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="142" column="9" selection-start-line="137" selection-start-column="8" selection-end-line="142" selection-end-column="9" />
+            <state relative-caret-position="1485">
+              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
               <folding>
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -52,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connectus.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2310">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connectus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connectus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+            <state relative-caret-position="345">
+              <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -82,6 +78,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/aboutus.html" />
         <option value="$PROJECT_DIR$/connectus.html" />
       </list>
@@ -256,7 +253,7 @@
       <option name="presentableId" value="Default" />
       <updated>1474185755037</updated>
       <workItem from="1474185756279" duration="11028000" />
-      <workItem from="1474245362542" duration="2582000" />
+      <workItem from="1474245362542" duration="3948000" />
     </task>
     <task id="LOCAL-00001" summary="Fenzhi">
       <created>1474186304152</created>
@@ -272,11 +269,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474189828314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fenzhi">
+      <created>1474249185979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474249185979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13610000" />
+    <option name="totallyTimeSpent" value="14976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="290" y="25" width="1533" height="969" extended-state="0" />
@@ -342,13 +346,6 @@
     <entry file="file://$PROJECT_DIR$/img/erweima.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="104" column="6" selection-start-line="98" selection-start-column="3" selection-end-line="104" selection-end-column="6" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/teambanner.jpg">
@@ -452,20 +449,28 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/connectus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="142" column="9" selection-start-line="137" selection-start-column="8" selection-end-line="142" selection-end-column="9" />
+        <state relative-caret-position="1485">
+          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
           <folding>
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connectus.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+        <state relative-caret-position="-2310">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
