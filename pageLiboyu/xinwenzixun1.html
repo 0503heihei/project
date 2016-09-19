@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新闻资讯</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/xinwenzixun1.css">
+<!--    <link rel="shortcut icon" href="https://static.slightech.com/ico/favicon.png">-->
+    <link href="favicon.ico" rel="shortcut icon">
+</head>
+<body>
+<header></header>
+<section class="wrap">
+    <img src="img/bg.jpg" alt="" class="bg">
+    <ul class="nav-left">
+        <li class="header1">
+            <a href=""><h1>新闻资讯</h1></a>
+        </li>
+        <li class="gongsidongtai">
+            <a href=""><span>公司动态</span></a>
+        </li>
+        <li class="yejiezixun">
+            <a href=""><span>业界资讯</span></a>
+        </li>
+
+    </ul>
+    <section class="list-wrap">
+        <ul>
+            <li id="header">
+                    <span><a href="">新闻资讯</a></span>
+                    <span>
+                        <a href="">网站首页></a>
+                        <a href="">新闻资讯</a>
+                    </span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>2016年中国贵阳数博会闭幕</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>“互联网+”时代下的银行信息安全</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>以科技创新助力发展全局</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>金博会闭幕 移动互联网金融成大趋势</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>2019年拉美FTTH用户将达1050万</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>2016年蓝牙技术将实现更长通信距离、更快传输速度及Mesh联网功能</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>“互联网+”将成为外包发展新动力</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-caret-right"></i>
+                    <span>光通信的下一站？ 欢迎参加2015光通信技术和发展论坛</span>
+                </a>
+                <span>2016-05-31</span>
+            </li>
+
+        </ul>
+    </section>
+    <nav>
+        <!--<ul class="pagination">-->
+            <!--<li><a href="xinwenzixun1.html" >上一页</a></li>-->
+            <!--<li><a href="xinwenzixun1.html" style="background-color: #cccccc;">1</a></li>-->
+            <!--<li><a href="xinwenzixun2.html">2</a></li>-->
+            <!--<li><a href="xinwenzixun2.html">下一页</a></li>-->
+            <!--<li><a href="#">转至第</a></li>-->
+            <!--<li><a href="" style="width: 35px;height: 34px;">1</a></li>-->
+            <!--<li><a href="#">页</a></li>-->
+        <!--</ul>-->
+        <ul class="pagination">
+            <li><a href="" >上一页</a></li>
+            <li class="xinwenzixun1"><a href="" style="background-color: #cccccc;">1</a></li>
+            <li class="xinwenzixun2"><a href="">2</a></li>
+            <li><a href="">下一页</a></li>
+            <li><a href="#">转至第</a></li>
+            <li><a href="" style="width: 35px;height: 34px;">1</a></li>
+            <li><a href="#" style="background-color: #cccccc;">页</a></li>
+        </ul>
+    </nav>
+</section>
+
+<footer>
+    <div class="powered_by_metinfo">Powered&nbsp;by&nbsp;<a href="#" target="_blank" title="企业网站管理系统">北京艾硕科网络科技有限公司&nbsp;</a> ©2015-2016&nbsp;</div>
+</footer>
+
+<script src="js/jquery-1.12.1.min.js"></script>
+<script src="js/jquery.pjax.js"></script>
+<script>
+    $(function () {
+        $(".pagination li").eq(2).bind("click",function () {
+            var page=$(this).attr('class');
+            $.pjax({
+                url: 'changePage.php?page='+page,
+                container: '.wrap'
+            })
+        });
+        $(".nav-left li").eq(1).bind("click",function () {
+            var page=$(this).attr('class');
+            $.pjax({
+                url: 'changePage.php?page='+page,
+                container: '.wrap'
+            })
+        });
+        $(".nav-left li").eq(2).bind("click",function () {
+            var page=$(this).attr('class');
+            $.pjax({
+                url: 'changePage.php?page='+page,
+                container: '.wrap'
+            })
+        })
+    })
+</script>
+
+</body>
+</html>
+
