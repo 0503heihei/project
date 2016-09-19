@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -17,16 +20,31 @@
 			<!--导航栏-->
 			<div class="header" id="returnTop">
 				<div class="header_inner">
-					<a href="index.html" class="logo"></a>
+					<a href="index.php" class="logo"></a>
 					<ul class="header_nav">
-				        <li><a href="index.html">首页</a></li>
+				        <li><a href="index.php">首页</a></li>
 				        <li><a href="brand.html">品牌动态</a></li>
 				        <li><a href="theatre.html">葡星剧场</a></li>
 				        <li><a href="pt_home.html">葡萄之家</a></li>
 				        <li><a href="app.html">应用下载</a></li>
+						<li><a href="images.php">图片</a></li>
 				    </ul>
 				    <div class="login_info">
-				    		<a href="" class="login"></a>
+						<?php
+						if (isset($_SESSION["user"]) && isset($_SESSION["pwd"])){
+							//登录状态
+							//是否管理员
+							if ($_SESSION["admin"]){
+								echo "<a href='manager.php'><img src={$touxiang} alt=''></a>";
+							}else{
+								echo "<a href='user.php'><img src={$touxiang} alt=''></a>";
+							}
+						}else{
+							//未登录
+							echo "<a href=\"\" class=\"login\"><img src='img/zlogin.png' alt=''></a>";
+						}
+						?>
+<!--				    		<a href="" class="login"></a>-->
 				    		<a href="" class="shop_mall"></a>
 				    </div>
 				</div>
@@ -134,7 +152,7 @@
 			<footer>
 			<div id="footer">
 				<div class="bottom-nav">
-					<a href="index.html" class="bottom-logo"><img src="img/bottom/logo-bottom.png" /></a>
+					<a href="index.php" class="bottom-logo"><img src="img/bottom/logo-bottom.png" /></a>
 					<ul>
 						<li>
 							<h3>订单中心</h3></li>
