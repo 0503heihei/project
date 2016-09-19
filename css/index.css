@@ -1,0 +1,96 @@
+.type_choose {
+	width: 100%;
+	height: 200px;
+	padding: 20px 0 40px 0;
+	background-color: #fff;
+}
+
+.type_choose ul {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+.type_choose ul li {
+	height: 200px;
+	border-radius: 8px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.toy {
+	cursor: pointer;
+	float: left;
+}
+
+.acc {
+	cursor: pointer;
+	float: right;
+}
+
+.type_choose ul li img {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
+
+.choose_details_inner {
+	display: none;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.select {
+	box-shadow: 0 0 15px #555;
+}
+
+.plant {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.plate_title {
+	color: #646464;
+	padding: 40px 20px 7px 20px;
+}
+
+.plate_title span:nth-child(1) {
+	font-size: 30px;
+}
+
+.plate_title span:nth-child(2) {
+	font-size: 18px;
+	color: #959595;
+}
+
+.plant_item a {
+	text-decoration: none;
+	display: inline-block;
+	width: 570px;
+	height: 280px;
+	margin: 13px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #e1e1e1;
+}
+
+.plant_item a img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.single_item a {
+	width: 1170px;
+}
+
+.scale {
+	-webkit-transition: all 1s linear 0s;
+}
+
+.scale:hover {
+	-webkit-transform: scale(1.1);
+}

@@ -1,15 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94626d7f-c23a-4c13-9935-cd79f377ee72" name="默认" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/project.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+    <list default="true" id="d327a06b-0ddc-440d-85a2-f01b43248fde" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/041e7e3ddee3279c94718c7bc13e4d202c7127d7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/17a67f224ea06beb7892d93d0d7faf7fed4bbcfb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1d3a7291d0a754c5cb1a99fb2ab403666916f567.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2Q==.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/66cd7818c10e74d67edc10fc6ffd6a11eab20f44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/84ad36a5b1e04f3234bc110a33e3f8721adae8a6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/8f2935e3bf302931b274b3091d1bf37a324a5d8f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/8pwABSq2vEdbqCXgAAAABJRU5ErkJggg==.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/9k=.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/9k==.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/9k===.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/9k====.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/K7tqQd03wbStHdAXYK0C.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Z.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Z==.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bb8c1c57050727bbcfb182f2ced4196864f98b80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bfbcd9d5a01fd247818a6e043be5ce561423cf93.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/brandstory.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cf7edfac2af8db525466eef55b82ed0fab0113db.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dizuo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dizuobg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/e6c0ddca58dacd78673b3fe3465393f440f48b30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kabao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kabaobg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/maorongwanju.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/maorongwanjubg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meida06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/more.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/morebtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/people0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/people1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/people2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/people3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/people4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/people5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/people6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shopmallhover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shoujike.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shoujikebg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show02-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show03-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show03-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/upan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/upanbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/vA43t3h1f++jLpzs7nRkYXRlOm1vZGlmeQAyM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wchaticon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zshopmallhover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/brand.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/hbanner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theatre.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/wheader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/hbanner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/newsbanner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theatre.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/a60895b5c76558d31aa76034477529e5c1c5b18c.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/header.css" afterPath="$PROJECT_DIR$/css/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
-    <ignored path="project1.iws" />
+    <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,25 +99,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="project1" />
+    <favorites_list name="project" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/footer.css">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="1110">
+              <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -51,8 +129,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            <state relative-caret-position="315">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -61,8 +139,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
-              <caret line="210" column="50" selection-start-line="210" selection-start-column="50" selection-end-line="210" selection-end-column="50" />
+            <state relative-caret-position="225">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theatre.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theatre.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brand.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brand.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -81,7 +179,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/footer.css" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/theatre.html" />
+        <option value="$PROJECT_DIR$/header.html" />
+        <option value="$PROJECT_DIR$/brand.html" />
       </list>
     </option>
   </component>
@@ -93,8 +195,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="23" />
+    <option name="x" value="413" />
+    <option name="y" value="47" />
     <option name="width" value="1441" />
     <option name="height" value="976" />
   </component>
@@ -137,18 +239,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -204,53 +321,67 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="94626d7f-c23a-4c13-9935-cd79f377ee72" name="默认" comment="" />
-      <created>1474199134359</created>
+      <changelist id="d327a06b-0ddc-440d-85a2-f01b43248fde" name="默认" comment="" />
+      <created>1474185763259</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1474199134359</updated>
-      <workItem from="1474199135638" duration="1503000" />
-      <workItem from="1474241904909" duration="2495000" />
-      <workItem from="1474277459282" duration="8000" />
+      <updated>1474185763259</updated>
+      <workItem from="1474185764837" duration="2190000" />
+      <workItem from="1474188430467" duration="1118000" />
+      <workItem from="1474277498807" duration="492000" />
     </task>
-    <task id="LOCAL-00001" summary="底">
-      <created>1474199202350</created>
+    <task id="LOCAL-00001" summary="..">
+      <created>1474186313285</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1474199202350</updated>
+      <updated>1474186313285</updated>
     </task>
-    <task id="LOCAL-00002" summary="底   更新">
-      <created>1474199343941</created>
+    <task id="LOCAL-00002" summary="..">
+      <created>1474186478130</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1474199343941</updated>
+      <updated>1474186478131</updated>
     </task>
-    <task id="LOCAL-00003" summary="底   更新">
-      <created>1474277263217</created>
+    <task id="LOCAL-00003" summary="..">
+      <created>1474187083584</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1474277263217</updated>
+      <updated>1474187083585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="..">
+      <created>1474190060802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1474190060802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="..">
+      <created>1474200655923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474200655923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4006000" />
+    <option name="totallyTimeSpent" value="3800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="23" width="1441" height="976" extended-state="0" />
-    <editor active="false" />
+    <frame x="413" y="47" width="1441" height="976" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3452466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15010722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -275,16 +406,70 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="底" />
-    <MESSAGE value="底   更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="底   更新" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/a60895b5c76558d31aa76034477529e5c1c5b18c.png" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-2.1.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/a60895b5c76558d31aa76034477529e5c1c5b18c.png" />
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -292,39 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="210" column="50" selection-start-line="210" selection-start-column="50" selection-end-line="210" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="173" selection-start-line="69" selection-start-column="173" selection-end-line="69" selection-end-column="173" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
+    <entry file="file://$PROJECT_DIR$/js/swiper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -332,42 +485,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="210" column="50" selection-start-line="210" selection-start-column="50" selection-end-line="210" selection-end-column="50" />
+        <state relative-caret-position="1110">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="210" column="50" selection-start-line="210" selection-start-column="50" selection-end-line="210" selection-end-column="50" />
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theatre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        <state relative-caret-position="315">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.css">
+    <entry file="file://$PROJECT_DIR$/brand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="360">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding />
         </state>
       </provider>

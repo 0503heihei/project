@@ -16,7 +16,7 @@
 	height: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	border-bottom: solid 1px #5b3879;
+	border-bottom: solid 1px #632A99;
 }
 
 .logo {
@@ -37,7 +37,7 @@
 
 .header_nav li a {
 	text-decoration: none;
-	color: #5b3879;
+	color: #632A99;
 	font-size: 16px;
 }
 
@@ -65,4 +65,23 @@
 
 .shop_mall:hover {
 	background: url(../img/zshopmallhover.png) no-repeat;
+}
+/*白色的header*/
+.white_header .logo{
+	background: url(../img/logo.png) no-repeat;
+}
+.white_header{
+	border-bottom: solid 1px #fff;
+}
+.white_header ul li a{
+	color: #fff;
+}
+.white_header .login{
+	background: url(../img/login.png) no-repeat;
+}
+.white_header .shop_mall{
+	background: url(../img/shopmall.png) no-repeat;
+}
+.white_header .shop_mall:hover{
+	background: url(../img/shopmallhover.png) no-repeat;
 }
