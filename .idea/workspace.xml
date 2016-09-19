@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71eca1ae-2286-4a50-9822-7283b137e79e" name="默认" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shouye.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lianxi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logoguanyu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lianxiwomen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanyuwomen.html" afterPath="$PROJECT_DIR$/guanyuwomen.html" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="guanyuwomen.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="guanyuwomen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guanyuwomen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="1995">
+              <caret line="133" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="133" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lianxiwomen.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianxiwomen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,6 +68,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/guanyuw.html" />
+        <option value="$PROJECT_DIR$/guanyuwomen.html" />
+        <option value="$PROJECT_DIR$/lianxiwomen.html" />
       </list>
     </option>
   </component>
@@ -65,8 +81,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="279" />
-    <option name="y" value="30" />
+    <option name="x" value="271" />
+    <option name="y" value="23" />
     <option name="width" value="949" />
     <option name="height" value="746" />
   </component>
@@ -104,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,6 +140,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -134,9 +150,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -199,7 +215,8 @@
       <updated>1474196915667</updated>
       <workItem from="1474196916985" duration="1363000" />
       <workItem from="1474199590660" duration="104000" />
-      <workItem from="1474199697793" duration="923000" />
+      <workItem from="1474199697793" duration="3838000" />
+      <workItem from="1474245885538" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="关于我们">
       <created>1474198770502</created>
@@ -215,23 +232,30 @@
       <option name="project" value="LOCAL" />
       <updated>1474200662592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="关于我们">
+      <created>1474200789252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474200789252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2390000" />
+    <option name="totallyTimeSpent" value="5309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="30" width="949" height="746" extended-state="0" />
+    <frame x="271" y="23" width="949" height="746" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19514884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -264,7 +288,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shouye.html">
+    <entry file="file://$PROJECT_DIR$/guanyuwomen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="133" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="133" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxiwomen.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -272,20 +304,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shouye.html" />
     <entry file="file://$PROJECT_DIR$/img/4A62F0D0C5B7B6D3CE24E00B32B6A9A0.jpg" />
     <entry file="file://$PROJECT_DIR$/guanyu.html" />
-    <entry file="file://$PROJECT_DIR$/shouye.html">
+    <entry file="file://$PROJECT_DIR$/shouye.html" />
+    <entry file="file://$PROJECT_DIR$/guanyuwomen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="1995">
+          <caret line="133" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="133" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guanyuwomen.html">
+    <entry file="file://$PROJECT_DIR$/lianxiwomen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="182">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
       </provider>
