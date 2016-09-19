@@ -13,30 +13,37 @@ body,html{
     background: url('http://mall.file.putaocdn.com/file/1d3a7291d0a754c5cb1a99fb2ab403666916f567.jpg') no-repeat scroll 50% center
 }
 .bg2{
+    min-width: 1200px;
     height: 553px;
     background: url('../img/Z.jpg') no-repeat scroll 50% center
 }
 .bg3{
+    min-width: 1200px;
     height: 536px;
     background: url('../img/9k=.jpg') no-repeat scroll 50% center
 }
 .bg4{
+    min-width: 1200px;
     height: 536px;
     background: url('../img/9k==.jpg') no-repeat scroll 50% center
 }
 .bg5{
+    min-width: 1200px;
     height: 545px;
     background: url('../img/Z==.jpg') no-repeat scroll 50% center
 }
 .bg6{
+    min-width: 1200px;
     height: 545px;
     background: url('../img/9k===.jpg') no-repeat scroll 50% center
 }
 .bg7{
+    min-width: 1200px;
     height: 547px;
     background: url('../img/2Q==.jpg') no-repeat scroll 50% center
 }
 .bg8{
+    min-width: 1200px;
     height: 460px;
     background: url('../img/9k====.jpg') no-repeat scroll 50% center
 }
