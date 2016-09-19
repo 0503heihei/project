@@ -1,0 +1,87 @@
+.wrap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	z-index: 2;
+}
+
+.header_inner {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: solid 1px #632A99;
+}
+
+.logo {
+	background: url(../img/zlogo.png) no-repeat;
+	float: left;
+	width: 200px;
+	height: 30px;
+	margin-top: 25px;
+}
+
+.header_nav li {
+	float: left;
+	list-style: none;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 40px;
+}
+
+.header_nav li a {
+	text-decoration: none;
+	color: #632A99;
+	font-size: 16px;
+}
+
+.login_info {
+	float: right;
+	height: 80px;
+	line-height: 80px;
+}
+
+.login {
+	background: url(../img/zlogin.png) no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin: 0 30px 5px 0;
+}
+
+.shop_mall {
+	background: url(../img/zshopmall.png) no-repeat;
+	width: 98px;
+	height: 33px;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.shop_mall:hover {
+	background: url(../img/zshopmallhover.png) no-repeat;
+}
+/*白色的header*/
+.white_header .logo{
+	background: url(../img/logo.png) no-repeat;
+}
+.white_header{
+	border-bottom: solid 1px #fff;
+}
+.white_header ul li a{
+	color: #fff;
+}
+.white_header .login{
+	background: url(../img/login.png) no-repeat;
+}
+.white_header .shop_mall{
+	background: url(../img/shopmall.png) no-repeat;
+}
+.white_header .shop_mall:hover{
+	background: url(../img/shopmallhover.png) no-repeat;
+}
