@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d327a06b-0ddc-440d-85a2-f01b43248fde" name="默认" comment="Merge branch 'xiaoyaojing' of https://github.com/0503heihei/project into xiaoyaojing&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;主页上传 banner 部分原网站有更新 明天完善&#10;主页已完成&#10;header.css 有更新两个方案紫色和白色 紫色是默认的 白色的在header_inner上加个属性white_header &#10;页面右边的返回顶部的两个icon添加完成&#10;第二页品牌动态已完成">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/brandstory.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/listpic03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meida06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/more.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/morebtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsbanner03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show02-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show03-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/show03-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/brand.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/newsbanner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand.html" afterPath="$PROJECT_DIR$/brand.html" />
-    </list>
+    <list default="true" id="d327a06b-0ddc-440d-85a2-f01b43248fde" name="默认" comment="" />
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -61,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
+            <state relative-caret-position="1110">
               <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -96,8 +79,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="174" />
-    <option name="y" value="50" />
+    <option name="x" value="193" />
+    <option name="y" value="62" />
     <option name="width" value="1699" />
     <option name="height" value="923" />
   </component>
@@ -147,20 +130,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,7 +227,7 @@
       <workItem from="1474185764837" duration="2190000" />
       <workItem from="1474188430467" duration="1944000" />
       <workItem from="1474209767670" duration="207000" />
-      <workItem from="1474250835218" duration="2335000" />
+      <workItem from="1474250835218" duration="4762000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1474186313285</created>
@@ -330,34 +299,41 @@
       <option name="project" value="LOCAL" />
       <updated>1474252983441</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge branch 'xiaoyaojing' of https://github.com/0503heihei/project into xiaoyaojing&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;主页上传 banner 部分原网站有更新 明天完善&#10;主页已完成&#10;header.css 有更新两个方案紫色和白色 紫色是默认的 白色的在header_inner上加个属性white_header &#10;页面右边的返回顶部的两个icon添加完成&#10;第二页品牌动态已完成">
+      <created>1474275579711</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1474275579711</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6676000" />
+    <option name="totallyTimeSpent" value="9103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="174" y="50" width="1699" height="923" extended-state="0" />
-    <editor active="false" />
+    <frame x="193" y="62" width="1699" height="923" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14924471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14924471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2515042" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -504,8 +480,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="1110">
           <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding />
         </state>
       </provider>
