@@ -41,13 +41,17 @@ $(".menu a").each(function (i, ele) {
     })
 })
 
+var timer = null;
 $(".member-2 li").each(function (i,ele) {
     $(this).mouseenter(function () {
-        $(".fanpai").eq(i).animate({
-            top: "-420px"
-        })
+        timer = setTimeout(function () {
+            $(".fanpai").eq(i).animate({
+                top: "-420px"
+            })
+        },1000)
     })
     $(this).mouseleave(function () {
+        clearTimeout(timer);
         $(".fanpai").eq(i).animate({
             top: 0
         })
@@ -60,4 +64,81 @@ $(".zj_con-5 a").on("click",function () {
         height: "1638px"
     })
 })
+
+var c = 0;
+$(".paging-2").on("click",function () {
+    c++;
+    if (c == 1){
+        $(".episode a").eq(0).text("第9集");
+        $(".episode a").eq(1).text("第10集");
+        $(".episode a").eq(2).text("第11集");
+        $(".episode a").eq(3).text("第12集");
+        $(".episode a").eq(4).text("第13集");
+        $(".episode a").eq(5).text("第14集");
+        $(".episode a").eq(6).text("第15集");
+        $(".episode a").eq(7).text("第16集");
+    }
+    if (c == 2){
+        $(".episode a").eq(0).text("第17集");
+        $(".episode a").eq(1).text("第18集");
+        $(".episode a").eq(2).text("第19集");
+        $(".episode a").eq(3).text("第20集");
+        $(".episode a").eq(4).text("第21集");
+        $(".episode a").eq(5).text("第22集");
+        $(".episode a").eq(6).text("第23集");
+        $(".episode a").eq(7).text("第24集");
+    }
+    if (c >= 3){
+        $(".episode a").eq(0).text("第25集");
+        $(".episode a").eq(1).text("第26集");
+        $(".episode a").eq(2).hide();
+        $(".episode a").eq(3).hide();
+        $(".episode a").eq(4).hide();
+        $(".episode a").eq(5).hide();
+        $(".episode a").eq(6).hide();
+        $(".episode a").eq(7).hide();
+        c = 3;
+    }
+})
+$(".paging-1").on("click",function () {
+    c--;
+    if (c <= 0){
+        $(".episode a").eq(0).text("第1集");
+        $(".episode a").eq(1).text("第2集");
+        $(".episode a").eq(2).text("第3集");
+        $(".episode a").eq(3).text("第4集");
+        $(".episode a").eq(4).text("第5集");
+        $(".episode a").eq(5).text("第6集");
+        $(".episode a").eq(6).text("第7集");
+        $(".episode a").eq(7).text("第8集");
+        c = 0;
+    }
+    if (c == 1){
+        $(".episode a").eq(0).text("第9集");
+        $(".episode a").eq(1).text("第10集");
+        $(".episode a").eq(2).text("第11集");
+        $(".episode a").eq(3).text("第12集");
+        $(".episode a").eq(4).text("第13集");
+        $(".episode a").eq(5).text("第14集");
+        $(".episode a").eq(6).text("第15集");
+        $(".episode a").eq(7).text("第16集");
+    }
+    if (c == 2){
+        $(".episode a").eq(0).text("第17集");
+        $(".episode a").eq(1).text("第18集");
+        $(".episode a").eq(2).text("第19集");
+        $(".episode a").eq(3).text("第20集");
+        $(".episode a").eq(4).text("第21集");
+        $(".episode a").eq(5).text("第22集");
+        $(".episode a").eq(6).text("第23集");
+        $(".episode a").eq(7).text("第24集");
+        $(".episode a").eq(2).show();
+        $(".episode a").eq(3).show();
+        $(".episode a").eq(4).show();
+        $(".episode a").eq(5).show();
+        $(".episode a").eq(6).show();
+        $(".episode a").eq(7).show();
+    }
+})
+
 
