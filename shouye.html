@@ -5,29 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="toubu.css">
     <title>Title</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
+        .dzi{
+            margin: 50px auto;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
         }
-        .dwarp{
-            width: 100%;
-            height: 50px;
-            background-color: #F7F8FA;
-            border-bottom: 1px solid #E7E8ED ;
+        .dzi h3{
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+            border-bottom: 2px solid black;
+           position: relative;
+            left:0;
+            top:11px;
         }
-        .dheader{
-            width: 100%;
+        .dmiddle{
+            width: 80%;
+            margin: 20px auto;
         }
-        .navbar{
-            height:100px;
-            background-color: white;
-            border: none;
+        .dml{
+            float: left;
         }
-        .navbar-nav>li>a{
-            padding-top: 30px;
+        .dml2{
+            float: left;
         }
+        .mlz{
+            width: 40%;
+            float: left;
+        }
+        .mlz2{
+            float: right;
+            width: 50%;
+        }
+        .dmr{
+            width: 75%;
+            float: left;
+        }
+        .dmr2{
+            width: 20%;
+            float: right;
+        }
+        .dmr img
     </style>
 </head>
 <body>
@@ -65,11 +87,54 @@
         </div>
     </nav>
 </div>
+<div class="gundong">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="imgd/1422257708.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imgd/1422258064.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imgd/1422258242.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div class="dzi">
+    <h3>关于我们</h3>
+</div>
+<div class="dmiddle">
+    <div class="mlz">
+        <div class="dml">
+            <h4>关于"为合作伙伴创造价值"</h4>
+            <p>北京艾硕科网络科技有限公司认为客户、供应商、公司股东、公司员工等一切和自身有合作关系单位各个人都是自己的合作伙伴,并只有通过努力为合作伙伴创造价值,才能体现自身的价值并获得发展和成功</p>
+        </div>
+        <div class="dml2">
+            <h4>关于"诚实、宽容、创新、服务"</h4>
+            <p>北京艾硕科网络科技有限公司认为诚信是一切合作的基础,宽容是解决问题的前提,创新是发展事业的利器,服务是创造价值的根本</p>
+        </div>
+    </div>
+    <div class="mlz2">
+        <div class="dmr">
 
+        </div>
+        <div class="dmr2">
+
+        </div>
+    </div>
+</div>
 <script src="jquery-1.12.1.min.js"></script>
+<script src="swiper.min.js"></script>
 <script src="bootstrap.min.js"></script>
 <script>
-
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
 </script>
 </body>
 </html>
