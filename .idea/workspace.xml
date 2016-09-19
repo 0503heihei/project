@@ -2,7 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37bd6863-3ea2-46d5-a7d1-8f4390785240" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nav.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1-9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/wen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/葡萄科技官网 - 科技陪伴成长.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nav.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -29,7 +86,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="30">
-                <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -65,8 +122,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="903" />
-    <option name="y" value="117" />
+    <option name="x" value="712" />
+    <option name="y" value="23" />
     <option name="width" value="1146" />
     <option name="height" value="977" />
   </component>
@@ -192,7 +249,7 @@
       <option name="presentableId" value="Default" />
       <updated>1474185764189</updated>
       <workItem from="1474185765747" duration="2254000" />
-      <workItem from="1474249403197" duration="563000" />
+      <workItem from="1474249403197" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="导航">
       <created>1474249514673</created>
@@ -205,7 +262,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2817000" />
+    <option name="totallyTimeSpent" value="3159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,17 +274,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="903" y="117" width="1146" height="977" extended-state="0" />
+    <frame x="712" y="23" width="1146" height="977" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.254529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.254529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -274,7 +331,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
-            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />
