@@ -66,3 +66,22 @@
 .shop_mall:hover {
 	background: url(../img/zshopmallhover.png) no-repeat;
 }
+/*白色的header*/
+.white_header .logo{
+	background: url(../img/logo.png) no-repeat;
+}
+.white_header{
+	border-bottom: solid 1px #fff;
+}
+.white_header ul li a{
+	color: #fff;
+}
+.white_header .login{
+	background: url(../img/login.png) no-repeat;
+}
+.white_header .shop_mall{
+	background: url(../img/shopmall.png) no-repeat;
+}
+.white_header .shop_mall:hover{
+	background: url(../img/shopmallhover.png) no-repeat;
+}

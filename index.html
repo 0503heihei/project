@@ -347,9 +347,6 @@
 			// 左右切换的button
 			nextButton: '.swiper-button-next',
    			prevButton: '.swiper-button-prev',
-   			// slide的切换效果，默认为"slide"（位移切换），可设置为"fade"（淡入）"cube"（方块）"coverflow"（3d流）"flip"（3d翻转）。
-			// effect: 'coverflow'
-			// slide 之间产生缝隙
 			spaceBetween: 0,
 			loop : true,
 		})
@@ -360,15 +357,21 @@
 			$(".choose_details_inner").css("display","none");
 			$(".choose_details_inner").eq(t).css("display","block");
 		})
-		for(var i = 0; i < $(".swiper-slide").length-2; i++){
-			if($(".swiper-slide").eq(i).attr("data-swiper-slide-index")>=1){
-				$(".shop_mall").css("background","url(img/shopmall.png) no-repeat");
-				$(".login").css("background","url(img/login.png) no-repeat");
-				$(".header_nav li a").css("color","#fff");
-				$(".logo").css("background","url(img/logo.png) no-repeat");
-				$(".header_inner").css("border-bottom","solid 1px #fff");
-			}
+		var timer = null;
+		function Dong(){
+			var index = 0;
+			clearInterval(timer);
+			timer = setInterval(function(){
+				index++;
+				if(index == $(".swiper-slide").length-2){
+					index = 0;
+				}				
+				var t = $(".swiper-slide.swiper-slide-active").attr("data-swiper-slide-index");
+				$(".header_inner").addClass("white_header");
+				$(".header_inner").eq(t).removeClass("white_header");
+			},200)
 		}
+		Dong();
 		</script>
 	</body>
 </html>
