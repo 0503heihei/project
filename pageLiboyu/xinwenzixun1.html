@@ -13,9 +13,65 @@
     <link rel="stylesheet" href="css/xinwenzixun1.css">
 <!--    <link rel="shortcut icon" href="https://static.slightech.com/ico/favicon.png">-->
     <link href="favicon.ico" rel="shortcut icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .dwarp{
+            width: 100%;
+            height: 50px;
+            background-color: #F7F8FA;
+            border-bottom: 1px solid #E7E8ED ;
+        }
+        .dheader{
+            width: 100%;
+        }
+        .navbar{
+            /*height:100px;*/
+            background-color: white;
+            border: none;
+        }
+        .navbar-nav>li>a{
+            padding-top: 30px;
+        }
+    </style>
 </head>
 <body>
-<header></header>
+<div class="dwarp">
+</div>
+<div class="dheader">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="img/Adobe%20Photoshop%20CS6.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">网站首页</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">公司简介</a></li>
+                            <li><a href="#">在线反馈</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="xinwenzixun1.html" class="dropdown-toggle" data-toggle="dropdown">新闻资讯<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">公司动态</a></li>
+                            <li><a href="#">业界资讯</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">下载中心</a></li>
+                    <li><a href="#">客户案例</a></li>
+                    <li><a href="#">招贤纳士</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
 <section class="wrap">
     <img src="img/bg.jpg" alt="" class="bg">
     <ul class="nav-left">
@@ -99,15 +155,6 @@
         </ul>
     </section>
     <nav>
-        <!--<ul class="pagination">-->
-            <!--<li><a href="xinwenzixun1.html" >上一页</a></li>-->
-            <!--<li><a href="xinwenzixun1.html" style="background-color: #cccccc;">1</a></li>-->
-            <!--<li><a href="xinwenzixun2.html">2</a></li>-->
-            <!--<li><a href="xinwenzixun2.html">下一页</a></li>-->
-            <!--<li><a href="#">转至第</a></li>-->
-            <!--<li><a href="" style="width: 35px;height: 34px;">1</a></li>-->
-            <!--<li><a href="#">页</a></li>-->
-        <!--</ul>-->
         <ul class="pagination">
             <li><a href="" >上一页</a></li>
             <li class="xinwenzixun1"><a href="" style="background-color: #cccccc;">1</a></li>
@@ -126,6 +173,7 @@
 
 <script src="js/jquery-1.12.1.min.js"></script>
 <script src="js/jquery.pjax.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
     $(function () {
         $(".pagination li").eq(2).bind("click",function () {
