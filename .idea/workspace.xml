@@ -2,75 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5badf6c-8e18-4f9b-bc5e-75c37c7b0ff6" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/erweima.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_00.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_160.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_161.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_162.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_163.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_164.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_165.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_166.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p3_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/p4_21.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/page1-0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/page1-00.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jc-zj.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jc-zj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.2.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/juchang.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhijia.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jc-zj.js" afterPath="$PROJECT_DIR$/js/jc-zj.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juchang.html" afterPath="$PROJECT_DIR$/juchang.html" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,8 +28,8 @@
       <file leaf-file-name="juchang.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/juchang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="258" selection-end-column="6" />
+            <state relative-caret-position="372">
+              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -106,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zhijia.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zhijia.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhijia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
+            <state relative-caret-position="1103">
               <caret line="301" column="6" selection-start-line="301" selection-start-column="6" selection-end-line="301" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -132,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jc-zj.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jc-zj.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jc-zj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            <state relative-caret-position="1802">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -170,10 +104,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/juchang.html" />
-        <option value="$PROJECT_DIR$/js/jc-zj.js" />
         <option value="$PROJECT_DIR$/css/jc-zj.css" />
         <option value="$PROJECT_DIR$/zhijia.html" />
+        <option value="$PROJECT_DIR$/juchang.html" />
+        <option value="$PROJECT_DIR$/js/jc-zj.js" />
       </list>
     </option>
   </component>
@@ -317,7 +251,7 @@
       <updated>1474186623762</updated>
       <workItem from="1474186625936" duration="2163000" />
       <workItem from="1474191433969" duration="8335000" />
-      <workItem from="1474243805562" duration="17139000" />
+      <workItem from="1474243805562" duration="19618000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1474187530830</created>
@@ -326,11 +260,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474187530830</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="嗷嗷嗷">
+      <created>1474278491398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474278491398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27637000" />
+    <option name="totallyTimeSpent" value="30116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="969" extended-state="6" />
@@ -368,7 +309,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="嗷嗷嗷" />
+    <option name="LAST_COMMIT_MESSAGE" value="嗷嗷嗷" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -421,16 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jc-zj.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/jc-zj.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="678">
@@ -439,10 +371,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zhijia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1103">
+          <caret line="301" column="6" selection-start-line="301" selection-start-column="6" selection-end-line="301" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/juchang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="258" selection-end-column="6" />
+        <state relative-caret-position="372">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -452,16 +398,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhijia.html">
+    <entry file="file://$PROJECT_DIR$/js/jc-zj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="301" column="6" selection-start-line="301" selection-start-column="6" selection-end-line="301" selection-end-column="6" />
+        <state relative-caret-position="1802">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
