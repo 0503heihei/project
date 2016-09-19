@@ -188,11 +188,12 @@
             border: 1px solid #F1F1F1;
         }
         .s2_r_t{
-            width: 380px;
+            width: 409px;
             height: 180px;
             padding-top: 10px;
             padding-left: 20px;
             background-color:#F9FAFA;
+            border: 1px solid #F1F1F1;
         }
         .dongtai{
             color: red;
@@ -246,31 +247,57 @@
             top: -32px;
             width: 380px;
             height: 160px;
-            background-image: url(img/joinbg2.jpg);
-            background-repeat:no-repeat;
-            background-size:100% 100%;
             transition: 1s;
         }
         .yc{
-            width: 380px;
+            width: 430px;
             height: 160px;
             position: absolute;
-            top: 0;
-            left: 0;
-            background-color:rgba(0,0,0,0);
+            top: 161px;
+            background-color:rgba(0,0,0,0.2);
         }
         .yc img{
             position: absolute;
             top: 59px;
-            left: 164px;
+            left: 190px;
             display: none;
         }
-        .s2_r_b:hover .yc{
+        .yc:hover{
             background-color:rgba(0,0,0,0.4);
         }
-        .s2_r_b:hover .yc img{
+        .yc:hover img{
             display: block;
         }
+        
+        .section3{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2222;
+            background-color: rgba(0,0,0,0.5);
+            position: fixed;
+            display: none;
+        }
+        video{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -180px;
+            margin-left: -320px;
+            width: 640px;
+            height: 360px;
+            border: solid #FFF 5px;
+            z-index: 1002;
+        }
+        .close{
+            position: absolute;
+            top: 233px;
+            left: 66.5%;
+            z-index: 1002;
+        }
+        
 
 
         footer{
@@ -329,10 +356,10 @@
         </div>
         <div class="nav_right">
             <a href="">首页</a>
-            <a href="" >关于我们</a>
-            <a href="">新闻中心</a>
-            <a href="">游戏中心</a>
-            <a href="" style="color: white">加入我们</a>
+            <a href="aboutus.html" >关于我们</a>
+            <a href="3.php">新闻中心</a>
+            <a href="4.php">游戏中心</a>
+            <a href="joinus.html" style="color: white">加入我们</a>
             <a href="" class="lianxi">联系我们</a>
         </div>
 
@@ -370,43 +397,43 @@
                 </span>
                 <a href="" class="more">更多>></a>
                 <div class="zw1">
-                    <a href="">3D动作</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/23">3D动作</a>
                     <span>2016-03-30</span>
                 </div>
                 <div class="zw2">
-                    <a href="">游戏特效</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/24">游戏特效</a>
                     <span>2016-05-25</span>
                 </div>
                 <div class="zw3">
-                    <a href="">执行策划-版本执行</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/25">执行策划-版本执行</a>
                     <span>2016-06-13</span>
                 </div>
                 <div class="zw4">
-                    <a href="">2D角色原画</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/9">2D角色原画</a>
                     <span>2016-01-12</span>
                 </div>
                 <div class="zw5">
-                    <a href="">服务端C++程序（加急）</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/7">服务端C++程序（加急）</a>
                     <span>2016-01-12</span>
                 </div>
                 <div class="zw6">
-                    <a href="">游戏制作人</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/21">游戏制作人</a>
                     <span>2016-01-19</span>
                 </div>
                 <div class="zw7">
-                    <a href="">2D场景原画</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/20">2D场景原画</a>
                     <span>2016-01-19</span>
                 </div>
                 <div class="zw8">
-                    <a href="">游戏主策划</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/22">游戏主策划</a>
                     <span>2016-01-19</span>
                 </div>
                 <div class="zw9">
-                    <a href="">Unity3D C#程序</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/5">Unity3D C#程序</a>
                     <span>2015-11-19</span>
                 </div>
                 <div class="zw10">
-                    <a href="">系统策划</a>
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/4">系统策划</a>
                     <span>2016-01-12</span>
                 </div>
             </div>
@@ -415,30 +442,42 @@
                     <span class="dongtai"><img src="img/new.png" alt="">招聘动态</span>
                     <a href="" class="more2">更多>></a>
                     <div class="dt1">
-                        <a href="">3D动作</a>
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/23">3D动作</a>
                         <span>2016-03-30</span>
                     </div>
                     <div class="dt2">
-                        <a href="">游戏特效</a>
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/24">游戏特效</a>
                         <span>2016-05-25</span>
                     </div>
                     <div class="dt3">
-                        <a href="">执行策划-版本执行</a>
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/25">执行策划-版本执行</a>
                         <span>2016-06-13</span>
                     </div>
                     <div class="dt4">
-                        <a href="">2D角色原画</a>
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/9">2D角色原画</a>
                         <span>2016-01-12</span>
                     </div>
                 </div>
-                <div class="s2_r_b">
-                    <div class="yc">
-                        <a href=""><img src="img/bofang.png" alt=""></a>
-                    </div>
-                </div>
+                <a href="####" class="s2_r_b">
+                        <img src="img/joinbg2.jpg" alt="">
+                    <a href="####" class="yc">
+                        <img src="img/bofang.png" alt="">
+                    </a>
+                </a>
             </div>
         </div>
 
+    </div>
+
+    <div class="section3">
+        <video width="100%" controls="controls" preload="auto">
+            <source src="http://www.ghqygame.com/Public/ghpc/images/game_video.webm" type="video/webm">
+            <source src="http://www.ghqygame.com/Public/ghpc/images/game_video.webm" type="video/mp4">
+            <p>你的浏览器不支持H5,请更换浏览器</p>
+        </video>
+        <div class="close">
+            <img src="img/close.png" alt="">
+        </div>
     </div>
 </section>
 <footer>
@@ -460,5 +499,18 @@
     </div>
 
 </footer>
+<script src="js/jquery-2.1.3.js"></script>
+<script>
+    $(".yc").on("click",function(){
+        $(".section3").css({
+            display:"block"
+        })
+        $(".close").on("click",function(){
+            $(".section3").css({
+                display:"none"
+            })
+        })
+    })
+</script>
 </body>
 </html>
