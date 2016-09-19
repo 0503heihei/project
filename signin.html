@@ -5,6 +5,7 @@
 		<title>账户管理中心 - 登录</title>
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="Font-Awesome-3.2.1/css/font-awesome.min.css" />
 		<title></title>
 		<style type="text/css">
 			body{				
@@ -12,20 +13,39 @@
 			}
 			.signinwrap{
 				width: 100%;
-				height: 100%;
+				height: 100%;				
 			}
 			.layout{
 				width: 100%;
 				position: relative;
 				overflow: hidden;
+				margin-top: 30px;
 			}
 			.login-content{
 				text-align: center;
 				width: 860px;
 				min-height: 620px;
+				margin: 0 auto;			
+				background-color: #fff;	
+				position: relative;			
+			}
+			.ercode{
+				background: url(img/icon-c-ma.png) no-repeat;
+				width: 80px;
+				height: 76px;
+				position: absolute;
+				top: 6px;
+				right: 6px;
+			}
+			.pt-logo-area{
+				padding-top: 60px;
+				margin-bottom: 30px;
+				height: 100px;
+			}
+			.pt-login-frame{
+				width: 320px;
 				margin: 0 auto;
-				border: 1px solid red;
-				
+				position: relative;
 			}
 		</style>
 	</head>
@@ -33,7 +53,35 @@
 		<div class="signinwrap">
 			<div class="layout">
 				<div class="login-content">
-					
+					<a href="javascript:void(0)" class="ercode"></a>
+					<div class="pt-logo-area">
+						<a href="index.html">
+							<img src="img/logo_putao_large.png"/>
+						</a>
+					</div>
+					<div class="pt-login-frame">
+						<form action="" method="post">
+							<div><input type="text" name="user" id="user" value="" placeholder="输入您注册的手机号码/邮箱" /></div>
+							<div><input type="password" name="pass" id="pass" value="" placeholder="输入账号密码"/></div>
+							<div class="errorTips">手机号或者密码格式不对!</div>
+							<input type="submit" name="" id="" value="登录" />
+							<div class="other_login_type">
+								<div class="oth_type_tit">
+									<p>其他登录方式</p>
+								</div>
+								<div class="oth_type_links">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+								</div>
+							</div>
+							<div class="logintxts">
+								<a href="">注册新账户</a>
+								<span class="mary-color"></span>
+								<a href="">忘记密码?</a>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="ercode_area"></div>
