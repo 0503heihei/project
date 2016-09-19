@@ -115,6 +115,7 @@ footer {
 	height: 100px;
 	bottom: 315px;
 	margin-left: 650px;
+	z-index: 1;
 }
 .footer_functions a{
 	width: 100%;
