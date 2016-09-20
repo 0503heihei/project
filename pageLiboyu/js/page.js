@@ -49,7 +49,7 @@ $(function () {
             })
         })
     });
-    $(".dropdown>a").each(function () {
+    $("#dropdown>a").each(function () {
         $(this).bind("click",function () {
             var page=$(this).attr('id');
             $.pjax({
@@ -74,3 +74,6 @@ $(function () {
     });
 
 });
+function signout() {
+    window.location.assign("shouye_api.php");
+}

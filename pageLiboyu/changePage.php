@@ -8,6 +8,6 @@
 
 $page=$_GET['page'];
 if($page) {
-    $path = $page .'.html';
+    $path = $page .'.php';
     include($path);
 }
