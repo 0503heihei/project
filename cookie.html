@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // cookie 为多个键值对的形式xx=xx;xx=xx;不同内容以;分割
+    // 多条内容可以分开写,互相不影响
+    //    document.cookie = "name=wenwen;";
+    //    document.cookie = "hobby=su;";
+    // 过期时间,格式为GMT或者UTC
+    /*
+     var date = new Date();
+     // 两天后的时间戳
+     date.setTime(date.getTime() + 2 * 24 * 3600 * 1000);
+     document.cookie = "age=10;expires=" + date.toUTCString();
+
+     //    console.log(date.toUTCString());
+     // 删除一个cookie,方法就是改变其过期时间,过期的cookie就会自动删除
+     var date = new Date();
+     date.setTime(date.getTime() - 200000);
+     document.cookie = "name=wenwne;expires=" + date.toUTCString();
+     //    console.log(document.cookie);
+     // 获取所有的cookie
+     var cookies = document.cookie;
+     // 根据;分割成数组
+     var cookieArr = cookies.split(";");
+     //    console.log(cookieArr);
+     for(var i = 0;i < cookieArr.length;i++){
+     var arr = cookieArr[i].split("=");
+     console.log(arr[0] + ":" + arr[1]);
+     }
+     */
+    // 添加一个cookie
+    function addcookie(name,value,expires) {
+        var date = new Date();
+        date.setTime(date.getTime() + expires * 24 * 3600 * 1000);
+        document.cookie = name + "=" + value + ";expires=" + date;
+    }
+
+    //根据cookie的名字获取值
+    function getCookie(name) {
+        var cookie = document.cookie;
+        var cookiesArr = cookie.split(";");
+        for(var i = 0; i < cookiesArr.length;i++){
+            var cookies = cookiesArr[i].split("=");
+            if(cookies[0].trim() == name){
+                return cookies[1].trim();
+            }
+        }
+    }
+    console.log(getCookie("hobby"));
+</script>
+</body>
+</html>
