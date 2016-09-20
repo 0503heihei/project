@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+    <list default="true" id="73c42643-a948-45ee-9791-b351949c0641" name="默认" comment="Merge branch 'Ori-wzw' of https://github.com/0503heihei/project into Ori-wzw&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/caozuolan.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guangheapi.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+<<<<<<< HEAD
     <list default="true" id="06fa9c6c-db8e-4e52-bdfd-935085e9a5a0" name="默认" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 =======
@@ -39,6 +45,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,12 +82,17 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
 <<<<<<< HEAD
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
+<<<<<<< HEAD
               <first_editor relative-caret-position="52">
                 <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
 =======
               <first_editor relative-caret-position="30">
                 <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,6 +100,9 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="3.php" pinned="false" current-in-tab="false">
+=======
 <<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
@@ -104,18 +119,24 @@
                 <element signature="e#4857#4863#0" expanded="true" />
 =======
       <file leaf-file-name="3.php" pinned="false" current-in-tab="true">
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
         <entry file="file://$PROJECT_DIR$/3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
+            <state relative-caret-position="7005">
+              <caret line="467" column="21" selection-start-line="449" selection-start-column="12" selection-end-line="467" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guangheapi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guangheapi.php">
+      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aboutus.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="825">
+              <caret line="55" column="0" selection-start-line="13" selection-start-column="7" selection-end-line="55" selection-end-column="0" />
+              <folding />
+=======
             <state relative-caret-position="240">
               <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
@@ -124,10 +145,18 @@
                 <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
               </folding>
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="joinus.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/joinus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="handf.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/handf.css">
@@ -141,6 +170,7 @@
             <state relative-caret-position="45">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
               <folding />
             </state>
           </provider>
@@ -174,7 +204,14 @@
 =======
         <option value="$PROJECT_DIR$/guangheapi.php" />
         <option value="$PROJECT_DIR$/3.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/4.php" />
+        <option value="$PROJECT_DIR$/caozuolan.php" />
+        <option value="$PROJECT_DIR$/dengluapi.php" />
+        <option value="$PROJECT_DIR$/denglu.php" />
+=======
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
       </list>
     </option>
   </component>
@@ -194,8 +231,8 @@
 =======
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
-    <option name="y" value="132" />
+    <option name="x" value="115" />
+    <option name="y" value="73" />
     <option name="width" value="1799" />
     <option name="height" value="797" />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
@@ -219,6 +256,9 @@
     <ConfirmationsSetting value="0" id="添加" />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
     <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -250,6 +290,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,12 +415,40 @@
       <workItem from="1474272037952" duration="811000" />
       <workItem from="1474273053781" duration="89000" />
       <workItem from="1474273164527" duration="491000" />
+<<<<<<< HEAD
+      <workItem from="1474275533359" duration="269000" />
+      <workItem from="1474276887703" duration="1354000" />
+      <workItem from="1474333775507" duration="527000" />
+      <workItem from="1474335504335" duration="2329000" />
+      <workItem from="1474337938950" duration="1769000" />
+      <workItem from="1474340366188" duration="89000" />
+      <workItem from="1474355412468" duration="130000" />
+    </task>
+    <task id="LOCAL-00001" summary="9.19 5dian">
+      <created>1474276804251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1474276804251</updated>
+=======
       <workItem from="1474275533359" duration="163000" />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
     </task>
+    <task id="LOCAL-00002" summary="Merge branch 'Ori-wzw' of https://github.com/0503heihei/project into Ori-wzw&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;">
+      <created>1474277638793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474277638793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="25101000" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="5482000" />
   </component>
@@ -386,12 +468,13 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
 =======
     <option name="totallyTimeSpent" value="18797000" />
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
   </component>
   <component name="ToolWindowManager">
-    <frame x="121" y="132" width="1799" height="797" extended-state="0" />
+    <frame x="115" y="73" width="1799" height="797" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107569724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114399545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.062037565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -444,11 +527,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="9.19 5dian" />
+    <MESSAGE value="Merge branch 'Ori-wzw' of https://github.com/0503heihei/project into Ori-wzw&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'Ori-wzw' of https://github.com/0503heihei/project into Ori-wzw&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -468,11 +558,11 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
     <entry file="file://$PROJECT_DIR$/4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,6 +604,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
           <folding>
             <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
             <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
@@ -552,19 +644,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7740">
           <caret line="516" column="14" selection-start-line="516" selection-start-column="14" selection-end-line="516" selection-end-column="14" />
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guangheapi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,8 +653,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+<<<<<<< HEAD
+=======
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
           <folding />
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
         </state>
       </provider>
     </entry>
@@ -614,12 +698,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
+<<<<<<< HEAD
+          <folding />
+=======
           <folding>
             <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
             <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
             <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
           </folding>
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
         </state>
       </provider>
     </entry>
@@ -634,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,11 +748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,11 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,11 +823,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,11 +857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,11 +891,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,11 +925,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,11 +959,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,39 +1017,78 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7005">
+          <caret line="467" column="21" selection-start-line="449" selection-start-column="12" selection-end-line="467" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="2790">
+          <caret line="186" column="22" selection-start-line="186" selection-start-column="22" selection-end-line="186" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caozuolan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="0" selection-start-line="13" selection-start-column="7" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guangheapi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
-            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.php">
+    <entry file="file://$PROJECT_DIR$/dengluapi.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/denglu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joinus.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+=======
         <state relative-caret-position="323">
           <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
 >>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
           <folding />
         </state>
       </provider>

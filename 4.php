@@ -5,6 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/handf.css"/>
     <title>Document</title>
     <style>
         *{
@@ -154,6 +156,27 @@
     </style>
 </head>
 <body>
+
+<nav>
+    <div class="nav_con">
+        <div class="logo">
+            <img src="img/logo.png"/>
+        </div>
+        <ul class="nav_item">
+            <li><a href="">首页</a></li>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">新闻中心</a></li>
+            <li><a href="">游戏中心</a></li>
+            <li><a href="">加入我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li id="nav_btn"><span class="icon-reorder"></span></li>
+        </ul>
+        <div id="bar">
+            <img src="img/headbar.png" alt="" />
+        </div>
+        <i class="cl"></i>
+    </div>
+</nav>
 <!--        <div class="nav"></div>-->
         <div class="video-banner">
             <video src="http://www.ghqygame.com/Public/ghpc/images/game_video.webm"   autoplay="autoplay" loop="loop" class="video"> <p>您的浏览器太low了</p></video>
