@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 3500px;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            border: 1px solid black;
+            position: fixed;
+            margin: 0 auto;
+            background-color: black;
+            z-index: 999;
+        }
+        .header{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        a{
+            text-decoration:none;
+        }
+        .nav_left{
+            float: left;
+        }
+        .nav_right{
+            position: relative;
+            float: right;
+            line-height: 69px;
+        }
+        .lianxi{
+            margin-right: 70px;
+        }
+        .nav_right a{
+            font-size: 14px;
+            color: #B3B3AE;
+            margin-left: 40px;
+        }
+        .nav_right a:hover{
+            color: white;
+        }
+        .nav_bottom{
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            top: 67px;
+            position: fixed;
+        }
+
+        section{
+            width: 100%;
+            height: 1800px;
+            background-color: white;
+            position: relative;
+            top: 72px;
+        }
+        .section1{
+            width: 100%;
+            height: 288px;
+            background-image: url(img/bg1.jpg);
+            background-position: center;
+        }
+        .section1 p{
+            font-size: 50px;
+            color: white;
+            line-height: 238px;
+            text-align: center;
+        }
+        .section2{
+            width: 100%;
+            height: 650px;
+            background-color: black;
+            background-image: url(img/bg2.jpg);
+            background-position: 50% 50%;
+        }
+        .section2 h2{
+            color: white;
+            font-size: 32px;
+            padding: 90px 0px 310px;
+            text-align: center;
+        }
+        .section2 p{
+            color: white;
+            width: 650px;
+            margin: 0px auto;
+            font-size: 14px;
+            color: #f8f8f8;
+            line-height: 35px;
+        }
+        .section3{
+            width: 100%;
+            height: 1743px;
+            background-image: url(img/bg3.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+        }
+        .section4{
+            width: 100%;
+            height: 730px;
+            background-color: #EEECED;
+            background-image: url(img/bg4.jpg);
+            background-repeat:no-repeat;
+            background-position: center bottom;
+        }
+        .section4_left{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .section4 h3{
+            font-size: 42px;
+            color: #3e3e3e;
+            padding-top: 85px;
+        }
+        .red{
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: red;
+            text-align: center;
+            color: white;
+            line-height: 45px;
+            display:inline-block;
+        }
+        .p1{
+            color: #787878;
+            margin-left: 2px;
+            display:inline-block;
+        }
+        .hr1{
+            width: 0;
+            height: 20px;
+            border:1px dashed red;
+            margin-left: 22px;
+        }
+
+        .section4_left2{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .blue{
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: blue;
+            text-align: center;
+            color: white;
+            line-height: 45px;
+        }
+        .hr2{
+            width: 0;
+            height: 20px;
+            border:1px dashed red;
+            margin-left: 22px;
+        }
+        .p2{
+            width: 600px;
+            color: #787878;
+            font-size: 16px;
+            line-height: 40px;
+            margin-left:53px;
+            margin-top: -53px;
+        }
+        footer{
+            position: relative;
+            top: 1682px;
+            width: 100%;
+            height: 220px;
+            background-color: black;
+        }
+        .footers{
+            width: 1200px;
+            height: 220px;
+            margin: 0 auto;
+        }
+        .footer_left{
+            width: 150px;
+            line-height: 220px;
+        }
+        .footer_right{
+            width: 800px;
+            height: 220px;
+            margin: 0 auto;
+            position: relative;
+            top: -220px;
+            left: 20px;
+        }
+        .footer_right a {
+            position: relative;
+            top: 45px;
+            left: 0;
+            color: #777777;
+            font-size: 13px;
+        }
+        .footer_right span{
+            position: relative;
+            top: 45px;
+            color: #777777;
+        }
+        .footer_right a:hover{
+            color: red;
+        }
+        .p3{
+            position: relative;
+            top: 60px;
+            color: #777777;
+            line-height: 30px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div class="nav_left">
+                <a href=""><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="nav_right">
+                <a href="">首页</a>
+                <a href="aboutus.html" style="color: white">关于我们</a>
+                <a href="3.php">新闻中心</a>
+                <a href="4.php">游戏中心</a>
+                <a href="joinus.html">加入我们</a>
+                <a href="" class="lianxi">联系我们</a>
+            </div>
+
+        </div>
+        <div class="nav_bottom">
+            <img src="img/nav.png" alt="">
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="section1">
+            <p>关于我们</p>
+        </div>
+        <div class="section2">
+            <h2>北京光合起源网络科技有限公司</h2>
+            <p>北京光合起源网络科技有限公司致力于研发新一代的3D即时战斗手游。核心团队经历过多款MMOPRG端游洗礼，具备国内顶尖的研发实力。“热爱游戏，打造精品，创造快乐”是我们共同的理念。 《有杀气童话》是我们为玩家献上的第一款游戏，也是光合起源团队集体努力的结晶。但这仅是一个开端，未来的路在我们的脚下，需要我们继续团结努力一步一步踏实前行。我们身处一个飞速发展的行业，稍一松懈，我们就会成为失败的教本。长远有信仰、执念于精品、眼前有目标，踏实前行，创造更棒的游戏。</p>
+        </div>
+        <div class="section3">
+            
+        </div>
+        <div class="section4">
+            <div class="section4_left">
+                <h3>发展历程</h3>
+                <div class="red">2014</div>
+                <p class="p1">2014年6月 光合起源公司成立</p>
+                <hr class="hr1">
+            </div>
+            <div class="section4_left2">
+                <div class="blue">2015</div>
+                <hr class="hr2">
+                <p class="p2">2015年2月 《有杀气童话》安卓首测；<br>
+                    2015年7月 《有杀气童话》中国大陆地区正式上线运营，凭借着优异的产品品质，<br>占据App Store付费榜榜首长达一个多月，在畅销榜上挤进Top5，获得35000+五星<br>好评；<br>
+                    2015年7月 《有杀气童话》韩国区正式上线运营，Google Play下载排行榜首长达一<br>个月之久，2015年进入韩国畅销排名Top30为数不多的几款中国游戏之一；<br>
+                    2015年11月《有杀气童话》港澳、新马泰区域运营，双榜登顶；<br>
+                    2015年12月《有杀气童话》台湾区上线运营，迅速成为<br>台湾双平台霸榜神器，成为台湾国民级精品手游；<br>
+                    2016年4月《有杀气童话》越南区上线运营，迅速登顶；<br>
+                    精彩即将呈现......</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footers">
+            <div class="footer_left">
+                <a href=""><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="footer_right">
+                <a href="">光合起源</a><span>|</span>
+                <a href="aboutus.html">关于我们</a><span>|</span>
+                <a href="">新闻中心</a><span>|</span>
+                <a href="">游戏中心</a><span>|</span>
+                <a href="joinus.html">加入我们</a><span>|</span>
+                <a href="">联系我们</a>
+                <p class="p3">京ICP备15038749号-1  Copyright © 2014-2015 北京光合起源网络科技有限公司 All Right Reserved<br>
+                    联系地址：北京市海淀区花园路甲13号院庚坊国际大厦3层307 电话：010-82257119   技术支持：星贺互联<br>
+                    健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 980px;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            border: 1px solid black;
+            position: fixed;
+            margin: 0 auto;
+            background-color: black;
+            z-index: 999;
+        }
+        .header{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        a{
+            text-decoration:none;
+        }
+        .nav_left{
+            float: left;
+        }
+        .nav_right{
+            position: relative;
+            float: right;
+            line-height: 69px;
+        }
+        .lianxi{
+            margin-right: 70px;
+        }
+        .nav_right a{
+            font-size: 14px;
+            color: #B3B3AE;
+            margin-left: 40px;
+        }
+        .nav_right a:hover{
+            color: white;
+        }
+        .nav_bottom{
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            top: 67px;
+            position: fixed;
+        }
+
+        section{
+            width: 100%;
+            height: 1000px;
+            position: relative;
+            top: 72px;
+        }
+        .section1{
+            width: 100%;
+            height: 459px;
+            background-image: url(img/joinbg1.png);
+            background-position: center;
+        }
+        .section2{
+            position: relative;
+            top: 30px;
+            width: 100%;
+            height: 320px;
+            margin: 0 auto;
+        }
+        .zhaopin{
+            width: 1200px;
+            height: 320px;
+            margin: 0 auto;
+        }
+        .section2_left{
+            width: 720px;
+            height: 260px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color:#F9FAFA;
+            float: left;
+            border: 1px solid #F1F1F1;
+        }
+        .select1{
+            background: #fdfdfd;
+            border: 1px solid #ddd;
+            color: #333;
+            width: 185px;
+            height: 22px;
+            padding: 2px 0 2px 5px;
+            line-height: 18px;
+        }
+        .input1{
+            padding: 0px 45px 0px 5px;
+            height: 20px;
+            width: 140px;
+        }
+        .input2{
+            border: 1px solid #929292;
+            width: 43px;
+            height: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            color: #fff;
+            line-height: 16px;
+            margin-left: -44px;
+            vertical-align: 1px;
+            background: #767676;
+            z-index: 10;
+        }
+        .span2{
+            position: relative;
+            top: 15px;
+            left: 0;
+            color: red;
+        }
+        .more{
+            position: relative;
+            top: 15px;
+            right: -520px;
+        }
+        .zw1,.zw3,.zw5,.zw7,.zw9{
+            position: relative;
+            top: 35px;
+            left: 0;
+        }
+        .zw1 a:hover,.zw2 a:hover,.zw3 a:hover,.zw4 a:hover,.zw5 a:hover
+        ,.zw6 a:hover,.zw7 a:hover,.zw8 a:hover,.zw9 a:hover,.zw10 a:hover{
+            color: red;
+        }
+        .zw1 span{
+            position: relative;
+            left: 170px;
+        }
+        .zw2,.zw4,.zw6,.zw8,.zw10{
+            position: relative;
+            top: 18px;
+            left:400px;
+        }
+        .zw2 span{
+            position: relative;
+            left: 120px;
+        }
+        .zw3 span{
+            position: relative;
+            left: 89px;
+        }
+        .zw4 span{
+            position: relative;
+            left: 99px;
+        }
+        .zw5 span{
+            position: relative;
+            left: 46px;
+        }
+        .zw6 span{
+            position: relative;
+            left: 103px;
+        }
+        .zw7 span{
+            position: relative;
+            left: 137px;
+        }
+        .zw8 span{
+            position: relative;
+            left: 103px;
+        }
+        .zw9 span{
+            position: relative;
+            left: 103px;
+        }
+        .zw10 span{
+            position: relative;
+            left: 119px;
+        }
+        .section2_right{
+            width: 380px;
+            height: 320px;
+            float: right;
+            border: 1px solid #F1F1F1;
+        }
+        .s2_r_t{
+            width: 409px;
+            height: 180px;
+            padding-top: 10px;
+            padding-left: 20px;
+            background-color:#F9FAFA;
+            border: 1px solid #F1F1F1;
+        }
+        .dongtai{
+            color: red;
+        }
+        .more2{
+            position: relative;
+            top: 1px;
+            right: -175px;
+        }
+        .dt1{
+            position: relative;
+            top: 25px;
+            left:31px;
+        }
+        .dt1 a:hover,.dt2 a:hover,.dt3 a:hover,.dt4 a:hover{
+            color: red;
+        }
+        .dt2{
+            position: relative;
+            top: 30px;
+            left:31px;
+        }
+        .dt3{
+            position: relative;
+            top: 35px;
+            left:31px;
+        }
+        .dt4{
+            position: relative;
+            top: 40px;
+            left:31px;
+        }
+        .dt1 span{
+            position: relative;
+            left: 140px;
+        }
+        .dt2 span{
+            position: relative;
+            left: 129px;
+        }
+        .dt3 span{
+            position: relative;
+            left: 60px;
+        }
+        .dt4 span{
+            position: relative;
+            left: 108px;
+        }
+        .s2_r_b{
+            position: relative;
+            top: -32px;
+            width: 380px;
+            height: 160px;
+            transition: 1s;
+        }
+        .yc{
+            width: 430px;
+            height: 160px;
+            position: absolute;
+            top: 161px;
+            background-color:rgba(0,0,0,0.2);
+        }
+        .yc img{
+            position: absolute;
+            top: 59px;
+            left: 190px;
+            display: none;
+        }
+        .yc:hover{
+            background-color:rgba(0,0,0,0.4);
+        }
+        .yc:hover img{
+            display: block;
+        }
+        
+        .section3{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2222;
+            background-color: rgba(0,0,0,0.5);
+            position: fixed;
+            display: none;
+        }
+        video{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -180px;
+            margin-left: -320px;
+            width: 640px;
+            height: 360px;
+            border: solid #FFF 5px;
+            z-index: 1002;
+        }
+        .close{
+            position: absolute;
+            top: 233px;
+            left: 66.5%;
+            z-index: 1002;
+        }
+        
+
+
+        footer{
+            position: relative;
+            top: -80px;
+            width: 100%;
+            height: 220px;
+            background-color: black;
+        }
+        .footers{
+            width: 1200px;
+            height: 220px;
+            margin: 0 auto;
+        }
+        .footer_left{
+            width: 150px;
+            line-height: 220px;
+        }
+        .footer_right{
+            width: 800px;
+            height: 220px;
+            margin: 0 auto;
+            position: relative;
+            top: -220px;
+            left: 20px;
+        }
+        .footer_right a {
+            position: relative;
+            top: 45px;
+            left: 0;
+            color: #777777;
+            font-size: 13px;
+        }
+        .footer_right span{
+            position: relative;
+            top: 45px;
+            color: #777777;
+        }
+        .footer_right a:hover{
+            color: red;
+        }
+        .p3{
+            position: relative;
+            top: 60px;
+            color: #777777;
+            line-height: 30px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div class="header">
+        <div class="nav_left">
+            <a href=""><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="nav_right">
+            <a href="">首页</a>
+            <a href="aboutus.html" >关于我们</a>
+            <a href="3.php">新闻中心</a>
+            <a href="4.php">游戏中心</a>
+            <a href="joinus.html" style="color: white">加入我们</a>
+            <a href="" class="lianxi">联系我们</a>
+        </div>
+
+    </div>
+    <div class="nav_bottom">
+        <img src="img/nav.png" alt="">
+    </div>
+</nav>
+<section>
+    <div class="section1">
+
+    </div>
+    <div class="section2">
+        <div class="zhaopin">
+            <div class="section2_left">
+                <span class="span1">
+                    <img src="img/fangdajing.png" alt="">职位搜索</span>
+                <form action="http://www.ghqygame.com/Index/hr_list?">
+                    <select name="" class="select1">
+                        <option value="">-工作地点-</option>
+                        <option value="">北京</option>
+                    </select>
+                    <select name="" class="select1">
+                        <option value="">其他类</option>
+                        <option value="">美术类</option>
+                        <option value="">策划类</option>
+                        <option value="">测试类</option>
+                        <option value="">程序类</option>
+                    </select>
+                    <input type="text" placeholder="请输入关键字" class="select1 input1">
+                    <input type="submit" value="搜索" class="input2">
+                </form>
+                <span class="span2">
+                    <img src="img/fire.png" alt="">热招职位
+                </span>
+                <a href="" class="more">更多>></a>
+                <div class="zw1">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/23">3D动作</a>
+                    <span>2016-03-30</span>
+                </div>
+                <div class="zw2">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/24">游戏特效</a>
+                    <span>2016-05-25</span>
+                </div>
+                <div class="zw3">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/25">执行策划-版本执行</a>
+                    <span>2016-06-13</span>
+                </div>
+                <div class="zw4">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/9">2D角色原画</a>
+                    <span>2016-01-12</span>
+                </div>
+                <div class="zw5">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/7">服务端C++程序（加急）</a>
+                    <span>2016-01-12</span>
+                </div>
+                <div class="zw6">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/21">游戏制作人</a>
+                    <span>2016-01-19</span>
+                </div>
+                <div class="zw7">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/20">2D场景原画</a>
+                    <span>2016-01-19</span>
+                </div>
+                <div class="zw8">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/22">游戏主策划</a>
+                    <span>2016-01-19</span>
+                </div>
+                <div class="zw9">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/5">Unity3D C#程序</a>
+                    <span>2015-11-19</span>
+                </div>
+                <div class="zw10">
+                    <a href="http://www.ghqygame.com/Index/hr_show/id/4">系统策划</a>
+                    <span>2016-01-12</span>
+                </div>
+            </div>
+            <div class="section2_right">
+                <div class="s2_r_t">
+                    <span class="dongtai"><img src="img/new.png" alt="">招聘动态</span>
+                    <a href="" class="more2">更多>></a>
+                    <div class="dt1">
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/23">3D动作</a>
+                        <span>2016-03-30</span>
+                    </div>
+                    <div class="dt2">
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/24">游戏特效</a>
+                        <span>2016-05-25</span>
+                    </div>
+                    <div class="dt3">
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/25">执行策划-版本执行</a>
+                        <span>2016-06-13</span>
+                    </div>
+                    <div class="dt4">
+                        <a href="http://www.ghqygame.com/Index/hr_show/id/9">2D角色原画</a>
+                        <span>2016-01-12</span>
+                    </div>
+                </div>
+                <a href="####" class="s2_r_b">
+                        <img src="img/joinbg2.jpg" alt="">
+                    <a href="####" class="yc">
+                        <img src="img/bofang.png" alt="">
+                    </a>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section3">
+        <video width="100%" controls="controls" preload="auto">
+            <source src="http://www.ghqygame.com/Public/ghpc/images/game_video.webm" type="video/webm">
+            <source src="http://www.ghqygame.com/Public/ghpc/images/game_video.webm" type="video/mp4">
+            <p>你的浏览器不支持H5,请更换浏览器</p>
+        </video>
+        <div class="close">
+            <img src="img/close.png" alt="">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footers">
+        <div class="footer_left">
+            <a href=""><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="footer_right">
+            <a href="">光合起源</a><span>|</span>
+            <a href="aboutus.html">关于我们</a><span>|</span>
+            <a href="">新闻中心</a><span>|</span>
+            <a href="">游戏中心</a><span>|</span>
+            <a href="joinus.html">加入我们</a><span>|</span>
+            <a href="">联系我们</a>
+            <p class="p3">京ICP备15038749号-1  Copyright © 2014-2015 北京光合起源网络科技有限公司 All Right Reserved<br>
+                联系地址：北京市海淀区花园路甲13号院庚坊国际大厦3层307 电话：010-82257119   技术支持：星贺互联<br>
+                健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+        </div>
+    </div>
+
+</footer>
+<script src="js/jquery-2.1.3.js"></script>
+<script>
+    $(".yc").on("click",function(){
+        $(".section3").css({
+            display:"block"
+        })
+        $(".close").on("click",function(){
+            $(".section3").css({
+                display:"none"
+            })
+        })
+    })
+</script>
+</body>
+</html>
