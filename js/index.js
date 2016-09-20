@@ -44,8 +44,8 @@ $(document).ready(function(){
 	$(".li2").on("mouseleave",function(){
 		$(".bg2").slideUp();
 	})
-	
-	
+
+
 	
 	
 	
@@ -60,27 +60,27 @@ $(document).ready(function(){
 	
 	
 	
-//	$(".li4").on("mouseenter",function(){
-//		$(".bg4").animate().stop();
-//		$(".bg4").slideDown();
-//	});
-//	$(".li4").on("mouseleave",function(){
-//		$(".bg4").slideUp();
-//	})
-//	$(".li5").on("mouseenter",function(){
-//		$(".bg5").animate().stop();
-//		$(".bg5").slideDown();
-//	});
-//	$(".li5").on("mouseleave",function(){
-//		$(".bg5").slideUp();
-//	})
-//	$(".li6").on("mouseenter",function(){
-//		$(".bg6").animate().stop();
-//		$(".bg6").slideDown();
-//	});
-//	$(".li6").on("mouseleave",function(){
-//		$(".bg6").slideUp();
-//	})
+	$(".li4").on("mouseenter",function(){
+		$(".bg4").animate().stop();
+		$(".bg4").slideDown();
+	});
+	$(".li4").on("mouseleave",function(){
+		$(".bg4").slideUp();
+	})
+	$(".li5").on("mouseenter",function(){
+		$(".bg5").animate().stop();
+		$(".bg5").slideDown();
+	});
+	$(".li5").on("mouseleave",function(){
+		$(".bg5").slideUp();
+	})
+	$(".li6").on("mouseenter",function(){
+		$(".bg6").animate().stop();
+		$(".bg6").slideDown();
+	});
+	$(".li6").on("mouseleave",function(){
+		$(".bg6").slideUp();
+	})
 	$(".li7").on("mouseenter",function(){
 		$(".li7").css("color","red");
 	});
@@ -116,6 +116,11 @@ $(document).ready(function(){
 		$(".baozhang").html("");
 		$(".baozhang").css("background","")
 	});
+
+	$(".baozhang").on("click",function(){
+		window.open("safeguard.html")
+	})
+
 	$(".liucheng").hover(function() {
 		$(".liucheng").css({
 			"color":"white",
@@ -126,7 +131,9 @@ $(document).ready(function(){
 		$(".liucheng").html("");
 		$(".liucheng").css("background","")
 	});
-	
+	$(".liucheng").on("click",function(){
+		window.open("step.html")
+	})
 	
 	
 	
