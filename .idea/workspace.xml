@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fa9c6c-db8e-4e52-bdfd-935085e9a5a0" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bnn0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bnn1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/contact/ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/contact/deve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/contact/media.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ctrl_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/game_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/headbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item_about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item_about_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item_hot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item_hot_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item_news.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/part1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/part1_side.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/part2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/part2_card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/part3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/part3_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/part4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/theslide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/video_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/handf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +39,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
+            <state relative-caret-position="104">
               <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
                 <element signature="e#4779#4785#0" expanded="true" />
@@ -95,8 +57,8 @@
       <file leaf-file-name="handf.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/handf.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state relative-caret-position="26">
+              <caret line="15" column="16" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -262,24 +224,25 @@
       <option name="presentableId" value="Default" />
       <updated>1474187538396</updated>
       <workItem from="1474187539653" duration="1499000" />
-      <workItem from="1474277697094" duration="1370000" />
+      <workItem from="1474277697094" duration="2863000" />
+      <workItem from="1474331549162" duration="89000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2869000" />
+    <option name="totallyTimeSpent" value="4451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1826" height="965" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2528027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25560537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -339,7 +302,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="104">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
             <element signature="e#4779#4785#0" expanded="true" />
@@ -356,7 +319,42 @@
     <entry file="file://$PROJECT_DIR$/css/handf.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#4779#4785#0" expanded="true" />
+            <element signature="e#4792#4798#0" expanded="true" />
+            <element signature="e#4805#4811#0" expanded="true" />
+            <element signature="e#4818#4824#0" expanded="true" />
+            <element signature="e#4831#4837#0" expanded="true" />
+            <element signature="e#4844#4850#0" expanded="true" />
+            <element signature="e#4857#4863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/handf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="15" column="16" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="27" />
           <folding />
         </state>
       </provider>
