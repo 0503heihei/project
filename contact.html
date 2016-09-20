@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>北京光合起源网络科技有限公司</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/handf.css"/>
+		<style type="text/css">
+			section{
+				width: 1000px;
+				margin: 0 auto;
+				padding: 100px 0;
+				line-height: 1.6;
+			}
+			h1+div{
+				overflow: hidden;
+			}
+			section h1{
+				font-size: 37px;
+				font-weight: lighter;
+			}
+			section p{
+				微软雅黑, Verdana, Geneva, sans-serif;
+				font-size: 18px;
+			}
+			#word{
+				width: 450px;
+				margin-top: 100px;
+				float: left;
+			}
+			#map{
+				width: 500px;
+				height: 250px;
+				border: 4px solid #CCCCCC;
+				float: right;
+			}
+			.email{
+				margin-top: 30px;
+				overflow: hidden;
+			}
+			.email li{
+				float: left;
+			}
+			.email li:nth-child(2){
+				margin: 0 20px;
+			}
+			.email li:nth-child(1) a{
+				background-image: url(img/contact/ad.png);
+			}
+			.email li:nth-child(2) a{
+				background-image: url(img/contact/media.png);
+			}
+			.email li:nth-child(3) a{
+				background-image: url(img/contact/deve.png);
+			}
+			.email a{
+				display: block;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-color:#bfcb1d;
+				width: 320px;
+				height: 210px;
+			}
+			.email p{
+				font-family: 微软雅黑, Verdana, Geneva, sans-serif;
+				font-size: 14px;
+				line-height: 2.5;
+				text-align: center;
+				color: #fff;
+				background-color: rgba(0,0,0,0.8);
+			}
+		</style>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?ak=HdPbhN8eCsDKvk2euo9QGj32TPlT5aGc&v=2.0"></script>
+	</head>
+	<body>
+		<nav>
+			<div class="nav_con">
+				<div class="logo">
+					<img src="img/logo.png"/>
+				</div>
+				<ul class="nav_item">
+					<li><a href="">首页</a></li>
+					<li><a href="">关于我们</a></li>
+					<li><a href="">新闻中心</a></li>
+					<li><a href="">游戏中心</a></li>
+					<li><a href="">加入我们</a></li>
+					<li><a href="">联系我们</a></li>
+					<li id="nav_btn"><span class="icon-reorder"></span></li>
+				</ul>
+				<div id="bar">
+					<img src="img/headbar.png" alt="" />
+				</div>
+				<i class="cl"></i>
+			</div>
+		</nav>
+		<section>
+			<h1>联系我们</h1>
+			<div>
+				<div id="word">
+					<p>北京光合起源网络科技有限公司</p>
+					<p>联系电话：010-82257119</p>
+					<p>合作邮箱：hr@ghqygame.com</p>
+					<p>邮政编码：100088</p>
+					<p>总部地址：北京市海淀区花园路甲13号院庚坊国际大厦3层307</p>
+				</div>
+				<div id="map">
+					
+				</div>
+			</div>
+			<ul class="email">
+				<li>
+					<a href="####"></a>
+					<p>hr@ghqygame.com</p>
+				</li>
+				<li>
+					<a href="####"></a>
+					<p>hr@ghqygame.com</p>
+				</li>
+				<li>
+					<a href="####"></a>
+					<p>hr@ghqygame.com</p>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<div class="footer_con">
+				<div class="logo">
+					<img src="img/logo.png"/>
+				</div>
+				<div class="footer_item">
+					<div>
+						<a href="####">光合起源</a>
+						<a href="####">关于我们</a>
+						<a href="####">新闻中心</a>
+						<a href="####">游戏中心</a>
+						<a href="####">加入我们</a>
+						<a href="####" id="noboder">联系我们</a>
+					</div>
+					<p>
+						京ICP备15038749号-1  Copyright © 2014-2015 北京光合起源网络科技有限公司 All Right Reserved
+					</p>
+					<p>
+						联系地址：北京市海淀区花园路甲13号院庚坊国际大厦3层307 电话：010-82257119
+						<a href=""> 技术支持：星贺互联</a>
+					</p>
+					<p>
+						健康游戏忠告：抵制不良游戏 &nbsp;拒绝盗版游戏 &nbsp;注意自我保护 &nbsp;谨防受骗上当 &nbsp;适度游戏益脑 &nbsp;沉迷游戏伤身 &nbsp;合理安排时间 &nbsp;享受健康生活
+					</p>
+				</div>
+			</div>
+			<i class="cl"></i>
+		</footer>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");
+			var point = new BMap.Point(116.370477, 39.978158);
+			map.centerAndZoom(point,18);
+			map.enableScrollWheelZoom();
+			map.addControl(new BMap.ScaleControl());
+			map.addControl(new BMap.OverviewMapControl({isOpen:true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT}));
+			map.addControl(new BMap.NavigationControl({anchor: "BMAP_ANCHOR_TOP_RIGHT", type: "BMAP_NAVIGATION_CONTROL_SMALL"}));
+		</script>
+	</body>
+</html>

@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="73c42643-a948-45ee-9791-b351949c0641" name="默认" comment="Merge branch 'Ori-wzw' of https://github.com/0503heihei/project into Ori-wzw&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/caozuolan.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/guangheapi.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="06fa9c6c-db8e-4e52-bdfd-935085e9a5a0" name="默认" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+    <list default="true" id="73c42643-a948-45ee-9791-b351949c0641" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/55b76290702d3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/55b7712f4fda1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bofang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/border-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hd_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kind.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/paused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pic2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pic4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pic5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ysq1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ysq2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ysq3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guangheapi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +60,8 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="DatabaseView">
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
@@ -27,6 +70,7 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="project" />
@@ -37,8 +81,18 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
+<<<<<<< HEAD
               <first_editor relative-caret-position="105">
                 <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+              <first_editor relative-caret-position="52">
+                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
                 <folding />
               </first_editor>
               <second_editor />
@@ -46,7 +100,26 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="3.php" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="e#4779#4785#0" expanded="true" />
+                <element signature="e#4792#4798#0" expanded="true" />
+                <element signature="e#4805#4811#0" expanded="true" />
+                <element signature="e#4818#4824#0" expanded="true" />
+                <element signature="e#4831#4837#0" expanded="true" />
+                <element signature="e#4844#4850#0" expanded="true" />
+                <element signature="e#4857#4863#0" expanded="true" />
+=======
+      <file leaf-file-name="3.php" pinned="false" current-in-tab="true">
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
         <entry file="file://$PROJECT_DIR$/3.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7005">
@@ -59,18 +132,45 @@
       <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aboutus.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="825">
               <caret line="55" column="0" selection-start-line="13" selection-start-column="7" selection-end-line="55" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="240">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
+                <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
+                <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+              </folding>
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="joinus.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/joinus.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="handf.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/handf.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+=======
+      <file leaf-file-name="4.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
               <folding />
             </state>
           </provider>
@@ -78,6 +178,16 @@
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+=======
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -89,12 +199,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/index.html" />
+=======
         <option value="$PROJECT_DIR$/guangheapi.php" />
         <option value="$PROJECT_DIR$/3.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/4.php" />
         <option value="$PROJECT_DIR$/caozuolan.php" />
         <option value="$PROJECT_DIR$/dengluapi.php" />
         <option value="$PROJECT_DIR$/denglu.php" />
+=======
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
       </list>
     </option>
   </component>
@@ -104,12 +221,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="38" />
+    <option name="y" value="31" />
+    <option name="width" value="1826" />
+    <option name="height" value="965" />
+=======
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="115" />
     <option name="y" value="73" />
     <option name="width" value="1799" />
     <option name="height" value="797" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +250,11 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
+<<<<<<< HEAD
+    <ConfirmationsSetting value="2" id="添加" />
+=======
     <ConfirmationsSetting value="0" id="添加" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
     <ConfirmationsSetting value="0" id="移除" />
   </component>
   <component name="ProjectReloadState">
@@ -185,6 +315,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+=======
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -192,6 +331,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
     </key>
   </component>
   <component name="RunManager">
@@ -247,6 +387,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="06fa9c6c-db8e-4e52-bdfd-935085e9a5a0" name="默认" comment="" />
+      <created>1474187538396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1474187538396</updated>
+      <workItem from="1474187539653" duration="1499000" />
+      <workItem from="1474277697094" duration="2863000" />
+      <workItem from="1474331549162" duration="1120000" />
+=======
       <changelist id="73c42643-a948-45ee-9791-b351949c0641" name="默认" comment="" />
       <created>1474185753230</created>
       <option name="number" value="Default" />
@@ -265,6 +415,7 @@
       <workItem from="1474272037952" duration="811000" />
       <workItem from="1474273053781" duration="89000" />
       <workItem from="1474273164527" duration="491000" />
+<<<<<<< HEAD
       <workItem from="1474275533359" duration="269000" />
       <workItem from="1474276887703" duration="1354000" />
       <workItem from="1474333775507" duration="527000" />
@@ -279,6 +430,10 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1474276804251</updated>
+=======
+      <workItem from="1474275533359" duration="163000" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
     </task>
     <task id="LOCAL-00002" summary="Merge branch 'Ori-wzw' of https://github.com/0503heihei/project into Ori-wzw&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;">
       <created>1474277638793</created>
@@ -291,7 +446,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="25101000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="5482000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="38" y="31" width="1826" height="965" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25560537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="18797000" />
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
   </component>
   <component name="ToolWindowManager">
     <frame x="115" y="73" width="1799" height="797" extended-state="0" />
@@ -308,6 +485,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -317,6 +495,27 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+<<<<<<< HEAD
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+=======
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -338,10 +537,95 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/guangheapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
+            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
+            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
     <entry file="file://$PROJECT_DIR$/4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#4779#4785#0" expanded="true" />
+            <element signature="e#4792#4798#0" expanded="true" />
+            <element signature="e#4805#4811#0" expanded="true" />
+            <element signature="e#4818#4824#0" expanded="true" />
+            <element signature="e#4831#4837#0" expanded="true" />
+            <element signature="e#4844#4850#0" expanded="true" />
+            <element signature="e#4857#4863#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7740">
+          <caret line="516" column="14" selection-start-line="516" selection-start-column="14" selection-end-line="516" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangheapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
+            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
+            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/css/handf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -360,14 +644,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7740">
           <caret line="516" column="14" selection-start-line="516" selection-start-column="14" selection-end-line="516" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guangheapi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
           <folding />
         </state>
       </provider>
@@ -376,9 +653,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+<<<<<<< HEAD
+=======
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+          <folding />
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#4779#4785#0" expanded="true" />
+            <element signature="e#4792#4798#0" expanded="true" />
+            <element signature="e#4805#4811#0" expanded="true" />
+            <element signature="e#4818#4824#0" expanded="true" />
+            <element signature="e#4831#4837#0" expanded="true" />
+            <element signature="e#4844#4850#0" expanded="true" />
+            <element signature="e#4857#4863#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -402,10 +698,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <marker date="1474273757000" expanded="true" signature="343:362" ph="INSERT INTO guanghe... " />
+            <marker date="1474273757000" expanded="true" signature="343:398" ph="INSERT INTO guanghe... " />
+            <marker date="1474273757000" expanded="true" signature="343:446" ph="INSERT INTO guanghe... " />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+          </folding>
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
     <entry file="file://$PROJECT_DIR$/4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -486,12 +798,19 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/css/handf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+=======
     <entry file="file://$PROJECT_DIR$/3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4320">
@@ -762,8 +1081,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joinus.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="180">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+=======
+        <state relative-caret-position="323">
+          <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
+>>>>>>> a2889e6af415cb3847dd1761feaaed3f1c5cd5be
+>>>>>>> 5d96ab810d74378981763dbefb3fdc1ba348cf49
           <folding />
         </state>
       </provider>
