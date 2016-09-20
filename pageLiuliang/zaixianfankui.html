@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../toubu.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <style>
         *{
             margin: 0;
@@ -12,7 +14,7 @@
             width: 100%;
         }
         #l_guanyulogo{
-            background-image: url(../img/logoguanyu.jpg);
+            background-image: url(img/logoguanyu.jpg);
             background-size:100% 100%;
             background-repeat: no-repeat;
             width: 100%;
@@ -21,14 +23,14 @@
 
         #l_connect{
             width: 1000px;
-            height: 1500px;
+            height: 1400px;
             overflow: hidden;
             padding-top: 50px;
             margin: 0 auto;
         }
         #l_connect_left{
             width: 228px;
-            height: 228px;
+            height: 250px;
             border:1px solid lightgray;
             float: left;
             overflow: hidden;
@@ -164,7 +166,7 @@
             border: 1px solid lightgray;
         }
         #l_connect_right_yanzhengma{
-            background-image: url(../img/suijibg.png);
+            background-image: url(img/suijibg.png);
             background-size: 100% 100%;
             background-repeat: no-repeat;
             display: inline-block;
@@ -179,12 +181,51 @@
             margin-left: 100px;
             margin-top: 24px;
         }
+        .navbar{
+            margin-bottom: 0;
+        }
 
 
 
     </style>
 </head>
 <body>
+
+<div class="dwarp">
+</div>
+<div class="dheader">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="../imgd/Adobe%20Photoshop%20CS6.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">网站首页</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="guanyuwomen.html">公司简介</a></li>
+                            <li><a href="zaixianfankui.html">在线反馈</a></li>
+                            <li><a href="lianxiwomen.html">联系我们</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">新闻资讯<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">公司动态</a></li>
+                            <li><a href="#">业界资讯</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">下载中心</a></li>
+                    <li><a href="#">客户案例</a></li>
+                    <li><a href="#">招贤纳士</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
 <div id="l_guanyulogo"></div>
 
 <div id="l_connect">
@@ -301,7 +342,7 @@
             <tr>
                 <td>
                     <span class="l_connect_right_sp">信息描述</span>
-                    <textarea name="" id="l_connect_right_liuyan" cols="60" rows="15"></textarea>
+                    <textarea name="" id="l_connect_right_liuyan" cols="60" rows="10"></textarea>
                 </td>
             </tr>
 
@@ -384,11 +425,6 @@
     oP.onclick = function () {
         suiji()
     }
-
-
-
-
-
 
 
 

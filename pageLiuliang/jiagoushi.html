@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body,html{
+            width: 100%;
+        }
+        #l_guanyulogo{
+            background-image: url(img/logoguanyu.jpg);
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 300px;
+        }
+
+        #l_connect{
+            width: 1000px;
+            height: 1000px;
+            overflow: hidden;
+            padding-top: 50px;
+            margin: 0 auto;
+        }
+        #l_connect_left{
+            width: 228px;
+            height: 250px;
+            border:1px solid lightgray;
+            float: left;
+            overflow: hidden;
+        }
+        #l_connect_left h1{
+            padding-left: 20px;
+            border-bottom:1px solid black;
+            font-size: 25px;
+            width: 228px;
+            height: 50px;
+            line-height: 50px;
+        }
+        #l_connect_left_a{
+            padding-top: 10px;
+        }
+        #l_connect_left_a a{
+            display: block;
+            padding-left: 20px;
+            text-decoration: none;
+            color: black;
+            width:228px;
+            height: 50px;
+            line-height: 50px;
+        }
+        #l_connect_right{
+            width: 730px;
+            height: 700px;
+            float: right;
+        }
+        #l_connect_left_head{
+            width: 730px;
+            height: 50px;
+            border-bottom: 1px solid lightgray;
+            line-height: 50px;
+        }
+        #l_connect_left_head p{
+            display:inline-block;
+            font-size: 20px;
+            color:black;
+        }
+        #l_connect_left_head_a{
+            float: right;
+        }
+        #l_connect_left_head_a a{
+            text-decoration: none;
+            color: gray;
+        }
+        #l_connect_left_head_a span{
+            color: gray;
+        }
+
+        #l_connect_right_wenzi h3{
+            font-size: 15px;
+            padding-top:30px;
+        }
+
+        #l_foot{
+            width: 100%;
+            height: 30px;
+            background-color: black;
+            text-align: center;
+            line-height: 30px;
+        }
+        #l_foot p{
+            color:lightgray;
+            font-size: 10px;
+        }
+        #l_connect_left_a2{
+            border-left:4px solid red;
+            background-color:lightgray;
+        }
+        #l_connect_left_a1:hover{
+            background-color: lightgray;
+        }
+        #l_connect_left_a2:hover{
+            background-color: lightgray;
+        }
+
+        .navbar{
+            margin-bottom: 0;
+        }
+
+        /**********************职位信息***************/
+        #l_connect_right_zhiwei1{
+            width: 700px;
+            height: 550px;
+            margin: 50px auto;
+        }
+        .l_connect_right_zhiwei_head p{
+            width:680px;
+            height: 30px;
+            display: block;
+            color: white;
+            margin-left: 10px;
+            padding-top: 20px;
+            border-bottom: 1px solid lightgray;
+        }
+        #l_connect_right_p{
+            width: 700px;
+            height: 260px;
+            background-color:#8C989F;
+        }
+
+        .l_connect_right_zhiwei_head{
+            width: 700px;
+            height: 280px;
+            margin-left:5px;
+        }
+        #l_connect_right_qixian{
+            border-bottom: none;
+        }
+
+        .l_connect_right_zhiwei_head a{
+            text-decoration: none;
+        }
+        .l_connect_right_zhiwei_head h3{
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        .l_connect_right_zhiwei_head span{
+            display:block;
+            font-size: 10px;
+            color:gray;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        #l_connect_right_zhiwei1_xinxi1 span{
+            padding: 20px;
+            display:block;
+        }
+        #l_connect_right_zhiwei1_xinxi1 p{
+            font-size: 14px;
+            color:black;
+            padding-left: 20px;
+            line-height: 25px;
+        }
+        #l_connect_right_zhiwei1_xinxi2{
+            margin-top: 60px;
+        }
+        #l_connect_right_zhiwei1_xinxi2 span{
+            padding: 20px;
+            display: block;
+        }
+        #l_connect_right_zhiwei1_xinxi2 p{
+            font-size: 14px;
+            color: black;
+            padding-left: 20px;
+            line-height: 25px;
+        }
+        #l_connect_right_zhiwei1_xinxi1_sp1{
+            border-bottom: 1px solid lightgray;
+        }
+        #l_connect_right_zhiwei1_xinxi2_a{
+            display: block;
+            width: 700px;
+            text-decoration: none;
+            padding: 20px;
+            border-bottom: 1px solid lightgray;
+        }
+        #l_connect_right_zhiwei1_xinxi2_btn{
+            display:block;
+            width: 120px;
+            height: 40px;
+            font-size: 15px;
+            color: white;
+            background-color: deepskyblue;
+            border: 1px solid lightgray;
+            margin-top: 50px;
+        }
+
+/**************************跳页**************************/
+        #l_tiaoye{
+            width: 470px;
+            height: 50px;
+            display: block;
+            margin-left:500px;
+            padding-bottom: 40px;
+        }
+        #l_tiaoye a{
+            text-decoration: none;
+            color:darkgray;
+        }
+        #l_tiaoye_before{
+            width: 70px;
+            height: 30px;
+            border: 1px solid lightgray;
+            color:darkgray;
+            display:inline-block;
+            text-align: center;
+            line-height: 30px;
+        }
+        #l_tiaoye_next{
+            width: 70px;
+            height: 30px;
+            border: 1px solid lightgray;
+            color:darkgray;
+            display:inline-block;
+            line-height: 30px;
+            text-align: center;
+        }
+        #l_tiaoye_num1,#l_tiaoye_num2,#l_tiaoye_num3,#l_tiaoye_num4{
+            width: 30px;
+            height: 30px;
+            display:inline-block;
+            border: 1px solid lightgray;
+            text-align: center;
+            line-height: 30px;
+        }
+        #l_tiaoye_zhuanzhi{
+            width: 70px;
+            height: 30px;
+            border: 1px solid lightgray;
+            color:darkgray;
+            display: inline-block;
+            text-align: center;
+            line-height: 30px;
+        }
+        #l_tiaoye_text{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 1px solid lightgray;
+        }
+        #l_tiaoye_btn{
+            display: inline-block;
+            width: 50px;
+            height: 30px;
+            border: 1px solid lightgray;
+            background: none;
+            color: darkgray;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+<div id="l_guanyulogo"></div>
+
+<div id="l_connect">
+    <div id="l_connect_left">
+        <h1>招贤纳士</h1>
+        <div id="l_connect_left_a">
+            <a href="" id="l_connect_left_a1">招贤纳士</a>
+            <a href="" id="l_connect_left_a2">在线应聘</a>
+        </div>
+    </div>
+
+    <div id="l_connect_right">
+        <div id="l_connect_left_head">
+            <h1>架构工程师</h1>
+        </div>
+        <!---------------------------职位显示-------------------->
+        <div id="l_connect_right_zhiwei1">
+            <div class="l_connect_right_zhiwei_head">
+                <div id="l_connect_right_p">
+                    <p>招聘人数&nbsp;&nbsp;&nbsp;1</p>
+                    <p>工作地点&nbsp;&nbsp;&nbsp;北京市喜欢广场</p>
+                    <p>工资待遇&nbsp;&nbsp;&nbsp;99999$</p>
+                    <p>发布日期&nbsp;&nbsp;&nbsp;2015-11-27</p>
+                    <p id="l_connect_right_qixian">有效期&nbsp;&nbsp;&nbsp;不限</p>
+                </div>
+            </div>
+            <div id="l_connect_right_zhiwei1_xinxi1">
+                <span id="l_connect_right_zhiwei1_xinxi1_sp1">职位描述</span>
+                <span>【岗位职责】：</span>
+                <p>
+                    1、有负责移动社交产品后台服务的核心架构设计和实施的经验；能够进行移动社交产品设计和结构优化调整；
+                </p>
+                <p>
+                    2、根据公司要求负责系统及相关产品需求分析及架构设计；
+                </p>
+                <p>
+                    3、对产品的整体系统架构负责，对产品的系统安全性设计负责，开发及相关设计文档编写；
+                </p>
+                <p>
+                    4、制定设计及实现规范，指导设计、实现及部署工作；
+                </p>
+                <p>
+                    5、负责对软件开发团队的技术指导；
+                </p>
+                <p>
+                    6、同时需完成服务端开发具体工作。
+                </p>
+            </div>
+            <div id="l_connect_right_zhiwei1_xinxi2">
+                <span>【任职要求】：</span>
+                <p>1、五年以上整体架构和研发经验，具备千万级高并发架构经验</p>
+                <p>2、精通Java和Java底层架构，熟悉常用的开源实现，熟悉队列技术；</p>
+                <p>3、精通Memcached、Redis、MongoDB和MYSQL等技术，了解大数据技术；</p>
+                <a href="" id="l_connect_right_zhiwei1_xinxi2_a">
+                    <input type="button" value="在线应聘" id="l_connect_right_zhiwei1_xinxi2_btn">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="l_tiaoye">
+    <span id="l_tiaoye_before">上一页</span>
+    <a href="" id="l_tiaoye_num1">1</a>
+    <a href="" id="l_tiaoye_num2">2</a>
+    <a href="" id="l_tiaoye_num3">3</a>
+    <a href="" id="l_tiaoye_num4">4</a>
+    <a href="" id="l_tiaoye_next">下一页</a>
+    <span id="l_tiaoye_zhuanzhi">转至第</span>
+    <input type="text" id="l_tiaoye_text">
+    <input type="button" id="l_tiaoye_btn" value="页">
+</div>
+
+<div id="l_foot">
+    <p>Powered by 北京艾硕科网络科技有限公司  ©2015-2016 </p>
+</div>
+</body>
+</html>
