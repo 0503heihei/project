@@ -2,9 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5badf6c-8e18-4f9b-bc5e-75c37c7b0ff6" name="默认" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/erweima.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_00.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_160.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_161.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_162.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_163.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_164.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_165.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_166.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p3_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/p4_21.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juchang.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhijia.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jc-zj.js" afterPath="$PROJECT_DIR$/js/jc-zj.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juchang.html" afterPath="$PROJECT_DIR$/juchang.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand.html" afterPath="$PROJECT_DIR$/brand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,55 +85,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="juchang.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juchang.html">
+      <file leaf-file-name="brand.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#16;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#17;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhijia.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhijia.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1103">
-              <caret line="301" column="6" selection-start-line="301" selection-start-column="6" selection-end-line="301" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jc-zj.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/jc-zj.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="931" column="24" selection-start-line="931" selection-start-column="24" selection-end-line="931" selection-end-column="24" />
+            <state relative-caret-position="630">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jc-zj.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/jc-zj.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +110,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fs" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -104,10 +121,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/jc-zj.css" />
-        <option value="$PROJECT_DIR$/zhijia.html" />
         <option value="$PROJECT_DIR$/juchang.html" />
         <option value="$PROJECT_DIR$/js/jc-zj.js" />
+        <option value="$PROJECT_DIR$/css/jc-zj.css" />
+        <option value="$PROJECT_DIR$/zhijia.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/brand.html" />
       </list>
     </option>
   </component>
@@ -119,9 +138,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="969" />
+    <option name="x" value="949" />
+    <option name="y" value="27" />
+    <option name="width" value="1146" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -155,7 +175,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,28 +193,21 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -216,6 +228,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -251,7 +269,10 @@
       <updated>1474186623762</updated>
       <workItem from="1474186625936" duration="2163000" />
       <workItem from="1474191433969" duration="8335000" />
-      <workItem from="1474243805562" duration="19618000" />
+      <workItem from="1474243805562" duration="17139000" />
+      <workItem from="1474279295450" duration="616000" />
+      <workItem from="1474288243010" duration="779000" />
+      <workItem from="1474355495829" duration="1494000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1474187530830</created>
@@ -260,40 +281,47 @@
       <option name="project" value="LOCAL" />
       <updated>1474187530830</updated>
     </task>
-    <task id="LOCAL-00002" summary="嗷嗷嗷">
-      <created>1474278491398</created>
+    <task id="LOCAL-00002" summary="最新">
+      <created>1474279603178</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1474278491398</updated>
+      <updated>1474279603178</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="最新">
+      <created>1474289078738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474289078738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30116000" />
+    <option name="totallyTimeSpent" value="30526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="969" extended-state="6" />
+    <frame x="949" y="27" width="1146" height="977" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26811594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -309,27 +337,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="..." />
-    <MESSAGE value="嗷嗷嗷" />
-    <option name="LAST_COMMIT_MESSAGE" value="嗷嗷嗷" />
+    <MESSAGE value="最新" />
+    <option name="LAST_COMMIT_MESSAGE" value="最新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/juchang.html">
+    <entry file="file://$PROJECT_DIR$/brand.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#17;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juchang.html" />
+    <entry file="file://$PROJECT_DIR$/zhijia.html" />
+    <entry file="file://$PROJECT_DIR$/css/jc-zj.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13965">
+          <caret line="931" column="24" selection-start-line="931" selection-start-column="24" selection-end-line="931" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jc-zj.js" />
+    <entry file="file://$PROJECT_DIR$/juchang.html" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -340,71 +398,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../打砖块.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../打砖块.html" />
     <entry file="file://$PROJECT_DIR$/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="231" column="12" selection-start-line="231" selection-start-column="12" selection-end-line="236" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html" />
     <entry file="file://$PROJECT_DIR$/css/jc-zj.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
+        <state relative-caret-position="13965">
           <caret line="931" column="24" selection-start-line="931" selection-start-column="24" selection-end-line="931" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jc-zj.js" />
+    <entry file="file://$PROJECT_DIR$/zhijia.html" />
+    <entry file="file://$PROJECT_DIR$/juchang.html" />
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhijia.html">
+    <entry file="file://$PROJECT_DIR$/brand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1103">
-          <caret line="301" column="6" selection-start-line="301" selection-start-column="6" selection-end-line="301" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juchang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#17;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jc-zj.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
