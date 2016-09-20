@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Swiper demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="../dist/css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<!-- Demo styles -->
+		<style>
+			html,
+			body {
+				position: relative;
+				height: 100%;
+			}
+			
+			body {
+				background-color: #eee;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				color: #000;
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+			}
+			/*导航栏*/
+			
+			#nav {
+				min-width: 1200px;
+				height: 80px;
+				position: absolute;
+				width: 100%;
+				left: 0;
+				z-index: 999;
+			}
+			
+			.nav_inner {
+				border-bottom: 1px solid mediumpurple;
+				width: 1200px;
+				margin: 0 auto;
+				height: 100%;
+			}
+			
+			.putao_logo {
+				background: url("../img/logo-2.png") no-repeat;
+				background-size: 50% 100%;
+				float: left;
+				width: 200px;
+				height: 30px;
+				margin-top: 25px;
+			}
+			
+			.nav_content {
+				color: mediumpurple;
+				font-size: 16px;
+				height: 100%;
+				list-style: none;
+				width: 720px;
+				display: inline-block;
+			}
+			
+			.nav_content li {
+				float: left;
+				line-height: 80px;
+				padding: 0 40px;
+				height: 80px;
+				list-style: none;
+				color: mediumpurple;
+			}
+			
+			.nav_content li a {
+				color: mediumpurple;
+			}
+			
+			#nav_user {
+				float: right;
+				height: 100%;
+				line-height: 80px;
+				position: relative;
+			}
+			
+			.nav_user_info {
+				margin-top: 5px;
+				display: inline-block;
+				position: absolute;
+				right: 160px;
+				top: 4px;
+			}
+			
+			.nav_user_icon {
+				float: left;
+			}
+			
+			.icon-user {
+				background: url("../img/page1-0.png") no-repeat;
+				display: inline-block;
+				width: 26px;
+				height: 26px;
+			}
+			
+			.icon-briefcase {
+				background: url("../img/page1-00.png") no-repeat;
+				color: #5b3879;
+				font-size: 16px;
+				padding: 6px 18px;
+				border-radius: 30px;
+				display: inline-block;
+				line-height: normal;
+				position: absolute;
+				right: 0;
+				top: 24px;
+				width: 98px;
+				height: 33px;
+			}
+			/*开头大图滚动*/
+			
+			.swiper-container {
+				text-align: center;
+				min-width: 1200px;
+				overflow: hidden;
+				width: 100%;
+				height: 720px;
+			}
+			
+			.swiper-slide {
+				overflow: hidden;
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			
+			/*产品区*/
+			.yingyong_body,.yy_zhuanqu{
+				overflow: hidden;
+				width: 1200px;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.yingyong_body{
+				margin-top: 10px;
+			}
+			.yingyong_body>div,.yingyong_body>h1{
+				display: inline-block;
+			}
+			.yingyong_body>h1{
+				margin: 20px 30px;
+			}
+			.yingyong_border{
+				margin-bottom: 10px;
+				line-height: 61px;
+				width: 80px;
+				border: 1px solid black;
+			}
+			.yy_i img{
+				width: 20px;
+			}
+			.yy_img span{
+				font-size: 20px;
+				color: #ccc;
+			}
+			.yy_img,.yy_p{
+				color: black;
+			}
+			.yy_p p{
+				text-align: center;
+				line-height: 25px;
+				font-size: 15px;
+			}
+			.yy_img{
+				width: 252px;
+				height: 180px;
+			}
+			.yy_img img{
+				border-radius: 10px;
+				width: 80px;
+			}
+			.yy_p{
+				width: 252px;
+				height: 220px;
+			}
+			.yy_game{
+				font-weight: 500;
+				margin: 20px 10px;
+				float: left;
+				padding: 20px 60px;
+				border-radius: 10px;
+				background-color: white;
+			}
+			.a1{
+				width: 80px;
+				height: 80px;
+				border-radius: 10px;
+				background-color: #CCCCCC;
+				color: white;
+				margin: 50px auto;
+				font-weight: 900;
+				font-size: 50px;
+				line-height: 80px;
+			}
+			.a2{
+				height: 220px;
+				width: 100%;
+				text-align: center;
+				font-size: 25px;
+				color: #CCCCCC;
+			}
+			/*尾部*/
+			#index_footer {
+				margin-top: 40px;
+				width: 100%;
+				min-width: 1200px;
+				height: 220px;
+				background-color: #F5F5F5;
+			}
+			
+			.index_footer_contentbox {
+				margin: 0 auto;
+				width: 1200px;
+				padding: 0 20px;
+				position: relative;
+			}
+			
+			.index_footer_content {
+				float: left;
+				width: 230px;
+				line-height: 208px;
+				text-align: center;
+			}
+			
+			.index_footer_content>img {
+				width: 113px;
+				height: 60px;
+			}
+			
+			.index_footer_contentbox ul {
+				float: left;
+				width: 150px;
+				padding-top: 45px;
+				font-size: 18px;
+				padding-left: 0;
+				list-style: none;
+			}
+			
+			.index_footer_contentbox ul li {
+				list-style: none;
+			}
+			
+			.index_footer_contentbox ul li h3 {
+				color: black;
+				font-size: 18px;
+				margin: 0;
+				padding: 0 0 15px 0;
+			}
+			
+			.index_footer_contentbox ul li a {
+				padding: 5px 0;
+				line-height: 1;
+				font-size: 14px;
+				color: #959595;
+				cursor: pointer;
+			}
+			
+			.index_footer_weidu {
+				position: relative;
+			}
+			
+			.erweima {
+				position: absolute;
+				z-index: 1;
+				top: -80px;
+				display: none;
+				left: 60px;
+			}
+			
+			.index_footer_contentbox ul li a:hover {
+				color: #A472D3;
+			}
+			
+			.index_footer_online {
+				position: absolute;
+				top: 30px;
+				right: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+			
+			.index_footer_online p {
+				margin-bottom: 15px;
+				text-indent: 30px;
+				font-size: 28px;
+				color: #995ACC;
+				background: url("../img/tel.png") no-repeat left center;
+			}
+			
+			.index_footer_online span {
+				display: block;
+				text-align: right;
+				color: #959595;
+				line-height: 24px;
+			}
+			
+			#index_footer_info {
+				min-width: 1200px;
+				width: 100%;
+				background-color: #F5F5F5;
+			}
+			
+			.index_footer_infoinner {
+				width: 1200px;
+				margin: 0 auto;
+				border-top: 1px solid #E1E1E1;
+				text-align: center;
+				color: #959595;
+				padding: 18px 0;
+				line-height: 28px;
+			}
+			
+			.index_footer_infoinner h2 {
+				display: inline-block;
+				font-size: 12px;
+				line-height: 12px;
+				margin: 0;
+			}
+			
+			.index_footer_infoinner h3 {
+				display: inline-block;
+				font-size: 12px;
+				line-height: 14px;
+				margin: 0;
+			}
+			
+			.index_footer_infoinner h4 {
+				margin: 0;
+				color: #AC79BD;
+				line-height: 12px;
+			}
+			
+			.index_footer_infoinner h4 a {
+				margin: 0;
+				color: #959595;
+				font-size: 12px;
+			}
+			
+			.wenhuajingying {
+				display: inline-block;
+				padding-left: 20px;
+				background: url("../img/wen.png") no-repeat;
+				background-size: 14px 14px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="nav">
+			<div class="nav_inner">
+				<a href="####" class="putao_logo"></a>
+				<ul class="nav_content">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="brand.html">品牌动态</a>
+					</li>
+					<li>
+						<a href="juchang.html">葡星剧场</a>
+					</li>
+					<li>
+						<a href="zhijia">葡萄之家</a>
+					</li>
+					<li>
+						<a href="yingyong.html">应用下载</a>
+					</li>
+				</ul>
+				<div id="nav_user">
+					<div class="nav_user_info">
+						<div class="nav_user_icon">
+							<a href="####" class="icon-user"></a>
+						</div>
+					</div>
+					<a href="shop.html" class="icon-briefcase"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/yingyong/ac56aa227313f30fb7415f7af9c958536c57c1c3.jpg"/></div>
+				<div class="swiper-slide"><img src="img/yingyong/329a7eff03fd53ac09952ba0090f7f1ee91de2cd.jpg"/></div>
+				<div class="swiper-slide"><img src="img/yingyong/48bf4584fc3e9880623267960c12ec0dfdd49fad.jpg"/></div>
+				<div class="swiper-slide"><img src="img/yingyong/a823333e32fe533c491104ac3b7eedc0e59ae126.jpg"/></div>
+				<div class="swiper-slide"><img src="img/yingyong/35910e63f80e0201099ccb5e850e17e2557a2d67.jpg"/></div>
+				<div class="swiper-slide"><img src="img/yingyong/718770fde14967aa70cde46d6a8b51e3513cda93.jpg"/></div>
+				<div class="swiper-slide"><img src="img/yingyong/a3d9434cf07ac7998f9e74a24fe4c0a9be24cf31.jpg"/></div>
+				<div class="swiper-slide"><img src="img/yingyong/e0b628dd1a78927eecdc864a50596a01f4bcc656.jpg"/></div>
+			</div>
+
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="yingyong_body">
+			<div class="yingyong_border"> </div>
+			<h1>产品专区</h1>
+			<div class="yingyong_border"> </div>
+		</div>
+		<div class="yy_zhuanqu">
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/3ab231c70a4274cb9519d70705c5ac486e137f0d.png"/>
+						<h2>奇妙电路</h2>
+						<span>串联奇思妙想</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>每一块电子积木都是孩子的奇思妙想</p>
+						<p>快用导线将它们串联成电路，发现声音和</p>
+						<p>光亮，锻炼动手能力的同时</p>
+						<p>还可通过app直观看到正在流通的电流</p>
+						<p>让父母和孩子一起探索电路知识</p>
+						<p>培养创造思维，激发科学兴趣。</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/2c15ef69e1b781bdb26e29dfd3a7d11b07854926.jpg"/>
+						<h2>班得瑞的奇幻花园</h2>
+						<span>心随乐动，拍出生命的乐章！</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>实体鼓与iPad相结合，世界名曲遇到卡通奇幻世界，小小演奏家从此诞生！</p>
+						<p>汇聚各类音乐，搭配生动的效果，帮助孩子开发音乐天赋。</p>
+						<p>高科技手势识别，锻炼左右脑协调能力。</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/16853d8c6f574d7132217eb0b0e23918f9555680.png"/>
+						<h2>旋转吧!魔方</h2>
+						<span>每个孩子必备的智能魔方</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>实体魔方玩具和虚拟世界进行连接，</p>
+						<p>不但生动形象地指导孩子还原魔方,还锻炼孩子手脑并用，变幻无穷。</p>
+						<p>激发孩子对魔方的探索兴趣，感受魔方的无穷魅力，培养孩子记忆力和思维方式。</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/7b91b4d0b4243b0667fc8301497e7cfcc4d5ffab.png"/>
+						<h2>淘淘向右走</h2>
+						<span>活的七巧板，拼出奇幻冒险之旅！</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>当古老的东方七巧板邂逅iPad，焕发出神奇的活力，带给孩子奇妙的益智之旅。</p>
+						<p>游戏和动画结合,</p>
+						<p>如神奇魔法般出现在孩子的指尖！</p>
+						<p>想探索奇幻七巧板世界的小朋友们？赶紧跟着淘淘一起向右走吧！</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/0357887f137bc1b449d280604b6e17128f1eb216.jpg"/>
+						<h2>涂涂世界</h2>
+						<span>用灵感描绘世界</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>原本丰富多彩的世界突然变成了</p>
+						<p>复古未来风格，拿起画笔，跟着小Q</p>
+						<p>一起去拯救世界</p>
+						<p>把世界恢复成原来的样子吧！</p>
+						<p>让孩子所有作品都以3D的形态展现在屏幕上。</p>
+						<p>并同步反馈作品效果。</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/554994e2a9206c4e4524a779238cb468be0167f6.jpg"/>
+						<h2>麦斯丝</h2>
+						<span>用数字丈量快乐</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>神秘的麦斯丝世界，奇幻而未知的冒险，</p>
+						<p>变幻莫测的难关疑题，在这里能让</p>
+						<p>原本枯燥乏味的数字充满乐趣，将数字</p>
+						<p>概念虚实结合，由浅入深的</p>
+						<p>让孩子发觉数字奥秘，实现真正的同步互动。</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/76bd2ad8cc51d7c112d208decd1de3becba6ad20.jpg"/>
+						<h2>哈泥海洋</h2>
+						<span>潜入想象力的海洋</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>探索海洋世界和各类真实还原的海洋生物</p>
+						<p>进行对话与互动，由孩子们亲手创造出的</p>
+						<p>鱼儿来传递海洋中的众多科普知识，</p>
+						<p>增强动手能力；让孩子们创造一个属于自己的海洋世界吧。</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/f2c14ed877c014b9efb4a25188abbc1f33dc68fc.jpg"/>
+						<h2>Hello编程</h2>
+						<span>学会定义自己的方向</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>当高新AR技术邂逅趣味游戏，让孩子在</p>
+						<p>玩耍中积累知识，训练逻辑思维能力，</p>
+						<p>带给孩子全新学习体验！科技结合教育，</p>
+						<p>让孩子早人一步get新时代的必备技能——编程技术吧。</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+		</div>
+		<div class="yingyong_body">
+			<div class="yingyong_border"> </div>
+			<h1>产品专区</h1>
+			<div class="yingyong_border"> </div>
+		</div>
+		<div class="yy_zhuanqu">
+			 <div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/2fcf775b712abf767f91c0ddc673f58e8584878d.jpg"/>
+						<h2>葡萄纬度</h2>
+						<span>让你走近孩子的世界</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>葡萄纬度是一款</p>
+						<p>面向3-12岁孩子家长的工具型应用</p>
+						<p>用科技跨越空间的限制</p>
+						<p>帮助家长把握孩子成长的黄金敏感期</p>
+						<p>走近孩子的世界</p>
+						<p>使沟通更高效，让孩子更快乐</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/安卓.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<a href="">
+					<div class="yy_img">
+						<img src="img/yingyong/d5aa42fea2bb4024edfc68755aec1547c7896d7a.png"/>
+						<h2>葡萄相机</h2>
+						<span>点亮亲子瞬间</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="yy_p">
+						<p>超萌贴纸，童年生活变的更绚烂</p>
+						<p>动态贴图，让照片动起来萌爆视觉</p>
+						<p>灵活拼图，用瞬间拼出完美生活</p>
+						<p>趣味生活，从记录每一个瞬间开始</p>
+					</div>
+				</a>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/安卓.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+			<div class="yy_game">
+				<div class="a1">?</div>
+				<div class="a2">
+					神秘礼品，敬请期待
+				</div>
+				<div class="yy_i">
+					<a href=""><img src="img/yingyong/苹果.png"/></a>
+					<a href=""><img src="img/yingyong/安卓.png"/></a>
+					<a href=""><img src="img/yingyong/二维码.png"/></a>
+				</div>
+				
+			</div>
+		</div>
+		<div id="index_footer">
+			<div class="index_footer_contentbox">
+				<a href="####" class="index_footer_content"><img src="img/logo.png" /></a>
+				<ul>
+					<li>
+						<h3>订单中心</h3></li>
+					<li>
+						<a href="####">购买指南</a>
+					</li>
+					<li>
+						<a href="####">支付指南</a>
+					</li>
+					<li>
+						<a href="####">配送指南</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>服务支持</h3></li>
+					<li>
+						<a href="####">隐私政策</a>
+					</li>
+					<li>
+						<a href="####">售后政策</a>
+					</li>
+					<li>
+						<a href="####">产品常见问题</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>商务合作</h3></li>
+					<li>
+						<a href="####">商务合作</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>关于葡萄</h3></li>
+					<li>
+						<a href="####">关于葡萄</a>
+					</li>
+					<li>
+						<a href="####">加入葡萄</a>
+					</li>
+					<li>
+						<a href="####">联系我们</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>关注我们</h3></li>
+					<li class="index_footer_weidu">
+						<a href="####">葡萄纬度</a>
+						<img src="img/erweima.jpg" class="erweima" />
+					</li>
+
+				</ul>
+				<div class="index_footer_online">
+					<p>400-651-6161</p>
+					<span>周一至周日 9:00-22:00</span>
+					<span>仅收市话费</span>
+				</div>
+			</div>
+		</div>
+		<div id="index_footer_info">
+			<div class="index_footer_infoinner">
+				<h2>Copyright © 2016, Shanghai Putao Technology Co., Ltd. All Rights Reserved.</h2>
+				<h3>葡萄科技</h3>
+				<br />
+				<h4><a href="####" class="wenhuajingying">网络文化经营单位</a>&nbsp;&nbsp;<a href="####">沪ICP备15015904号-3</a> </h4>
+			</div>
+		</div>
+		<div id="index_function">
+			<a href="####"></a>
+			<a href="#"></a>
+		</div>
+		<script src="js/swiper.min.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				autoplay: 2500,
+				loop: true
+			});
+			$(".index_footer_weidu").mouseenter(function() {
+				$(".erweima").show();
+			})
+			$(".index_footer_weidu").mouseleave(function() {
+				$(".erweima").hide();
+			})
+		</script>
+	</body>
+
+</html>

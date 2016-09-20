@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<style type="text/css">
+			/*右边栏*/
+			#index_function {
+				position: fixed;
+				left: 50%;
+				bottom: 300PX;
+				margin-left: 650PX;
+				width: 40px;
+				height: 100px;
+			}
+			
+			#index_function>a {
+				display: block;
+				width: 100%;
+				height: 40px;
+				margin-top: 10px;
+			}
+			
+			#index_function>a:nth-child(1) {
+				background: url("img/message.png");
+			}
+			
+			#index_function>a:nth-child(2) {
+				background: url("img/top.png");
+			}
+			/*尾部*/
+			#index_footer {
+				margin-top: 40px;
+				width: 100%;
+				min-width: 1200px;
+				height: 220px;
+				background-color: #F5F5F5;
+			}
+			
+			.index_footer_contentbox {
+				margin: 0 auto;
+				width: 1200px;
+				padding: 0 20px;
+				position: relative;
+			}
+			
+			.index_footer_content {
+				float: left;
+				width: 230px;
+				line-height: 208px;
+				text-align: center;
+			}
+			
+			.index_footer_content>img {
+				width: 113px;
+				height: 60px;
+			}
+			
+			.index_footer_contentbox ul {
+				float: left;
+				width: 150px;
+				padding-top: 45px;
+				font-size: 18px;
+				padding-left: 0;
+				list-style: none;
+			}
+			
+			.index_footer_contentbox ul li {
+				list-style: none;
+			}
+			
+			.index_footer_contentbox ul li h3 {
+				color: black;
+				font-size: 18px;
+				margin: 0;
+				padding: 0 0 15px 0;
+			}
+			
+			.index_footer_contentbox ul li a {
+				padding: 5px 0;
+				line-height: 1;
+				font-size: 14px;
+				color: #959595;
+				cursor: pointer;
+			}
+			
+			.index_footer_weidu {
+				position: relative;
+			}
+			
+			.erweima {
+				position: absolute;
+				z-index: 1;
+				top: -80px;
+				display: none;
+				left: 60px;
+			}
+			
+			.index_footer_contentbox ul li a:hover {
+				color: #A472D3;
+			}
+			
+			.index_footer_online {
+				position: absolute;
+				top: 30px;
+				right: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+			
+			.index_footer_online p {
+				margin-bottom: 15px;
+				text-indent: 30px;
+				font-size: 28px;
+				color: #995ACC;
+				background: url("../img/tel.png") no-repeat left center;
+			}
+			
+			.index_footer_online span {
+				display: block;
+				text-align: right;
+				color: #959595;
+				line-height: 24px;
+			}
+			
+			#index_footer_info {
+				min-width: 1200px;
+				width: 100%;
+				background-color: #F5F5F5;
+			}
+			
+			.index_footer_infoinner {
+				width: 1200px;
+				margin: 0 auto;
+				border-top: 1px solid #E1E1E1;
+				text-align: center;
+				color: #959595;
+				padding: 18px 0;
+				line-height: 28px;
+			}
+			
+			.index_footer_infoinner h2 {
+				display: inline-block;
+				font-size: 12px;
+				line-height: 12px;
+				margin: 0;
+			}
+			
+			.index_footer_infoinner h3 {
+				display: inline-block;
+				font-size: 12px;
+				line-height: 14px;
+				margin: 0;
+			}
+			
+			.index_footer_infoinner h4 {
+				margin: 0;
+				color: #AC79BD;
+				line-height: 12px;
+			}
+			
+			.index_footer_infoinner h4 a {
+				margin: 0;
+				color: #959595;
+				font-size: 12px;
+			}
+			
+			.wenhuajingying {
+				display: inline-block;
+				padding-left: 20px;
+				background: url("../img/wen.png") no-repeat;
+				background-size: 14px 14px;
+			}
+			/*这个网页*/
+			body{
+				background-color: #eee;
+			}
+			.nav{
+				/*text-align: center;*/
+				background-color: #000000;
+				width: 100%;
+				height: 80px;
+				overflow: hidden;
+				min-width: 1200px;
+			}
+			.nav div div{
+				display: inline-block;
+				color: white;
+				line-height: 80px;
+    				padding: 0 40px;
+    				height: 80px;
+			}
+			.nav>div{
+				width: 1200px;
+				height: 80px;
+				margin: 0 auto;
+    				
+			}
+			#logo{
+				width: 200px;
+				height: 30px;
+				background-image: url(img/shop/nav_logo_ani@2x.png);
+				background-size: auto 100%;
+				background-repeat: no-repeat;
+			}
+			.shop_login{
+				margin-left: 50px;
+			}
+			.shop_login a{
+				color: white;
+			}
+			.shop_1{
+				background-image: url(img/shop/c33f8ab985a47eb8e4dfa978bd9f0a4d11e86019.jpg);
+				background-position: center center;
+				height: 500px;
+				background-repeat: no-repeat;
+				width: 100%;
+			}
+			.shop_body{
+				width: 1200px;
+				font-size: 32px;
+				color: #646464;
+    				margin: 0 auto;
+    				margin-top: 62px;
+			}
+			.shop_body span{
+				display: inline-block;
+    				font-size: 24px;
+    				color: #959595;
+    				padding-left: 5px;
+    				clear: both;
+			}
+			.shop_things{
+				width: 1200px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			.shop_goods{
+				padding: 0 20px;
+				overflow: hidden;
+				margin-top: 40px;
+				background-color: white;
+				display: inline-block;
+				border-radius: 10px;
+				padding-bottom: 10px;
+			}
+			.shop_goods:nth-child(2n){
+				float: right;
+				margin-right: 10px;
+			}
+			.shop_goods:nth-child(2n+1){
+				float: left;
+				margin-left: 10px;
+			}
+			.shop_goods>a{
+				display: block;
+    				margin: 0 auto;
+    				padding: 15px 10px;
+    				text-align: center;
+    				border-bottom: 1px solid #e1e1e1;
+    				width: 510px;
+    				height: 399px;
+			}
+			.shop_goods>a img{
+				width: 410px;
+			}
+			.shop_goods>div{
+				overflow: hidden;
+				width: 510px;
+			}
+			.left{
+				float: left;
+				margin-top: 10px;
+				width: 350px;
+				margin-left: 10px;
+			}
+			.right{
+				margin-top: 20px;
+				float: right;
+				border: 1px red solid;
+				border-radius: 5px;
+				padding: 5px 10px;
+				color: red;
+				font-size: 30px;
+				font-weight: 900;
+				transition: all 1s; 
+			}
+			.right:hover{
+				color: white;
+				background-color: red;
+			}
+			.left span{
+				margin-top: 10px;
+				display: inline-block;
+    				font-size: 16px;
+    				color: #959595;
+    				line-height: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav">
+			<div>
+				<a href="index.html"><div id="logo"></div></a>
+				<a href="index.html"><div class="shop_head">首页</div></a>
+				<a href="brand.html"><div class="shop_head">品牌动态</div></a>
+				<a href="juchang.html"><div class="shop_head">葡星剧场</div></a>
+				<a href="zhijia.html"><div class="shop_head">葡萄之家</div></a>
+				<a href="yingyong.html"><div class="shop_head">应用下载</div></a>
+				<div class="shop_login">
+					<a href="">登录</a>
+					<a href="">注册</a>
+				</div>
+			</div>
+		</div>
+		<div class="shop_1"></div>
+		<div class="shop_body">
+			科技玩具
+			<span>Technology Toys</span>
+		</div>
+		<div class="shop_things">
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/5a430d756059d58b6b4cc0dfc3d9f96e1b3a8fe4.jpg" alt="" /></a>
+				<div>
+					<div class="left">
+						<h2>奇妙发现</h2>
+						<span>快乐不止于屏幕，虚拟+现实儿童科技益智玩具(本产品需搭配iPad使用)</span>
+					</div>
+					<a href="" class="right">599元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/7d9ff3e1a3a2e9da49fcc08d7b18abf635df17a0.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>淘淘向右走</h2>
+						<span>快乐不止于屏幕，虚拟+现实儿童科技益智玩具(本产品需搭配iPad使用)</span>
+					</div>
+					<a href="" class="right">159元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/a2f2babaea44932cc1f45705f8c741ad54619187.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>星球魔方</h2>
+						<span>智能识别教学还原魔方（本产品需搭配“探索号飞船”使用）</span>
+					</div>
+					<a href="" class="right">99元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/1d6902f98ed789030f6b0e4f1cde1b7f07150ee1.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>哈泥海洋</h2>
+						<span>潜入想象力的海洋，虚拟＋现实儿童科技益智玩具（本产品需搭配“探索号飞船”使用）</span>
+					</div>
+					<a href="" class="right">299元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/95bc3f7b88ed2ad66c8411fbde187c2355df4932.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>涂涂世界</h2>
+						<span>用灵感点亮世界，虚拟＋现实儿童科技益智玩具（本产品需搭配“探索号飞船”使用）</span>
+					</div>
+					<a href="" class="right">299元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/fe9de7037f4e2d6d9475a1811068e73382f15582.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>麦斯丝</h2>
+						<span>用数字丈量快乐，虚拟＋现实儿童科技益智玩具（本产品需搭配“探索号飞船”使用）</span>
+					</div>
+					<a href="" class="right">299元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/027cbb0d85bb983e2f4cc589be1c99dc8227d619.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>Hello编程</h2>
+						<span>学会定义自己的方向，虚拟＋现实儿童科技益智玩具（本产品需搭配“探索号飞船”使用）</span>
+					</div>
+					<a href="" class="right">299元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/4cc0fc9bafbbc00a411b63143d5da8da011e43c4.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>奇妙电路</h2>
+						<span>串联奇思妙想，虚拟＋现实儿童科技益智玩具（本产品需搭配“探索号飞船”使用）</span>
+					</div>
+					<a href="" class="right">499元</a>
+				</div>
+			</div>
+		</div>
+		<div class="shop_body">
+			葡萄配件
+			<span>Putao Accessories</span>
+		</div>
+		<div class="shop_things">
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/7d42690290ca85ebeda92a1bb316b09de5b5c242.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>探索号底座-平板支架（标准版）</h2>
+						<span>带你探索奇妙世界，虚拟＋现实儿童科技益智玩具（本产品需搭配ipad使用）</span>
+					</div>
+					<a href="" class="right">499元</a>
+				</div>
+			</div>
+			<div class="shop_goods">
+				<a href=""><img src="img/shop/871f3f31eb12352a2c1dfb473e996e669793f6ba.jpg"/></a>
+				<div>
+					<div class="left">
+						<h2>探索号底座-平板支架（豪华版）</h2>
+						<span>带你探索奇妙世界，虚拟＋现实儿童科技益智玩具（本产品需搭配ipad使用）</span>
+					</div>
+					<a href="" class="right">499元</a>
+				</div>
+			</div>
+		</div>
+		<div id="index_footer">
+			<div class="index_footer_contentbox">
+				<a href="####" class="index_footer_content"><img src="img/logo.png" /></a>
+				<ul>
+					<li>
+						<h3>订单中心</h3></li>
+					<li>
+						<a href="####">购买指南</a>
+					</li>
+					<li>
+						<a href="####">支付指南</a>
+					</li>
+					<li>
+						<a href="####">配送指南</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>服务支持</h3></li>
+					<li>
+						<a href="####">隐私政策</a>
+					</li>
+					<li>
+						<a href="####">售后政策</a>
+					</li>
+					<li>
+						<a href="####">产品常见问题</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>商务合作</h3></li>
+					<li>
+						<a href="####">商务合作</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>关于葡萄</h3></li>
+					<li>
+						<a href="####">关于葡萄</a>
+					</li>
+					<li>
+						<a href="####">加入葡萄</a>
+					</li>
+					<li>
+						<a href="####">联系我们</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<h3>关注我们</h3></li>
+					<li class="index_footer_weidu">
+						<a href="####">葡萄纬度</a>
+						<img src="img/erweima.jpg" class="erweima" />
+					</li>
+
+				</ul>
+				<div class="index_footer_online">
+					<p>400-651-6161</p>
+					<span>周一至周日 9:00-22:00</span>
+					<span>仅收市话费</span>
+				</div>
+			</div>
+		</div>
+		<div id="index_footer_info">
+			<div class="index_footer_infoinner">
+				<h2>Copyright © 2016, Shanghai Putao Technology Co., Ltd. All Rights Reserved.</h2>
+				<h3>葡萄科技</h3>
+				<br />
+				<h4><a href="####" class="wenhuajingying">网络文化经营单位</a>&nbsp;&nbsp;<a href="####">沪ICP备15015904号-3</a> </h4>
+			</div>
+		</div>
+		<div id="index_function">
+			<a href="####"></a>
+			<a href="#"></a>
+		</div>
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script>
+			$(".index_footer_weidu").mouseenter(function() {
+				$(".erweima").show();
+			})
+			$(".index_footer_weidu").mouseleave(function() {
+				$(".erweima").hide();
+			})
+		</script>
+	</body>
+</html>
