@@ -121,6 +121,9 @@ $(document).ready(function(){
 		window.open("safeguard.html")
 	})
 
+	$(".firstpage").on("click",function(){
+		window.open("shopping.html")
+	})
 	$(".liucheng").hover(function() {
 		$(".liucheng").css({
 			"color":"white",
