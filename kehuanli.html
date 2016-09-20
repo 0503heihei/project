@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="swiper.css">
     <link rel="stylesheet" href="toubu.css">
     <link href="imgd/Adobe%20Photoshop%20CS6.png" rel="shortcut icon">
@@ -141,9 +141,49 @@
                     <li><a href="#">下载中心</a></li>
                     <li><a href="#">客户案例</a></li>
                     <li><a href="#">招贤纳士</a></li>
-                    <li><a href="#">登录</a></li>
-                    <li><a href="#">注册</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">登录<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">登录</a></li>
+                            <li><a href="#">注册</a></li>
+                            <li><a href="#">忘记密码</a></li>
+                        </ul>
+                    </li>
                 </ul>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <img src="https://static.slightech.com/img/logo.png" alt="">
+                    </div>
+                    <div class="modal-body">
+
+                        <form class="form-horizontal col-sm-offset-2" role="form" method="post" action="login_api.php">
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">邮箱</label>
+                                <div class="col-sm-6 ">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="Email" name="user">
+                                </div>
+                            </div>
+                            <div class="form-group col-sm-offset-2">
+                                <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                                <div class="col-sm-6 ">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="pass">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-info">登录</button>
+                                    <button type="submit" class="btn btn-info">重置</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -184,9 +224,9 @@
     <input class="ye3" value="1"></input>
     <span><a href="##">页</a></span>
 </div>
-<script src="jquery-1.12.1.min.js"></script>
+<script src="js/jquery-1.12.1.min.js"></script>
 <script src="swiper.min.js"></script>
-<script src="bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
 
 </script>
