@@ -312,7 +312,27 @@
             $(".video").css("display","none");
         })
 
+//        视频翻页部分
 
+        $(".next").on("click",function(){
+            $(".c3-bottom").css("display","none")
+            $(".c3-bottom1").css("display","none")
+            $(".c3-bottom2").css("display","none")
+            $(".c3-bottom3").css("display","none")
+
+
+            $(".c3-bottom1").css("display","block");
+
+            $(".last").on("click",function(){
+                $(".c3-bottom").css("display","none")
+                $(".c3-bottom1").css("display","none")
+                $(".c3-bottom2").css("display","none")
+                $(".c3-bottom3").css("display","none")
+                $(".c3-bottom").css("display","block")
+
+            })
+
+        })
 
 
     </script>

@@ -183,6 +183,9 @@ i{
     border-radius: 5px;
     color: black;
 }
+.c3-bottom p:hover,.c3-bottom1 p:hover,.c3-bottom2 p:hover,.c3-bottom3 p:hover,.c3-bottom4 p:hover{
+    background-color: #FDC62D;
+}
 .c3-bottom4{
     width: 220px;
     position: absolute;
