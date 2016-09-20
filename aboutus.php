@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+//$_SESSION["user"] = "ajiao";
+//echo $_SESSION['user'];
+setcookie(session_name(),session_id(),time()-10000,"/");
+
+mysql_connect("localhost","root","");
+mysql_select_db("0503");
+mysql_query("set names utf8");
+
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,10 +19,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <style>
         *{
             margin: 0;
             padding: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
         }
         header {
             width: 100%;
@@ -29,7 +50,7 @@
 
         .header2 {
             float: right;
-            margin-top: 50px;
+            margin-top: 30px;
         }
 
         .header2>a {
@@ -38,7 +59,7 @@
             text-decoration: none;
             color: black;
             margin-left: 20px;
-            width: 80px;
+            width: 90px;
             height: 30px;
             border-radius: 10px;
             background-color: #F8E000;
@@ -62,7 +83,7 @@
             display: none;
         }
         .header2>p{
-            width: 70px;
+            width: 80px;
 
             display: inline-block;
             position: relative;
@@ -668,6 +689,8 @@
             color: #000;
             text-decoration: none;
         }
+
+
     </style>
 </head>
 <body>
@@ -677,12 +700,92 @@
         <div class="header2">
             <a href="index.html">首页</a>
             <p><a href="page2_1.html">产品展示 </a><a href="page2_2.html">礼包系列></a></p>
-            <a href="aboutus.html">关于我们</a>
+            <a href="aboutus.php">关于我们</a>
             <a href="connectus.html">联系我们</a>
             <a href="jiaruwomen.html">加入我们</a>
+            <ul class="nav navbar-nav pull-right">
+                <?php
+
+
+                if(isset($_SESSION["user"])&&isset($_SESSION["pass"])){
+
+                    if($_SESSION["user"]=="小黑"){
+                        echo "<li class=\"dropdown\">
+                    <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">{$_SESSION['user']} <span class=\"caret\"></span></a>
+                    <ul class=\"dropdown-menu\" role=\"menu\">
+                        <li><a id='guanli' href=\"guanli.php\" >管理</a></li>
+                        <li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">设置</a></li>
+                        <li class=\"divider\"></li>
+                        <li><a href=\"javascript:signOut()\">注销</a></li>
+                    </ul>
+                </li>";
+                    }else{
+                        echo "<li class=\"dropdown\">
+                    <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">{$_SESSION['user']} <span class=\"caret\"></span></a>
+                    <ul class=\"dropdown-menu\" role=\"menu\">
+                        <li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">设置</a></li>
+                        <li class=\"divider\"></li>
+                        <li><a href=\"javascript:signOut()\">注销</a></li>
+                    </ul>
+                </li>";
+                    }
+                }else{
+                    echo "<li class=\"dropdown\">
+                    <a href=\"#\" id='hehe' class=\"dropdown-toggle\" data-toggle=\"dropdown\">登录 <span class=\"caret\"></span></a>
+                    <ul class=\"dropdown-menu\" role=\"menu\">
+                        <li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">登录</a></li>
+                        <li class=\"divider\"></li>
+                        <li><a href=\"#\">忘记密码</a></li>
+                    </ul>
+                </li>" ;
+                }
+                ?>
+
+            </ul>
         </div>
     </div>
 </header>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <img src="img/wudi.jpg" alt="">
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" method = 'post' role="form" action="login_api.php">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">邮箱</label>
+                        <div class="col-sm-6">
+                            <input  name="user" type="text" class="form-control" id="inputEmail3" placeholder="邮箱">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-6">
+                            <input name="pass" type="password" class="form-control" id="inputPassword3" placeholder="密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-10">
+                            <button type="submit" class="btn btn-success">登录</button>
+                            <button type="button" class="btn btn-success">重置</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <section>
     <div class="div1">
         <img src="img/teambanner.jpg" alt="">
@@ -907,22 +1010,27 @@
             </p>
             <p>&nbsp&nbsp零食侠不以价格为长期战略，指在分享、传播时下最in海外零食的同时，提供购买平台和专业服务。在垂直电商的领域中，零食侠作为全球首款以资讯为主的购物平台，依靠用户社交传播零食资讯，激发用户自主性，提高用户黏性。以礼包形式销售为主，同时根据用户需求，对个人和团体提供礼包订制服务，为顾客解决了选择困难的烦恼，感受到零食侠带来的高品质服务。2016年推出 “七天全国免费退换货”条款，为用户提供免费试吃的体验，无条件退货的完善售后，真正让用户来验证零食侠的高品质服务。</p>
             <h3>发展里程</h3>
-            <div>
-                <p>2015年7月创始团队3名成员在成都高新区成立成都零食侠科技公司，创立零食侠品牌</p>
-                <p>2015年7月 获得日本大阪-寺内企业批发卡</p>
-                <p>2015年8月获得种子投资</p>
-                <p>2015年8月入驻成都市高新区创业孵化区</p>
-                <p>2015年9月零食侠微信公众号（snackman-cd）粉丝突破1万 正式上线</p>
-                <p>2015年10月零食侠正式以礼包销售为主打开市场</p>
-                <p>2015年10月协办“阳光之旅 爱在高新 2015高新魅力体验游”活动</p>
-                <p>2016年4月零食侠团队突破15人，首位外籍员工入职</p>
-                <p>2016年4月零食侠APP(IOS)研发团队招募到完成测试版共耗时45天</p>
-                <p>2016年4月经15天内测，零食侠APP 1.0版在APP STORE正式上线</p>
-                <p>&nbsp&nbsp零食侠成为垂直电商中的米其林，专业的零食资讯和购买平台。零食侠未来的物流体系会向科技化，智能化发展，利用无人机执行配送任务，精准投送至二维码收发箱，顾客二维码扫码即可取件。</p>
-                <p>&nbsp&nbsp零食侠APP上线第二天即在APP STORE 美食类别中排名第56位。 “进口零食” 搜索词的排名从第42名一跃至第1名，与“零食”相关的搜索词排名均上升至前10名左右 2016年1月22日 《海外进口零食加礼包等于订制零食新时尚》在搜狐网发布，同时被凤凰网收录。</p>
-                <p>2016年1月20日 《2016年四川新春购物节》在搜狐网发布，同时被中华网、中国消费网转载。</p>
-                <p>2016年3月8日 《零食也能免费退换？！》在搜狐网发布。</p>
-            </div>
+            <ul class="list">
+                <?php
+
+                $sql = "SELECT * FROM licheng ORDER by id  ";
+
+                $result = mysql_query($sql);
+
+                while($row = mysql_fetch_assoc($result)){
+                    echo "<p><span>".$row['time']." </span><span>".$row['things']." </span></p>";
+
+                }
+
+
+
+
+                ?>
+
+
+
+
+            </ul>
         </div>
     <section>
         <div class="div1">
@@ -1038,8 +1146,27 @@
         <a href="###" class="huizi">使用“扫一扫”即可将网页分享至朋友圈。</a>
     </div>
 </section>
+
     <script src="js/jquery-2.1.3.min.js"></script>
     <script>
+
+        function signOut() {
+            window.location.assign("login_api.php");
+        }
+
+        $('#guanli').click(function () {
+           $("#ab_guanli").show();
+        });
+
+
+
+
+
+
+
+
+
+
         $(".header2 a:nth-child(2)").mouseenter(function() {
             $(".chanpinzhanshi").show();
 
@@ -1145,6 +1272,7 @@
         close1.onclick = function () {
             weixintanchu.style.display = "none";
         }
+
     </script>
 </body>
 </html>
