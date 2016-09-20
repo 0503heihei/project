@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>产品信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="text/css" href="img/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    section{
+	    	width: 100%;
+	    	height: 100%;
+	    	overflow: hidden;
+	    	text-align: center;
+    }
+   .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+    		width: 5px;
+    		height: 5px;
+    		margin:5px auto;
+    		background-color: #FFFFFF;
+    }
+     .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet-active{
+    	width: 12px;
+    	height: 12px;
+    	background-color: #FFFFFF;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{
+    width: 20px;
+    height: 60px;
+    }
+    .swiper-slide.slide1{
+    	background-color: #2DD120;
+    }
+    .swiper-slide.slide2{
+    	background-color: #17ACFF;
+    }
+    .swiper-slide.slide3{
+    	background-color: #FFC000;
+    }
+    .sec1{
+    		width: 1000px;
+	   height: 100%;
+	   margin: 0 auto;
+    }
+    .sec11{
+    	padding-top: 8rem;
+    width: 46rem;
+    margin: 0 auto;
+    }
+    .sec11 img{
+    		width: 65%;
+    }
+    .blue{
+    	border: none;
+    font-size: 1rem;
+    background-color: #39C1FF;
+    color: #fff;
+    padding: .8rem 1rem;
+    border-radius: .4rem;
+    margin-top: 1rem;
+    }
+    .sec12 h3,.sec2_left h3,.sec3_right h3{
+    		    color: #fff;
+    		    font-size: 2.3rem;
+    }
+     .sec12 p,.sec2_left p,.sec3_right p{
+     	 color: #fff;
+    		font-size: 1.1rem;
+    		line-height: 1.9rem;
+    		
+     }
+     .sec2_right{
+     	width: 28rem;
+	    height: 28rem;
+	    top: 50%;
+	    /*right:15rem;*/
+	    margin-top: -30rem;
+	     float: right;
+     }
+     .sec2_right img{
+     	width: 100%;
+     } 
+     .sec2_left{
+     	color: #fff;
+	    width: 30rem;
+	    height: 20rem;
+	    margin-top: 21rem;
+	    top: 50%;
+	    left: 13rem;
+	   	text-align: left;
+	   	margin-left: 10rem;
+     }
+     .sec3_left{
+     	width: 28rem;
+	    height: 28rem;
+	    top: 50%;
+	    /*right:15rem;*/
+	    margin-top: 10rem;
+	    margin-left: 3rem;
+	     float: left;
+     }
+     .sec3_left img{
+     	width: 100%;
+     }
+     .sec3_right{
+     	color: #fff;
+	    width: 30rem;
+	    height: 20rem;
+	    margin-top: 21rem;
+	    top: 50%;
+	   	text-align: right;
+	   	margin-left: 25rem;
+     }
+    </style>
+</head>
+<body>
+	<header>
+			<div class="head1 head3">
+				<div class="logo">
+					<img src="img/logo.png"/>
+				</div>
+				<div class="head_right">
+					<a href="index.html">首页</a>
+					<a  class="head_active" href="javascript:void(0)">产品</a>
+					<a href="newstate.html">动态</a>
+					<a href="about.html">关于</a>
+					<a href="login.html">登录</a>
+				</div>
+			</div>
+			<div class="head2"></div>
+		</header>
+	
+	<section>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+            		<div class="sec1">
+            			<div class="sec11">
+            				<img src="img/product/guestAna.png"/>
+            			</div>
+            			<div class="sec12">
+            				<h3>客流指标分析</h3>
+            				<p>专利级的客流分析系统</p>
+            				<p>5项复合KPI体系，一眼看透客流</p>
+            				<a href="product1.html"><button class="blue">查看详情</button></a>
+            			</div>
+            		</div>
+            </div>
+            <div class="swiper-slide slide2">
+            		<div class="sec1">
+            			<div class="sec2_left">
+            				<h3>用户画像</h3>
+            				<p>了解客户，拒绝盲目经营</p>
+            				<p>6大维度/24项目/近300标签</p>
+            				<a href="product2.html"><button class="blue">查看详情</button></a>
+            			</div>
+            			<div class="sec2_right">
+            				<img src="img/product/userImg.png" alt="" />
+            			</div>
+            		</div>
+            </div>
+            <div class="swiper-slide slide3">
+            		<div class="sec1">
+            			<div class="sec3_left">
+            				<img src="img/product/router.png"/>
+            			</div>
+            			<div class="sec3_right">
+            				<h3>智能硬件</h3>
+            				<p>wi-beacon小个子有大本领</p>
+            				<p>256M内存/32M闪存/40人在线</p>
+            				<a href="product3.html"><button class="blue">查看详情</button></a>
+            			</div>
+            		</div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+		
+	</section>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        mousewheelControl: true
+    });
+    </script>
+</body>
+</html>

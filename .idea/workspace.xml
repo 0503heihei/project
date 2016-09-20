@@ -2,6 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdd3ef94-1dbf-4442-8ef1-ae0ca81f8756" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/ZOOCOFFEE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/dayali.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/dicos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/gelin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/history.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/jiumaojiu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/langang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/mingmen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/qingfeng.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/shangdao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/unicom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/wanlong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/xibei.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/yimujuecha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/yipin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/about/zhengongfu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner1/cusflo_banner-background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner1/cusflo_banner_character.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner1/cusflo_banner_interface.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner2/cusflo_banner_interface.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner2/web_banner_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner2/web_banner_character.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner3/web_banner_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner3/web_banner_character.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/banner3/web_banner_iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/cus2.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/decide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/decideText.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/findText.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/know.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/knowText.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/percise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/home/perciseText.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/cal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/i.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/j.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/newstate/k.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product/guestAna.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product/router.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product/userImg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/02-in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/15-in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/app_download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/back1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/badge - wi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/badges/01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/badges/02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/badges/03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/badges/05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/badges/06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/bg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/dark-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/fancybox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/foot-badge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/icons/apple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/logo-wi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c010.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c011.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/portfolio/c09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/product.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/scroll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/10 (1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/accout.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/charts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/customer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/detail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/heat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/history_KPI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/indoor_loc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/map.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/menu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/neighbor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/offline_chat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/place.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/secret_meeting.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/shop_inv.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/showcase/show_que.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slants/dark-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slants/dark-v-inv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slants/white-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slants/white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slants/yellow-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slants/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slider/04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slider/05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/slider/06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/social/alipay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/social/cusflo_ana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/social/dnspod.v2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/social/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/social/qiniu.v2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/testimonial/qr-weixin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/weidian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/img/product3/zoom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/about.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/newstate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/product3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/css/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/js/jquery-2.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/js/moveblock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/js/product3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/js/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/newstate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/product2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/product3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/last项目/yid.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -22,24 +191,7 @@
     <favorites_list name="project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="37">
-                <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,8 +204,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/README0.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -63,10 +215,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="262" />
-    <option name="y" value="24" />
+    <option name="x" value="178" />
+    <option name="y" value="23" />
     <option name="width" value="1650" />
     <option name="height" value="928" />
   </component>
@@ -101,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -119,9 +275,22 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="last项目" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -154,6 +323,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -180,6 +355,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cdd3ef94-1dbf-4442-8ef1-ae0ca81f8756" name="默认" comment="" />
@@ -187,7 +365,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474185751470</updated>
-      <workItem from="1474185752783" duration="2246000" />
+      <workItem from="1474185752783" duration="2908000" />
+      <workItem from="1474246726186" duration="716000" />
+      <workItem from="1474373818376" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="嘿嘿">
       <created>1474187676127</created>
@@ -196,31 +376,45 @@
       <option name="project" value="LOCAL" />
       <updated>1474187676127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="嘿嘿">
+      <created>1474188086192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474188086192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="嘿嘿">
+      <created>1474188146003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474188146003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2246000" />
+    <option name="totallyTimeSpent" value="3670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="262" y="24" width="1650" height="928" extended-state="0" />
+    <frame x="178" y="23" width="1650" height="928" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25281602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33007336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -251,6 +445,20 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
           <first_editor relative-caret-position="37">
             <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             <folding />
@@ -265,11 +473,19 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="37">
-            <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <first_editor relative-caret-position="111">
+            <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/last项目/js/product3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

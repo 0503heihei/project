@@ -1,0 +1,72 @@
+section{
+	text-align: center;
+	overflow: hidden;
+}
+.sec_wrap{
+	width: 100%;
+	max-width: 970px;
+	padding: 0 15px;
+	margin: 60px auto 0;
+}
+section h2{
+	margin: 3rem auto;
+	font-size: 30px;
+}
+section p{
+	ont-size: 1.6rem;
+    color: #999;
+    line-height: 2rem;
+    text-indent: 2rem;
+}
+.sec_word{
+	width: 720px;
+	margin: 0 auto;
+}
+.sec_word1 p{
+	text-align: left;
+}
+.history{
+	width: 80%;
+    margin: 2rem auto;
+}
+.history img{
+	width: 100%;
+}
+.partners{
+	width: 100%;
+}
+.partners div{
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+	width: 820px;
+	margin: 0 auto;
+}
+.partners div img{
+	width: 140px;
+	margin: 30px;
+}
+@media only screen and (max-width: 980px) and (min-width: 625px){
+	.sec_word{
+		width: 580px;
+	}
+	.partners div{
+		width: 620px;
+	}
+}
+@media only screen and (max-width: 624px) and (min-width: 415px){
+	.sec_word{
+		width: 380px;
+	}
+	.partners div{
+		width: 420px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.sec_word{
+		width: 280px;
+	}
+	.partners div{
+		width: 220px;
+	}
+}

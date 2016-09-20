@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>紫尘咨询 cusflo - 领先的线下客流分析服务</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="head1 head3">
+				<div class="logo">
+					<img src="img/logo.png" />
+				</div>
+				<div class="head_right">
+					<a class="head_active" href="javascript:void(0)">首页</a>
+					<a href="product.html">产品</a>
+					<a href="newstate.html">动态</a>
+					<a href="about.html">关于</a>
+					<a href="login.html">登录</a>
+				</div>
+			</div>
+			<div class="head2"></div>
+		</header>
+		<section>
+			<div class="sec_head">
+				<!-- Swiper -->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" id="swiper-slide1">
+							<div class="sw_content">
+								<div class="banner_pic1">
+									<img src="img/home/banner1/cusflo_banner_interface.png" alt="" />
+								</div>
+								<div class="banner_con1">
+									<div class="banner_p1">
+										<img src="img/home/banner1/cusflo_banner_character.png" />
+									</div>
+									<div class="banner_btn">立即使用</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide" id="swiper-slide2">
+							<div class="sw_content">
+								<div class="banner_pic1">
+									<img src="img/home/banner2/cusflo_banner_interface.png" alt="" />
+								</div>
+								<div class="banner_con1">
+									<div class="banner_p1">
+										<img src="img/home/banner2/web_banner_character.png" />
+									</div>
+									<div class="banner_btn">立即使用</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide" id="swiper-slide2">
+							<div class="sw_content">
+								<div class="banner_pic1">
+									<img src="img/home/banner3/web_banner_iphone.png" alt="" />
+								</div>
+								<div class="banner_con1">
+									<div class="banner_p1">
+										<img src="img/home/banner3/web_banner_character.png" />
+									</div>
+									<div class="banner_btn">立即使用</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cusflo">
+				<img src="img/home/cus2.0.jpg" alt="" />
+			</div>
+			<div class="big_pic big_pic1"></div>
+			<div class="content_box">
+				<div class="content_w">
+					<img src="img/home/know.png" id="know" />
+					<img src="img/home/knowText.png" id="know_text" />
+				</div>
+			</div>
+			<div class="big_pic big_pic2"></div>
+			<div class="content_box">
+				<div class="content_w">
+					<img src="img/home/findText.png" id="findText" />
+					<img src="img/home/find.png" id="find" />
+				</div>
+			</div>
+			<div class="big_pic big_pic3"></div>
+			<div class="content_box">
+				<div class="content_w">
+					<img src="img/home/decide.png" id="decide" />
+					<img src="img/home/decideText.png" id="decideText" />
+				</div>
+			</div>
+			<div class="big_pic big_pic4"></div>
+			<div class="content_box">
+				<div class="content_w">
+					<img src="img/home/perciseText.png" id="perciseText" />
+					<img src="img/home/percise.png" id="percise" />
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>客服热线：010-84402806 邮箱：contact@zicc.cc</p>
+			<p>北京紫尘咨询有限责任公司</p>
+		</footer>
+		<script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(document).on("scroll", function() {
+				var topValue = document.body.scrollTop || document.documentElement.scrollTop;
+				if(topValue >= 60) {
+					$(".head2").fadeIn(1000);
+				}else{
+					$(".head2").fadeOut(1000);
+				}
+			})
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				direction: 'vertical',
+				autoplay: 3000,
+				loop: true
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,168 @@
+html,
+body {
+	position: relative;
+	height: 100%;
+	font-size: 10px;
+}
+.swiper-container {
+	width: 100%;
+	height: 430px;
+}
+.swiper-slide {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+#swiper-slide1{
+	background: url("../img/home/banner1/cusflo_banner-background.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+#swiper-slide2{
+	background: url("../img/home/banner2/web_banner_bg.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+#swiper-slide3{
+	background: url("../img/home/banner3/web_banner_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.sw_content{
+	position: relative;
+    width: 86rem;
+    height: 35.8rem;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner_pic1{
+	position: absolute;
+    top: 6.6rem;
+    left: 6.6rem;
+    width: 31.6rem;
+}
+.swiper-wrapper img{
+	width: 100%;
+	height: 100%;
+}
+.banner_con1{
+	width: 20.8rem;
+	position: absolute;
+    top: 12.5rem;
+    left: 45.8rem;
+}
+.banner_p1{
+	width: 20.8rem;
+}
+.banner_btn{
+	width: 100%;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    background: #39c1ff;
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: Arial,"Microsoft YaHei",SimHei;
+    border: 0;
+    border-radius: .6rem;
+    margin-top: .9rem;
+    cursor: pointer;
+}
+.cusflo{
+	width: 100%;
+}
+.cusflo img{
+	width: 100%;
+}
+.big_pic{
+	height: 464px;
+    position: relative;
+    width: 100%;
+    background: 50% 0 no-repeat fixed #fff;
+    background-size: cover;
+}
+.big_pic1{
+	background-image: url("../img/home/1.jpg");
+	
+}
+.big_pic2{
+	background-image: url("../img/home/2.jpg");
+	
+}
+.big_pic3{
+	background-image: url("../img/home/3.jpg");
+	
+}
+.big_pic4{
+	background-image: url("../img/home/4.jpg");
+	
+}
+.content_box{
+	width: 100%;
+    min-height: 27rem;
+    background: #eee;
+    position: relative;
+}
+.content_w{
+	width: 78rem;
+	margin: 0 auto;
+	position: relative;
+}
+#know{
+	width: 46rem;
+    position: absolute;
+    left: 0;
+    top: -6rem;
+}
+#know_text{
+	width: 35rem;
+    position: absolute;
+    right: 0;
+    top: 10rem;
+}
+#findText{
+	width: 35rem;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+}
+#find{
+	width: 32rem;
+    position: absolute;
+    right: 3rem;
+    top: -7rem;
+}
+#decide{
+	width: 20rem;
+    position: absolute;
+    left: 5rem;
+    top: -7rem;
+    z-index: 1;
+}
+#decideText{
+	width: 35rem;
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+#perciseText{
+	width: 33rem;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+}
+#percise{
+	width: 38rem;
+    position: absolute;
+    right: 0;
+    top: 7rem;
+}
