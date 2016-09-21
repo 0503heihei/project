@@ -48,9 +48,9 @@ session_start();
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">公司简介</a></li>
-                        <li><a href="#">在线反馈</a></li>
-                        <li><a href="#">联系我们</a></li>
+                        <li><a href="pageLiuliang/guanyuwomen.php">公司简介</a></li>
+                        <li><a href="pageLiuliang/zaixianfankui.php">在线反馈</a></li>
+                        <li><a href="pageLiuliang/lianxiwomen.php">联系我们</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -62,7 +62,7 @@ session_start();
                 </li>
                 <li><a href="#">下载中心</a></li>
                 <li><a href="#">客户案例</a></li>
-                <li><a href="#">招贤纳士</a></li>
+                <li><a href="pageLiuliang/Page1.php">招贤纳士</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <?php

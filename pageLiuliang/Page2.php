@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../toubu.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
     <style>
         *{
             margin: 0;
@@ -21,7 +24,7 @@
 
         #l_connect{
             width: 1000px;
-            height: 1780px;
+            height: 2200px;
             overflow: hidden;
             padding-top: 50px;
             margin: 0 auto;
@@ -114,9 +117,10 @@
         /**********************职位信息***************/
         #l_connect_right_zhiwei1{
             width: 700px;
-            height: 455px;
+            height: 508px;
             margin: 50px auto;
             border:1px solid lightgray;
+            display: inline-block;
         }
 
         .l_connect_right_zhiwei_head{
@@ -130,7 +134,7 @@
         }
         .l_connect_right_zhiwei_head h3{
             padding-left: 20px;
-            padding-top: 20px;
+            padding-top: 0;
         }
         .l_connect_right_zhiwei_head span{
             display:block;
@@ -179,9 +183,10 @@
         /***********************职位信息2*****************/
         #l_connect_right_zhiwei2{
             width: 700px;
-            height: 422px;
+            height: 496px;
             margin: 50px auto;
             border:1px solid lightgray;
+            display: inline-block;
         }
 
         .l_connect_right_zhiwei_head{
@@ -244,9 +249,10 @@
         /**************************职位显示3************************/
         #l_connect_right_zhiwei3{
             width: 700px;
-            height: 642px;
+            height: 810px;
             margin: 50px auto;
             border:1px solid lightgray;
+            display: inline-block;
         }
 
         .l_connect_right_zhiwei_head{
@@ -260,7 +266,7 @@
         }
         .l_connect_right_zhiwei_head h3{
             padding-left: 20px;
-            padding-top: 20px;
+            padding-top: 0;
         }
         .l_connect_right_zhiwei_head span{
             display:block;
@@ -391,7 +397,7 @@
             <p>招贤纳士</p>
             <div id="l_connect_left_head_a">
                 <a href="">网站首页</a><span>></span>
-                <a href="zhaoxiannashi.html">招贤纳士</a><span>></span>
+                <a href="Page1.php">招贤纳士</a><span>></span>
             </div>
         </div>
         <!---------------------------职位显示-------------------->
@@ -492,12 +498,10 @@
 </div>
 
 <div id="l_tiaoye">
-    <span id="l_tiaoye_before">上一页</span>
+    <a id="l_tiaoye_before" class="Page1">上一页</a>
     <a href="" id="l_tiaoye_num1">1</a>
     <a href="" id="l_tiaoye_num2">2</a>
-    <a href="" id="l_tiaoye_num3">3</a>
-    <a href="" id="l_tiaoye_num4">4</a>
-    <a href="" id="l_tiaoye_next">下一页</a>
+    <span href="" id="l_tiaoye_next">下一页</span>
     <span id="l_tiaoye_zhuanzhi">转至第</span>
     <input type="text" id="l_tiaoye_text">
     <input type="button" id="l_tiaoye_btn" value="页">
@@ -506,5 +510,16 @@
 <div id="l_foot">
     <p>Powered by 北京艾硕科网络科技有限公司  ©2015-2016 </p>
 </div>
+
+<script src="../js/jquery-2.1.3.js"></script>
+<script src="../js/jquery.pjax.js"></script>
+<script src="../js/change.js"></script>
+
+<script src="../js/bootstrap.min.js"></script>
+<script>
+    function signout() {
+        window.location.assign("shouye_api.php");
+    }
+</script>
 </body>
 </html>

@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../toubu.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
     <style>
         *{
             margin: 0;
@@ -21,7 +24,7 @@
 
         #l_connect{
             width: 1000px;
-            height: 2130px;
+            height: 2635px;
             overflow: hidden;
             padding-top: 50px;
             margin: 0 auto;
@@ -114,7 +117,7 @@
  /**********************职位信息***************/
         #l_connect_right_zhiwei1{
             width: 700px;
-            height: 550px;
+            height: 678px;
             margin: 50px auto;
             border:1px solid lightgray;
         }
@@ -130,7 +133,7 @@
         }
         .l_connect_right_zhiwei_head h3{
             padding-left: 20px;
-            padding-top: 20px;
+            padding-top: 0;
         }
         .l_connect_right_zhiwei_head span{
             display:block;
@@ -179,7 +182,7 @@
 /***********************职位信息2*****************/
         #l_connect_right_zhiwei2{
             width: 700px;
-            height: 690px;
+            height:850px;
             margin: 50px auto;
             border:1px solid lightgray;
         }
@@ -195,7 +198,7 @@
         }
         .l_connect_right_zhiwei_head h3{
             padding-left: 20px;
-            padding-top: 20px;
+            padding-top:0;
         }
         .l_connect_right_zhiwei_head span{
             display:block;
@@ -244,7 +247,8 @@
 /**************************职位显示3************************/
         #l_connect_right_zhiwei3{
             width: 700px;
-            height: 642px;
+            height: 800px;
+            display:inline-block;
             margin: 50px auto;
             border:1px solid lightgray;
         }
@@ -371,10 +375,110 @@
 
 
 
-
     </style>
 </head>
 <body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="../imgd/Adobe%20Photoshop%20CS6.png" alt=""></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">网站首页</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="guanyuwomen.php">公司简介</a></li>
+                        <li><a href="zaixianfankui.php">在线反馈</a></li>
+                        <li><a href="lianxiwomen.php">联系我们</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown" id="dropdown">
+                    <a href="#" id="xinwenzixun1" class="dropdown-toggle" data-toggle="dropdown">新闻资讯<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">公司动态</a></li>
+                        <li><a href="#">业界资讯</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">下载中心</a></li>
+                <li><a href="#">客户案例</a></li>
+                <li><a href="Page1.php">招贤纳士</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <?php
+                if(isset($_SESSION["user"]) && isset($_SESSION["pass"])){
+                    echo "<li class=\"dropdown\">
+                <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">"."{$_SESSION['user']}"."<span class=\"caret\"></span></a>
+                <ul class=\"dropdown-menu\" role=\"menu\">
+                    <li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">设置</a></li>
+                    <li class=\"divider\"></li>
+                    <li><a href=\"js/page.js\">注销</a></li>
+                    <li><a href=\"js/page.js\">管理</a></li>
+                </ul>
+                </li>";
+                }else{
+                    echo "<li class=\"dropdown\">
+                <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">登录 <span class=\"caret\"></span></a>
+                <ul class=\"dropdown-menu\" role=\"menu\">
+                    <li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">登录</a></li>
+                    <li class=\"divider\"></li>
+                    <li><a href=\"##\">忘记密码</a></li>
+                    <li class=\"divider\"></li>
+                    <li><a href=\"js/page.js\">注册</a></li>
+                </ul>
+            </li>";
+                }
+                ?>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <img src="../imgd/Adobe%20Photoshop%20CS6.png" alt="">
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal col-sm-offset-2" role="form" method="post" action="shouye_api.php">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">邮箱</label>
+                        <div class="col-sm-6 ">
+                            <input type="text" class="form-control" id="inputEmail3" placeholder="Email" name="user">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-offset-2">
+                        <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-6 ">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="pass">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-info">登录</button>
+                            <button type="submit" class="btn btn-info">重置</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div id="l_guanyulogo"></div>
 
@@ -382,8 +486,8 @@
     <div id="l_connect_left">
         <h1>招贤纳士</h1>
         <div id="l_connect_left_a">
-            <a href="" id="l_connect_left_a1">招贤纳士</a>
-            <a href="" id="l_connect_left_a2">在线应聘</a>
+            <a href="Page1.php" id="l_connect_left_a1">招贤纳士</a>
+            <a href="#" id="l_connect_left_a2">在线应聘</a>
         </div>
     </div>
 
@@ -391,14 +495,14 @@
         <div id="l_connect_left_head">
             <p>招贤纳士</p>
             <div id="l_connect_left_head_a">
-                <a href="">网站首页</a><span>></span>
-                <a href="zhaoxiannashi.html">招贤纳士</a><span>></span>
+                <a href="../shouye.php">网站首页</a><span>></span>
+                <a href="Page1.php">招贤纳士</a><span>></span>
             </div>
         </div>
 <!---------------------------职位显示-------------------->
         <div id="l_connect_right_zhiwei1">
             <div class="l_connect_right_zhiwei_head">
-                <a href=""><h3>架构工程师</h3></a>
+                <a href="jiagoushi.html"><h3>架构工程师</h3></a>
                 <span>发布日期:2015-11-27&nbsp;&nbsp;&nbsp;工作地点:北京市西环广场&nbsp;&nbsp;&nbsp;招聘人数：1</span>
             </div>
             <div id="l_connect_right_zhiwei1_xinxi1">
@@ -554,12 +658,10 @@
 </div>
 
 <div id="l_tiaoye">
-    <span id="l_tiaoye_before">上一页</span>
+    <span id="l_tiaoye_before" class="Page1">上一页</span>
     <a href="" id="l_tiaoye_num1">1</a>
     <a href="" id="l_tiaoye_num2">2</a>
-    <a href="" id="l_tiaoye_num3">3</a>
-    <a href="" id="l_tiaoye_num4">4</a>
-    <a href="" id="l_tiaoye_next">下一页</a>
+    <a href="" id="l_tiaoye_next" class="Page2">下一页</a>
     <span id="l_tiaoye_zhuanzhi">转至第</span>
     <input type="text" id="l_tiaoye_text">
     <input type="button" id="l_tiaoye_btn" value="页">
@@ -568,5 +670,17 @@
 <div id="l_foot">
     <p>Powered by 北京艾硕科网络科技有限公司  ©2015-2016 </p>
 </div>
+
+<script src="../js/jquery-2.1.3.js"></script>
+<script src="../js/jquery.pjax.js"></script>
+<script src="../js/change.js"></script>
+
+<script src="../js/bootstrap.min.js"></script>
+<script>
+    function signout() {
+        window.location.assign("shouye_api.php");
+    }
+</script>
+
 </body>
 </html>
