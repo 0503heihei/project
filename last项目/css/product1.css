@@ -1,0 +1,124 @@
+html{
+	font-size: 16px;
+}
+.wrap {
+	margin: 0 auto;
+}
+
+.banner {
+	min-width: 800px;
+	position: relative;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.contant1 {
+	position: absolute;
+	color: #fff;
+	top: 20%;
+	right: 22%;
+	width: 100%;
+	text-align: right;
+	
+}
+.contant1 h3{
+	font-size: 2.8rem;
+	font-weight: 900;
+}
+.contant1 p{
+	font-size: 1.2rem;
+	padding: 10px;
+}
+.banner .fenxi{
+	position: absolute;
+	top: auto;
+    right: auto;
+    bottom: 0;
+    left: 22%;
+     width: 15rem;
+}
+.fuhe{
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 800;
+	line-height: 6rem;
+	border-bottom: 2px solid #EEEEEE;
+}
+.sec{
+	width: 1000px;
+	margin: 0 auto;
+}
+.sec2{
+	position: relative; 
+	margin: 0 auto;
+}
+.sec2 img{
+	width: 100%;
+}
+.contant2{
+	
+	color: #fff;
+    width: 90%;
+   top: 2rem;
+    right: auto;
+    left: 10%;
+    bottom: auto;
+    position: absolute;
+    /*background-color: saddlebrown;*/
+}
+.contant2 h3{
+	margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.contant2 ul{
+	list-style: initial;
+}
+.contant2 ul li{
+	margin-top: 7px;
+}
+.sec3{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.sec3 h3{
+	margin: 2rem auto;
+    font-size: 3rem;
+}
+.sec3 p{
+	font-weight: 100;
+    margin: 1rem auto 2rem;
+}
+footer{
+	width: 100%;
+    min-height: 70px;
+    background-color: #555;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+footer p{
+	color: #fff;
+	font-size: 1.4rem;
+    margin: .8rem auto;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 1120px) {
+	.sec{
+	
+	width: 90%;
+	text-align: center;
+	}
+	.sec img{
+	width: 33%;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/product1.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+
+	<body>
+		<header>
+			<div class="head1 head3">
+				<div class="logo">
+					<img src="img/logo.png" />
+				</div>
+				<div class="head_right">
+					<a href="index.html">首页</a>
+					<a class="head_active" href="javascript:void(0)">产品</a>
+					<a href="newstate.html">动态</a>
+					<a href="about.html">关于</a>
+					<a href="login.html">登录</a>
+				</div>
+			</div>
+			<div class="head2"></div>
+		</header>
+		<div class="wrap">
+			<div class="banner">
+				<img src="img/news/u.jpg" />
+				<div class="contant1">
+					<h3>客流分析</h3>
+					<p>随时随地 为您掌握</p>
+					<h3>客流分析</h3>
+				</div>
+				<img class="fenxi" src="img/news/r.png" alt="" />
+			</div>
+			<div class="fuhe">
+				5大复合KPI
+			</div>
+			<div class="sec">
+				<img src="img/news/q.png" />
+				<img src="img/news/p.png" alt="" />
+				<img src="img/news/o.png" />
+				<img src="img/news/l.png" />
+				<img src="img/news/n.png" />
+				<img src="img/news/m.png" />
+			</div>
+		</div>
+		<div class="sec2">
+			<img src="img/news/s.jpg" />
+
+			<div class="contant2">
+				<h3>二十余个客流关键指标</h3>
+				<h3>为您的生意保驾护航</h3>
+				<ul>
+					<li>今日总客流</li>
+					<li>今日进店率</li>
+					<li>到店停留时间</li>
+					<li>今日回头率</li>
+					<li>全店分时客存</li>
+					<li>新客到场时间分布</li>
+					<li>全店去重客流</li>
+					<li>每日驻足率/回头率/优客率</li>
+				</ul>
+			</div>
+			
+			<div class="sec3">
+				<h3>为什么领先</h3>
+				<p>cusflo客流分析的精度、深度和便利即便方言全球，亦无人超越</p>
+				<img src="img/news/t.png"/>
+			</div>
+			
+		</div>
+		<footer>
+			<p>客服热线：010-84402806 邮箱：contact@zicc.cc</p>
+			<p>北京紫尘咨询有限责任公司</p>
+		</footer>
+		<script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).on("scroll", function() {
+				var topValue = document.body.scrollTop || document.documentElement.scrollTop;
+				if(topValue >= 60) {
+					$(".head2").fadeIn(1000)
+				} else {
+					$(".head2").fadeOut(1000)
+				}
+			})
+		</script>
+	</body>
+
+</html>
