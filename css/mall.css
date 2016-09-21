@@ -73,9 +73,9 @@ section{
 	/*margin-top: 25px;*/
 }
 
-.shop_mall:hover {
-	background: url(../img/zshopmallhover.png) no-repeat;
-}
+/*.shop_mall:hover {*/
+	/*background: url(../img/zshopmallhover.png) no-repeat;*/
+/*}*/
 .top_banner{
 	height: 500px;
 	background-repeat: no-repeat;
