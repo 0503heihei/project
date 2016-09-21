@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -16,18 +19,27 @@
 			<!--导航栏-->
 			<div class="header" id="returnTop">
 				<div class="header_inner">
-					<a href="index.html" class="logo"></a>
+					<a href="index.php" class="logo"></a>
 					<ul class="header_nav">
-				        <li><a href="index.html">首页</a></li>
-				        <li><a href="brand.html">品牌动态</a></li>
-				        <li><a href="theatre.html">葡星剧场</a></li>
-				        <li><a href="pt_home.html">葡萄之家</a></li>
-				        <li><a href="app.html">应用下载</a></li>
-				    </ul>
-				    <div class="login_info">
-				    		<a href="signin.html" class="login"></a>
-				    		<a href="shop_maill.html" class="shop_mall"></a>
-				    </div>
+						<li><a href="index.php">首页</a></li>
+						<li><a href="brand.php">品牌动态</a></li>
+						<li><a href="theatre.php">葡星剧场</a></li>
+						<li><a href="pt_home.php">葡萄之家</a></li>
+						<li><a href="app.php">应用下载</a></li>
+					</ul>
+					<div class="login_info">
+						<!-- 动态登录 -->
+						<?php
+							if(isset($_SESSION["user"]) && isset($_SESSION["pass"])){
+								echo "<a href='#' class='namestyle'>{$_SESSION["user"]}</a>";
+						echo "<ul class='signout'><li><a href='javascript:signOut();'>退出登录</a></li></ul>";
+						} else{
+						echo "<a href=\"signin.php\" class=\"login\"></a>";
+						}
+						?>
+						<!--<a href="signin.php" class="login"></a>-->
+						<a href="shop_maill.php" class="shop_mall"></a>
+					</div>
 				</div>
 			</div>
 			<!--banner-->
@@ -340,6 +352,7 @@
 		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/hbanner.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/newsbanner.js" type="text/javascript" charset="utf-8"></script>	
+		<script src="js/newsbanner.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/signin.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

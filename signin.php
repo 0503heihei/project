@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -20,10 +23,10 @@
 						</a>
 					</div>
 					<div class="pt-login-frame">
-						<form action="" method="post">
+						<form method="post">
 							<div><input type="text" name="user" class="inputtxts" id="user" value="" placeholder="输入您注册的手机号码/邮箱" /></div>
 							<div class="password-container"><input type="password" class="inputtxts" name="pass" id="pass" value="" placeholder="输入账号密码"/></div>
-							<div class="errorTips">手机号或者密码格式不对!</div>
+							<div class="errorTips"></div>
 							<input type="submit" name="" id="submit" value="登录" />
 							<div class="other_login_type">
 								<div class="oth_type_tit">
@@ -75,5 +78,28 @@
 		
 		<script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/signin.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+				$("#submit").on("click",function (event) {
+					event.preventDefault();
+					$.ajax({
+						url: "signin-api.php",
+						type: "post",
+						data: {
+							user: $("#user").val(),
+							pass: $("#pass").val()
+						},
+						dataType: "json",
+						success: function (data) {
+							if(data.err == 0){
+								window.location.assign("index.php");
+								console.log(data.err);
+							} else{
+								$(".errorTips").show().text(data.msg);
+                                console.log(data.err);
+							}
+						}
+					})
+				})
+		</script>
 	</body>
 </html>

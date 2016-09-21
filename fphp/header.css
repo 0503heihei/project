@@ -90,32 +90,3 @@
 .white_header .login_info a{
 	color: #fff;
 }
-.white_header .signout li{
-	list-style: none;
-	width: 80px;
-	font-size: 16px;
-	height: 30px;
-	line-height: 30px;
-	border: 1px solid #eee;
-	border-top: none;
-	color: #fff;
-}
-.namestyle{
-	margin-top: 5px;
-	float: left;
-	margin-right: 30px;
-}
-.signout{
-	display: none;
-	position: absolute;
-	top: 80px;
-}
-.signout li{
-	list-style: none;
-	width: 80px;
-	font-size: 16px;
-	height: 30px;
-	line-height: 30px;
-	border: 1px solid #632A99;
-	border-top: none;
-}

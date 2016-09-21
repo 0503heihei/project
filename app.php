@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -15,32 +18,31 @@
 
 	<body>
 		<!--导航栏-->
-		<div class="header">
+		<div class="header" id="returnTop">
 			<div class="header_inner">
-				<a href="index.html" class="logo"></a>
+				<a href="index.php" class="logo"></a>
 				<ul class="header_nav">
-					<li>
-						<a href="index.html">首页</a>
-					</li>
-					<li>
-						<a href="brand.html">品牌动态</a>
-					</li>
-					<li>
-						<a href="theatre.html">葡星剧场</a>
-					</li>
-					<li>
-						<a href="pt_home.html">葡萄之家</a>
-					</li>
-					<li>
-						<a href="app.html">应用下载</a>
-					</li>
-					<div class="login_info">
-						<a href="signin.html" class="login"></a>
-						<a href="shop_maill.html" class="shop_mall"></a>
-					</div>
+					<li><a href="index.php">首页</a></li>
+					<li><a href="brand.php">品牌动态</a></li>
+					<li><a href="theatre.php">葡星剧场</a></li>
+					<li><a href="pt_home.php">葡萄之家</a></li>
+					<li><a href="app.php">应用下载</a></li>
 				</ul>
-				
+				<div class="login_info">
+					<!-- 动态登录 -->
+					<?php
+					if(isset($_SESSION["user"]) && isset($_SESSION["pass"])){
+						echo "<a href='#' class='namestyle'>{$_SESSION["user"]}</a>";
+						echo "<ul class='signout'><li><a href='javascript:signOut();'>退出登录</a></li></ul>";
+					} else{
+						echo "<a href=\"signin.php\" class=\"login\"></a>";
+					}
+					?>
+					<!--<a href="signin.php" class="login"></a>-->
+					<a href="shop_maill.php" class="shop_mall"></a>
+				</div>
 			</div>
+		</div>
 		</div>
 		<!-- Swiper -->
 		<div class="swiper-container">
@@ -518,7 +520,8 @@
 			<a href="http://vipwebchat.sh.tq.cn/pageinfo.jsp?version=vip&amp;admiuin=9730189&amp;ltype=0&amp;iscallback=0&amp;is_message_sms=0&amp;is_send_mail=0&amp;action=acd&amp;acd=1&amp;type_code=1001" target="_blank"></a>
 			<a href="#returnTop"></a>
 		</div>
-
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/signin.js" type="text/javascript" charset="utf-8"></script>
 		<!-- Swiper JS -->
 		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 

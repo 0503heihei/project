@@ -1,9 +1,13 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>葡萄创新科技产品一站式选购平台，儿童益智玩具首选</title>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/mall.css" />
 		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
@@ -13,26 +17,30 @@
 		<!--导航栏-->
 		<div class="header">
 			<div class="header_inner">
-				<a href="index.html" class="logo"></a>
+				<a href="index.php" class="logo"></a>
 				<ul class="header_nav">
 					<li>
-						<a href="index.html">首页</a>
+						<a href="index.php">首页</a>
 					</li>
 					<li>
-						<a href="brand.html">品牌动态</a>
+						<a href="brand.php">品牌动态</a>
 					</li>
 					<li>
-						<a href="theatre.html">葡星剧场</a>
+						<a href="theatre.php">葡星剧场</a>
 					</li>
 					<li>
-						<a href="pt_home.html">葡萄之家</a>
+						<a href="pt_home.php">葡萄之家</a>
 					</li>
 					<li>
-						<a href="app.html">应用下载</a>
+						<a href="app.php">应用下载</a>
 					</li>
 				</ul>
 				<div class="login_info">
-					<a href="signin.html" class="login">登录</a>
+					<a href="signin.php" class="login">登录</a>
+					<!-- 动态登录 -->
+
+
+
 					<a href="signup.html" class="shop_mall">注册</a>
 				</div>
 			</div>
@@ -299,6 +307,9 @@
 			<a href="http://vipwebchat.sh.tq.cn/pageinfo.jsp?version=vip&amp;admiuin=9730189&amp;ltype=0&amp;iscallback=0&amp;is_message_sms=0&amp;is_send_mail=0&amp;action=acd&amp;acd=1&amp;type_code=1001" target="_blank"></a>
 			<a href="#returnTop"></a>
 		</div>
+
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/signin.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>
